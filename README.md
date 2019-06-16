@@ -84,8 +84,6 @@ Note:
 > > integer_image_index \t label_index \t path_to_image
 For the label_index, please use the label column for reference from  `make_model_labels.csv` in same directory. 
 
-
-![label index](./media/grab_test_make_model_id_reference.png) {:height="50%" width="50%"}
-
+<img src="./media/grab_test_make_model_id_reference.png" width="35%">
 
 * 
