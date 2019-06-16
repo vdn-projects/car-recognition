@@ -27,7 +27,14 @@ pip install -r requirements.txt
 
 ### Prepare dataset
 The directory looks as below, however we need to download 3 more additional file to get the project fully operation for pre-process, train & test.
-> * statandford car dataset: 
+* Full statandford car dataset: http://imagenet.stanford.edu/internal/car196/car_ims.tgz
+* Pretrain VGGNet model: https://1drv.ms/u/s!ApCwaWTCCxjag6lgxPQL1K-H--mUYg?e=Yxo9zI
+* My own model (this is the training result): https://1drv.ms/u/s!ApCwaWTCCxjag6lhHlAq1pjOCu69Ow?e=kFhdlS
+
+Note:
+* All images from car dataset are put into `dataset/train_model/car_ims`
+* The pre-trained files (vgg16-0000.params & vgg16-symbol.json) will be put in `vgg16` folder
+* The model used for testing final result is supposed to be in `checkpoints` folder
 
 ```bash
 .
@@ -71,11 +78,14 @@ The directory looks as below, however we need to download 3 more additional file
 └── vgg16
 ```
 
+### How to start the test with images not in original dataset
+* Put all desired photos to be tested in `./dataset/test_model/grabcars`
+* Prepare the `.lst` file in `./dataset/test_model/misc_files` as a input for mxnet producing `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
+> > integer_image_index \t label_index \t path_to_image
+For the label_index, please use the label column for reference from  `make_model_labels.csv` in same directory. 
 
-Extract the car_ims dataset to the project folder.
 
-checkpoints containing model
-https://1drv.ms/u/s!ApCwaWTCCxjag6lhHlAq1pjOCu69Ow?e=kFhdlS
+![label index](./media/grab_test_make_model_id_reference.png) {:height="50%" width="50%"}
 
-vgg16 link
-https://1drv.ms/u/s!ApCwaWTCCxjag6lgxPQL1K-H--mUYg?e=Yxo9zI
+
+* 
