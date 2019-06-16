@@ -1,0 +1,50 @@
+16/06/2019 11:23:49 PM: DEBUG: Load 
+16/06/2019 11:23:52 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:23:53 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:25:09 PM: DEBUG: Load 
+16/06/2019 11:25:10 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:25:11 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:26:55 PM: DEBUG: Load 
+16/06/2019 11:26:56 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:26:56 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:32:51 PM: DEBUG: Load test-images record file
+16/06/2019 11:32:53 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:32:53 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:34:52 PM: DEBUG: Load test-images record file
+16/06/2019 11:34:53 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:34:54 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:35:31 PM: DEBUG: Load test-images record file
+16/06/2019 11:35:33 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:35:33 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:36:05 PM: DEBUG: Load test-images record file
+16/06/2019 11:36:07 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:36:07 PM: DEBUG: Initialize the model before evaluation the test dataset
+16/06/2019 11:38:18 PM: DEBUG: Load test-images record file
+16/06/2019 11:38:19 PM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+16/06/2019 11:38:19 PM: DEBUG: Initialize the model before evaluation the test dataset
+17/06/2019 12:27:20 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:27:21 AM: DEBUG: Load test-images record file
+17/06/2019 12:30:39 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:30:39 AM: DEBUG: Load test-images record file
+17/06/2019 12:32:11 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:32:12 AM: DEBUG: Load test-images record file
+17/06/2019 12:33:39 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:33:40 AM: DEBUG: Load test-images record file
+17/06/2019 12:44:02 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:44:02 AM: DEBUG: Load test-images record file
+17/06/2019 12:44:23 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:44:24 AM: DEBUG: Load test-images record file
+17/06/2019 12:44:25 AM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+17/06/2019 12:44:25 AM: DEBUG: Initialize the model before evaluation the test dataset
+17/06/2019 12:45:04 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:45:05 AM: DEBUG: Load test-images record file
+17/06/2019 12:45:06 AM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+17/06/2019 12:45:07 AM: DEBUG: Initialize the model before evaluation the test dataset
+17/06/2019 12:46:10 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:46:11 AM: DEBUG: Load test-images record file
+17/06/2019 12:46:12 AM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+17/06/2019 12:46:13 AM: DEBUG: Initialize the model before evaluation the test dataset
+17/06/2019 12:54:02 AM: DEBUG: Preprocess test images from GRAB
+17/06/2019 12:54:03 AM: DEBUG: Load test-images record file
+17/06/2019 12:54:05 AM: DEBUG: Load the model argument and auxiliary parameters from checkpoint#85
+17/06/2019 12:54:05 AM: DEBUG: Initialize the model before evaluation the test dataset

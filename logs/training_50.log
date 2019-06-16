@@ -1,0 +1,1290 @@
+16/06/2019 06:08:20 PM: INFO: Epoch[0] Batch [0-50]	Speed: 112.84 samples/sec	accuracy=0.008578	top_k_accuracy_5=0.039216	cross-entropy=5.619765
+16/06/2019 06:08:35 PM: INFO: Epoch[0] Batch [50-100]	Speed: 109.87 samples/sec	accuracy=0.009375	top_k_accuracy_5=0.040625	cross-entropy=5.195661
+16/06/2019 06:08:49 PM: INFO: Epoch[0] Batch [100-150]	Speed: 107.40 samples/sec	accuracy=0.013125	top_k_accuracy_5=0.046250	cross-entropy=5.147949
+16/06/2019 06:09:04 PM: INFO: Epoch[0] Batch [150-200]	Speed: 112.33 samples/sec	accuracy=0.011250	top_k_accuracy_5=0.051250	cross-entropy=5.116275
+16/06/2019 06:09:18 PM: INFO: Epoch[0] Batch [200-250]	Speed: 109.44 samples/sec	accuracy=0.014375	top_k_accuracy_5=0.066250	cross-entropy=5.074788
+16/06/2019 06:09:33 PM: INFO: Epoch[0] Batch [250-300]	Speed: 109.91 samples/sec	accuracy=0.017500	top_k_accuracy_5=0.064375	cross-entropy=5.082755
+16/06/2019 06:09:47 PM: INFO: Epoch[0] Batch [300-350]	Speed: 112.14 samples/sec	accuracy=0.027500	top_k_accuracy_5=0.077500	cross-entropy=5.054077
+16/06/2019 06:09:48 PM: INFO: Epoch[0] Train-accuracy=0.014613
+16/06/2019 06:09:48 PM: INFO: Epoch[0] Train-top_k_accuracy_5=0.055370
+16/06/2019 06:09:48 PM: INFO: Epoch[0] Train-cross-entropy=5.184241
+16/06/2019 06:09:48 PM: INFO: Epoch[0] Time cost=107.360
+16/06/2019 06:09:49 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0001.params"
+16/06/2019 06:09:57 PM: INFO: Epoch[0] Validation-accuracy=0.039885
+16/06/2019 06:09:57 PM: INFO: Epoch[0] Validation-top_k_accuracy_5=0.116776
+16/06/2019 06:09:57 PM: INFO: Epoch[0] Validation-cross-entropy=4.980994
+16/06/2019 06:10:11 PM: INFO: Epoch[1] Batch [0-50]	Speed: 111.81 samples/sec	accuracy=0.025735	top_k_accuracy_5=0.082721	cross-entropy=5.017812
+16/06/2019 06:10:25 PM: INFO: Epoch[1] Batch [50-100]	Speed: 111.85 samples/sec	accuracy=0.019375	top_k_accuracy_5=0.096875	cross-entropy=5.007921
+16/06/2019 06:10:40 PM: INFO: Epoch[1] Batch [100-150]	Speed: 111.86 samples/sec	accuracy=0.028750	top_k_accuracy_5=0.097500	cross-entropy=4.983471
+16/06/2019 06:10:54 PM: INFO: Epoch[1] Batch [150-200]	Speed: 111.82 samples/sec	accuracy=0.035000	top_k_accuracy_5=0.108125	cross-entropy=4.971022
+16/06/2019 06:11:08 PM: INFO: Epoch[1] Batch [200-250]	Speed: 111.82 samples/sec	accuracy=0.036250	top_k_accuracy_5=0.112500	cross-entropy=4.939571
+16/06/2019 06:11:23 PM: INFO: Epoch[1] Batch [250-300]	Speed: 108.82 samples/sec	accuracy=0.036250	top_k_accuracy_5=0.120000	cross-entropy=4.913922
+16/06/2019 06:11:37 PM: INFO: Epoch[1] Batch [300-350]	Speed: 111.78 samples/sec	accuracy=0.041250	top_k_accuracy_5=0.125625	cross-entropy=4.918234
+16/06/2019 06:11:38 PM: INFO: Epoch[1] Train-accuracy=0.031956
+16/06/2019 06:11:38 PM: INFO: Epoch[1] Train-top_k_accuracy_5=0.106462
+16/06/2019 06:11:38 PM: INFO: Epoch[1] Train-cross-entropy=4.963812
+16/06/2019 06:11:38 PM: INFO: Epoch[1] Time cost=101.526
+16/06/2019 06:11:39 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0002.params"
+16/06/2019 06:11:46 PM: INFO: Epoch[1] Validation-accuracy=0.063322
+16/06/2019 06:11:46 PM: INFO: Epoch[1] Validation-top_k_accuracy_5=0.174753
+16/06/2019 06:11:46 PM: INFO: Epoch[1] Validation-cross-entropy=4.748625
+16/06/2019 06:12:01 PM: INFO: Epoch[2] Batch [0-50]	Speed: 111.75 samples/sec	accuracy=0.037377	top_k_accuracy_5=0.128676	cross-entropy=4.871914
+16/06/2019 06:12:15 PM: INFO: Epoch[2] Batch [50-100]	Speed: 111.67 samples/sec	accuracy=0.044375	top_k_accuracy_5=0.143750	cross-entropy=4.806715
+16/06/2019 06:12:29 PM: INFO: Epoch[2] Batch [100-150]	Speed: 111.67 samples/sec	accuracy=0.040000	top_k_accuracy_5=0.133125	cross-entropy=4.798208
+16/06/2019 06:12:44 PM: INFO: Epoch[2] Batch [150-200]	Speed: 111.74 samples/sec	accuracy=0.042500	top_k_accuracy_5=0.153750	cross-entropy=4.740690
+16/06/2019 06:12:58 PM: INFO: Epoch[2] Batch [200-250]	Speed: 111.79 samples/sec	accuracy=0.051875	top_k_accuracy_5=0.166875	cross-entropy=4.714702
+16/06/2019 06:13:12 PM: INFO: Epoch[2] Batch [250-300]	Speed: 111.70 samples/sec	accuracy=0.065625	top_k_accuracy_5=0.185625	cross-entropy=4.664046
+16/06/2019 06:13:27 PM: INFO: Epoch[2] Batch [300-350]	Speed: 111.71 samples/sec	accuracy=0.058750	top_k_accuracy_5=0.183125	cross-entropy=4.664285
+16/06/2019 06:13:27 PM: INFO: Epoch[2] Train-accuracy=0.048817
+16/06/2019 06:13:27 PM: INFO: Epoch[2] Train-top_k_accuracy_5=0.156780
+16/06/2019 06:13:27 PM: INFO: Epoch[2] Train-cross-entropy=4.750881
+16/06/2019 06:13:27 PM: INFO: Epoch[2] Time cost=101.233
+16/06/2019 06:13:28 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0003.params"
+16/06/2019 06:13:36 PM: INFO: Epoch[2] Validation-accuracy=0.094161
+16/06/2019 06:13:36 PM: INFO: Epoch[2] Validation-top_k_accuracy_5=0.251234
+16/06/2019 06:13:36 PM: INFO: Epoch[2] Validation-cross-entropy=4.390824
+16/06/2019 06:13:50 PM: INFO: Epoch[3] Batch [0-50]	Speed: 110.69 samples/sec	accuracy=0.056373	top_k_accuracy_5=0.180147	cross-entropy=4.621663
+16/06/2019 06:14:05 PM: INFO: Epoch[3] Batch [50-100]	Speed: 111.34 samples/sec	accuracy=0.073125	top_k_accuracy_5=0.196250	cross-entropy=4.544802
+16/06/2019 06:14:19 PM: INFO: Epoch[3] Batch [100-150]	Speed: 110.71 samples/sec	accuracy=0.056875	top_k_accuracy_5=0.185625	cross-entropy=4.599135
+16/06/2019 06:14:34 PM: INFO: Epoch[3] Batch [150-200]	Speed: 109.80 samples/sec	accuracy=0.063750	top_k_accuracy_5=0.208125	cross-entropy=4.521862
+16/06/2019 06:14:48 PM: INFO: Epoch[3] Batch [200-250]	Speed: 112.31 samples/sec	accuracy=0.077500	top_k_accuracy_5=0.210000	cross-entropy=4.486035
+16/06/2019 06:15:02 PM: INFO: Epoch[3] Batch [250-300]	Speed: 112.21 samples/sec	accuracy=0.078125	top_k_accuracy_5=0.220625	cross-entropy=4.418704
+16/06/2019 06:15:16 PM: INFO: Epoch[3] Batch [300-350]	Speed: 112.18 samples/sec	accuracy=0.077500	top_k_accuracy_5=0.212500	cross-entropy=4.460417
+16/06/2019 06:15:17 PM: INFO: Epoch[3] Train-accuracy=0.069297
+16/06/2019 06:15:17 PM: INFO: Epoch[3] Train-top_k_accuracy_5=0.202331
+16/06/2019 06:15:17 PM: INFO: Epoch[3] Train-cross-entropy=4.522040
+16/06/2019 06:15:17 PM: INFO: Epoch[3] Time cost=101.594
+16/06/2019 06:15:18 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0004.params"
+16/06/2019 06:15:25 PM: INFO: Epoch[3] Validation-accuracy=0.126645
+16/06/2019 06:15:25 PM: INFO: Epoch[3] Validation-top_k_accuracy_5=0.316201
+16/06/2019 06:15:25 PM: INFO: Epoch[3] Validation-cross-entropy=4.075492
+16/06/2019 06:15:40 PM: INFO: Epoch[4] Batch [0-50]	Speed: 112.18 samples/sec	accuracy=0.088235	top_k_accuracy_5=0.235294	cross-entropy=4.349864
+16/06/2019 06:15:54 PM: INFO: Epoch[4] Batch [50-100]	Speed: 112.17 samples/sec	accuracy=0.089375	top_k_accuracy_5=0.239375	cross-entropy=4.337543
+16/06/2019 06:16:08 PM: INFO: Epoch[4] Batch [100-150]	Speed: 112.14 samples/sec	accuracy=0.095000	top_k_accuracy_5=0.250625	cross-entropy=4.314781
+16/06/2019 06:16:23 PM: INFO: Epoch[4] Batch [150-200]	Speed: 112.26 samples/sec	accuracy=0.103750	top_k_accuracy_5=0.270625	cross-entropy=4.237955
+16/06/2019 06:16:37 PM: INFO: Epoch[4] Batch [200-250]	Speed: 112.14 samples/sec	accuracy=0.096875	top_k_accuracy_5=0.267500	cross-entropy=4.245277
+16/06/2019 06:16:51 PM: INFO: Epoch[4] Batch [250-300]	Speed: 112.16 samples/sec	accuracy=0.096875	top_k_accuracy_5=0.281250	cross-entropy=4.202771
+16/06/2019 06:17:05 PM: INFO: Epoch[4] Batch [300-350]	Speed: 112.14 samples/sec	accuracy=0.104375	top_k_accuracy_5=0.280000	cross-entropy=4.201042
+16/06/2019 06:17:06 PM: INFO: Epoch[4] Train-accuracy=0.096398
+16/06/2019 06:17:06 PM: INFO: Epoch[4] Train-top_k_accuracy_5=0.260858
+16/06/2019 06:17:06 PM: INFO: Epoch[4] Train-cross-entropy=4.268654
+16/06/2019 06:17:06 PM: INFO: Epoch[4] Time cost=100.816
+16/06/2019 06:17:07 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0005.params"
+16/06/2019 06:17:14 PM: INFO: Epoch[4] Validation-accuracy=0.184622
+16/06/2019 06:17:14 PM: INFO: Epoch[4] Validation-top_k_accuracy_5=0.430510
+16/06/2019 06:17:14 PM: INFO: Epoch[4] Validation-cross-entropy=3.713270
+16/06/2019 06:17:29 PM: INFO: Epoch[5] Batch [0-50]	Speed: 112.21 samples/sec	accuracy=0.102328	top_k_accuracy_5=0.289828	cross-entropy=4.143567
+16/06/2019 06:17:43 PM: INFO: Epoch[5] Batch [50-100]	Speed: 112.18 samples/sec	accuracy=0.128125	top_k_accuracy_5=0.321250	cross-entropy=4.010231
+16/06/2019 06:17:57 PM: INFO: Epoch[5] Batch [100-150]	Speed: 112.12 samples/sec	accuracy=0.101250	top_k_accuracy_5=0.298125	cross-entropy=4.102644
+16/06/2019 06:18:11 PM: INFO: Epoch[5] Batch [150-200]	Speed: 112.19 samples/sec	accuracy=0.120000	top_k_accuracy_5=0.320625	cross-entropy=3.979865
+16/06/2019 06:18:26 PM: INFO: Epoch[5] Batch [200-250]	Speed: 112.21 samples/sec	accuracy=0.122500	top_k_accuracy_5=0.316875	cross-entropy=4.005748
+16/06/2019 06:18:40 PM: INFO: Epoch[5] Batch [250-300]	Speed: 112.05 samples/sec	accuracy=0.156250	top_k_accuracy_5=0.345625	cross-entropy=3.914727
+16/06/2019 06:18:54 PM: INFO: Epoch[5] Batch [300-350]	Speed: 112.16 samples/sec	accuracy=0.132500	top_k_accuracy_5=0.330625	cross-entropy=3.936117
+16/06/2019 06:18:55 PM: INFO: Epoch[5] Train-accuracy=0.123411
+16/06/2019 06:18:55 PM: INFO: Epoch[5] Train-top_k_accuracy_5=0.317973
+16/06/2019 06:18:55 PM: INFO: Epoch[5] Train-cross-entropy=4.012095
+16/06/2019 06:18:55 PM: INFO: Epoch[5] Time cost=100.836
+16/06/2019 06:18:56 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0006.params"
+16/06/2019 06:19:03 PM: INFO: Epoch[5] Validation-accuracy=0.226151
+16/06/2019 06:19:03 PM: INFO: Epoch[5] Validation-top_k_accuracy_5=0.516036
+16/06/2019 06:19:03 PM: INFO: Epoch[5] Validation-cross-entropy=3.361111
+16/06/2019 06:19:18 PM: INFO: Epoch[6] Batch [0-50]	Speed: 112.13 samples/sec	accuracy=0.128676	top_k_accuracy_5=0.342525	cross-entropy=3.907299
+16/06/2019 06:19:32 PM: INFO: Epoch[6] Batch [50-100]	Speed: 112.27 samples/sec	accuracy=0.151875	top_k_accuracy_5=0.377500	cross-entropy=3.815978
+16/06/2019 06:19:46 PM: INFO: Epoch[6] Batch [100-150]	Speed: 110.34 samples/sec	accuracy=0.151250	top_k_accuracy_5=0.390625	cross-entropy=3.749038
+16/06/2019 06:20:01 PM: INFO: Epoch[6] Batch [150-200]	Speed: 112.23 samples/sec	accuracy=0.153125	top_k_accuracy_5=0.404375	cross-entropy=3.730525
+16/06/2019 06:20:15 PM: INFO: Epoch[6] Batch [200-250]	Speed: 112.23 samples/sec	accuracy=0.160625	top_k_accuracy_5=0.383125	cross-entropy=3.773261
+16/06/2019 06:20:29 PM: INFO: Epoch[6] Batch [250-300]	Speed: 112.20 samples/sec	accuracy=0.184375	top_k_accuracy_5=0.419375	cross-entropy=3.632854
+16/06/2019 06:20:43 PM: INFO: Epoch[6] Batch [300-350]	Speed: 112.27 samples/sec	accuracy=0.165000	top_k_accuracy_5=0.398750	cross-entropy=3.687317
+16/06/2019 06:20:44 PM: INFO: Epoch[6] Train-accuracy=0.155985
+16/06/2019 06:20:44 PM: INFO: Epoch[6] Train-top_k_accuracy_5=0.387800
+16/06/2019 06:20:44 PM: INFO: Epoch[6] Train-cross-entropy=3.756471
+16/06/2019 06:20:44 PM: INFO: Epoch[6] Time cost=101.013
+16/06/2019 06:20:45 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0007.params"
+16/06/2019 06:20:52 PM: INFO: Epoch[6] Validation-accuracy=0.286667
+16/06/2019 06:20:52 PM: INFO: Epoch[6] Validation-top_k_accuracy_5=0.608333
+16/06/2019 06:20:52 PM: INFO: Epoch[6] Validation-cross-entropy=3.031752
+16/06/2019 06:21:07 PM: INFO: Epoch[7] Batch [0-50]	Speed: 112.18 samples/sec	accuracy=0.172794	top_k_accuracy_5=0.427696	cross-entropy=3.590771
+16/06/2019 06:21:21 PM: INFO: Epoch[7] Batch [50-100]	Speed: 112.21 samples/sec	accuracy=0.184375	top_k_accuracy_5=0.433125	cross-entropy=3.532987
+16/06/2019 06:21:35 PM: INFO: Epoch[7] Batch [100-150]	Speed: 112.22 samples/sec	accuracy=0.167500	top_k_accuracy_5=0.421875	cross-entropy=3.614053
+16/06/2019 06:21:49 PM: INFO: Epoch[7] Batch [150-200]	Speed: 112.24 samples/sec	accuracy=0.208750	top_k_accuracy_5=0.466250	cross-entropy=3.456892
+16/06/2019 06:22:04 PM: INFO: Epoch[7] Batch [200-250]	Speed: 112.20 samples/sec	accuracy=0.201875	top_k_accuracy_5=0.455000	cross-entropy=3.444112
+16/06/2019 06:22:18 PM: INFO: Epoch[7] Batch [250-300]	Speed: 112.25 samples/sec	accuracy=0.221250	top_k_accuracy_5=0.480625	cross-entropy=3.364114
+16/06/2019 06:22:32 PM: INFO: Epoch[7] Batch [300-350]	Speed: 112.19 samples/sec	accuracy=0.195625	top_k_accuracy_5=0.466875	cross-entropy=3.431812
+16/06/2019 06:22:33 PM: INFO: Epoch[7] Train-accuracy=0.193415
+16/06/2019 06:22:33 PM: INFO: Epoch[7] Train-top_k_accuracy_5=0.450742
+16/06/2019 06:22:33 PM: INFO: Epoch[7] Train-cross-entropy=3.488098
+16/06/2019 06:22:33 PM: INFO: Epoch[7] Time cost=100.780
+16/06/2019 06:22:34 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0008.params"
+16/06/2019 06:22:41 PM: INFO: Epoch[7] Validation-accuracy=0.339227
+16/06/2019 06:22:41 PM: INFO: Epoch[7] Validation-top_k_accuracy_5=0.668586
+16/06/2019 06:22:41 PM: INFO: Epoch[7] Validation-cross-entropy=2.696540
+16/06/2019 06:22:56 PM: INFO: Epoch[8] Batch [0-50]	Speed: 112.30 samples/sec	accuracy=0.211397	top_k_accuracy_5=0.490809	cross-entropy=3.326603
+16/06/2019 06:23:10 PM: INFO: Epoch[8] Batch [50-100]	Speed: 112.22 samples/sec	accuracy=0.218125	top_k_accuracy_5=0.496875	cross-entropy=3.289531
+16/06/2019 06:23:24 PM: INFO: Epoch[8] Batch [100-150]	Speed: 112.30 samples/sec	accuracy=0.225000	top_k_accuracy_5=0.514375	cross-entropy=3.243749
+16/06/2019 06:23:38 PM: INFO: Epoch[8] Batch [150-200]	Speed: 112.27 samples/sec	accuracy=0.235625	top_k_accuracy_5=0.529375	cross-entropy=3.177295
+16/06/2019 06:23:53 PM: INFO: Epoch[8] Batch [200-250]	Speed: 112.20 samples/sec	accuracy=0.236875	top_k_accuracy_5=0.515625	cross-entropy=3.183274
+16/06/2019 06:24:07 PM: INFO: Epoch[8] Batch [250-300]	Speed: 112.24 samples/sec	accuracy=0.232500	top_k_accuracy_5=0.527500	cross-entropy=3.173830
+16/06/2019 06:24:21 PM: INFO: Epoch[8] Batch [300-350]	Speed: 112.18 samples/sec	accuracy=0.253125	top_k_accuracy_5=0.526875	cross-entropy=3.135706
+16/06/2019 06:24:22 PM: INFO: Epoch[8] Train-accuracy=0.230932
+16/06/2019 06:24:22 PM: INFO: Epoch[8] Train-top_k_accuracy_5=0.514477
+16/06/2019 06:24:22 PM: INFO: Epoch[8] Train-cross-entropy=3.216066
+16/06/2019 06:24:22 PM: INFO: Epoch[8] Time cost=100.751
+16/06/2019 06:24:23 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0009.params"
+16/06/2019 06:24:30 PM: INFO: Epoch[8] Validation-accuracy=0.387336
+16/06/2019 06:24:30 PM: INFO: Epoch[8] Validation-top_k_accuracy_5=0.718339
+16/06/2019 06:24:30 PM: INFO: Epoch[8] Validation-cross-entropy=2.441996
+16/06/2019 06:24:44 PM: INFO: Epoch[9] Batch [0-50]	Speed: 112.28 samples/sec	accuracy=0.250613	top_k_accuracy_5=0.534926	cross-entropy=3.126135
+16/06/2019 06:24:59 PM: INFO: Epoch[9] Batch [50-100]	Speed: 112.21 samples/sec	accuracy=0.281250	top_k_accuracy_5=0.577500	cross-entropy=3.014583
+16/06/2019 06:25:13 PM: INFO: Epoch[9] Batch [100-150]	Speed: 112.18 samples/sec	accuracy=0.262500	top_k_accuracy_5=0.575625	cross-entropy=2.991679
+16/06/2019 06:25:27 PM: INFO: Epoch[9] Batch [150-200]	Speed: 111.91 samples/sec	accuracy=0.259375	top_k_accuracy_5=0.583750	cross-entropy=2.954995
+16/06/2019 06:25:42 PM: INFO: Epoch[9] Batch [200-250]	Speed: 110.60 samples/sec	accuracy=0.283750	top_k_accuracy_5=0.577500	cross-entropy=2.988154
+16/06/2019 06:25:56 PM: INFO: Epoch[9] Batch [250-300]	Speed: 109.76 samples/sec	accuracy=0.295000	top_k_accuracy_5=0.584375	cross-entropy=2.881095
+16/06/2019 06:26:11 PM: INFO: Epoch[9] Batch [300-350]	Speed: 109.15 samples/sec	accuracy=0.293750	top_k_accuracy_5=0.606250	cross-entropy=2.896168
+16/06/2019 06:26:12 PM: INFO: Epoch[9] Train-accuracy=0.275335
+16/06/2019 06:26:12 PM: INFO: Epoch[9] Train-top_k_accuracy_5=0.577507
+16/06/2019 06:26:12 PM: INFO: Epoch[9] Train-cross-entropy=2.977026
+16/06/2019 06:26:12 PM: INFO: Epoch[9] Time cost=101.747
+16/06/2019 06:26:13 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0010.params"
+16/06/2019 06:26:20 PM: INFO: Epoch[9] Validation-accuracy=0.457648
+16/06/2019 06:26:20 PM: INFO: Epoch[9] Validation-top_k_accuracy_5=0.770970
+16/06/2019 06:26:20 PM: INFO: Epoch[9] Validation-cross-entropy=2.164203
+16/06/2019 06:26:35 PM: INFO: Epoch[10] Batch [0-50]	Speed: 109.39 samples/sec	accuracy=0.300858	top_k_accuracy_5=0.607843	cross-entropy=2.811183
+16/06/2019 06:26:50 PM: INFO: Epoch[10] Batch [50-100]	Speed: 108.01 samples/sec	accuracy=0.323125	top_k_accuracy_5=0.620625	cross-entropy=2.749576
+16/06/2019 06:27:04 PM: INFO: Epoch[10] Batch [100-150]	Speed: 110.08 samples/sec	accuracy=0.306250	top_k_accuracy_5=0.628750	cross-entropy=2.764669
+16/06/2019 06:27:19 PM: INFO: Epoch[10] Batch [150-200]	Speed: 110.14 samples/sec	accuracy=0.339375	top_k_accuracy_5=0.654375	cross-entropy=2.652134
+16/06/2019 06:27:33 PM: INFO: Epoch[10] Batch [200-250]	Speed: 110.90 samples/sec	accuracy=0.335000	top_k_accuracy_5=0.637500	cross-entropy=2.704034
+16/06/2019 06:27:48 PM: INFO: Epoch[10] Batch [250-300]	Speed: 111.14 samples/sec	accuracy=0.335625	top_k_accuracy_5=0.660000	cross-entropy=2.648107
+16/06/2019 06:28:02 PM: INFO: Epoch[10] Batch [300-350]	Speed: 111.13 samples/sec	accuracy=0.325000	top_k_accuracy_5=0.639375	cross-entropy=2.690473
+16/06/2019 06:28:03 PM: INFO: Epoch[10] Train-accuracy=0.323415
+16/06/2019 06:28:03 PM: INFO: Epoch[10] Train-top_k_accuracy_5=0.635035
+16/06/2019 06:28:03 PM: INFO: Epoch[10] Train-cross-entropy=2.718040
+16/06/2019 06:28:03 PM: INFO: Epoch[10] Time cost=102.997
+16/06/2019 06:28:04 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0011.params"
+16/06/2019 06:28:11 PM: INFO: Epoch[10] Validation-accuracy=0.497944
+16/06/2019 06:28:11 PM: INFO: Epoch[10] Validation-top_k_accuracy_5=0.807977
+16/06/2019 06:28:11 PM: INFO: Epoch[10] Validation-cross-entropy=1.968402
+16/06/2019 06:28:26 PM: INFO: Epoch[11] Batch [0-50]	Speed: 107.77 samples/sec	accuracy=0.346201	top_k_accuracy_5=0.645833	cross-entropy=2.617685
+16/06/2019 06:28:41 PM: INFO: Epoch[11] Batch [50-100]	Speed: 108.84 samples/sec	accuracy=0.372500	top_k_accuracy_5=0.671875	cross-entropy=2.495778
+16/06/2019 06:28:55 PM: INFO: Epoch[11] Batch [100-150]	Speed: 111.11 samples/sec	accuracy=0.381875	top_k_accuracy_5=0.681250	cross-entropy=2.468342
+16/06/2019 06:29:10 PM: INFO: Epoch[11] Batch [150-200]	Speed: 110.38 samples/sec	accuracy=0.365000	top_k_accuracy_5=0.686250	cross-entropy=2.527131
+16/06/2019 06:29:24 PM: INFO: Epoch[11] Batch [200-250]	Speed: 112.14 samples/sec	accuracy=0.401875	top_k_accuracy_5=0.717500	cross-entropy=2.388278
+16/06/2019 06:29:38 PM: INFO: Epoch[11] Batch [250-300]	Speed: 112.07 samples/sec	accuracy=0.375000	top_k_accuracy_5=0.682500	cross-entropy=2.459990
+16/06/2019 06:29:53 PM: INFO: Epoch[11] Batch [300-350]	Speed: 112.13 samples/sec	accuracy=0.380000	top_k_accuracy_5=0.686875	cross-entropy=2.488074
+16/06/2019 06:29:54 PM: INFO: Epoch[11] Train-accuracy=0.374823
+16/06/2019 06:29:54 PM: INFO: Epoch[11] Train-top_k_accuracy_5=0.681497
+16/06/2019 06:29:54 PM: INFO: Epoch[11] Train-cross-entropy=2.491872
+16/06/2019 06:29:54 PM: INFO: Epoch[11] Time cost=102.234
+16/06/2019 06:29:54 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0012.params"
+16/06/2019 06:30:02 PM: INFO: Epoch[11] Validation-accuracy=0.525905
+16/06/2019 06:30:02 PM: INFO: Epoch[11] Validation-top_k_accuracy_5=0.825658
+16/06/2019 06:30:02 PM: INFO: Epoch[11] Validation-cross-entropy=1.809330
+16/06/2019 06:30:16 PM: INFO: Epoch[12] Batch [0-50]	Speed: 112.16 samples/sec	accuracy=0.392770	top_k_accuracy_5=0.705270	cross-entropy=2.409905
+16/06/2019 06:30:30 PM: INFO: Epoch[12] Batch [50-100]	Speed: 112.16 samples/sec	accuracy=0.405625	top_k_accuracy_5=0.721250	cross-entropy=2.297461
+16/06/2019 06:30:45 PM: INFO: Epoch[12] Batch [100-150]	Speed: 112.14 samples/sec	accuracy=0.411875	top_k_accuracy_5=0.719375	cross-entropy=2.333558
+16/06/2019 06:30:59 PM: INFO: Epoch[12] Batch [150-200]	Speed: 112.10 samples/sec	accuracy=0.425625	top_k_accuracy_5=0.739375	cross-entropy=2.220335
+16/06/2019 06:31:13 PM: INFO: Epoch[12] Batch [200-250]	Speed: 112.13 samples/sec	accuracy=0.396875	top_k_accuracy_5=0.723125	cross-entropy=2.324283
+16/06/2019 06:31:27 PM: INFO: Epoch[12] Batch [250-300]	Speed: 112.19 samples/sec	accuracy=0.404375	top_k_accuracy_5=0.733125	cross-entropy=2.242180
+16/06/2019 06:31:42 PM: INFO: Epoch[12] Batch [300-350]	Speed: 112.09 samples/sec	accuracy=0.408750	top_k_accuracy_5=0.734375	cross-entropy=2.286863
+16/06/2019 06:31:43 PM: INFO: Epoch[12] Train-accuracy=0.406338
+16/06/2019 06:31:43 PM: INFO: Epoch[12] Train-top_k_accuracy_5=0.725282
+16/06/2019 06:31:43 PM: INFO: Epoch[12] Train-cross-entropy=2.302655
+16/06/2019 06:31:43 PM: INFO: Epoch[12] Time cost=100.855
+16/06/2019 06:31:43 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0013.params"
+16/06/2019 06:31:51 PM: INFO: Epoch[12] Validation-accuracy=0.567917
+16/06/2019 06:31:51 PM: INFO: Epoch[12] Validation-top_k_accuracy_5=0.847083
+16/06/2019 06:31:51 PM: INFO: Epoch[12] Validation-cross-entropy=1.650539
+16/06/2019 06:32:05 PM: INFO: Epoch[13] Batch [0-50]	Speed: 112.20 samples/sec	accuracy=0.438113	top_k_accuracy_5=0.756127	cross-entropy=2.169017
+16/06/2019 06:32:19 PM: INFO: Epoch[13] Batch [50-100]	Speed: 112.20 samples/sec	accuracy=0.441875	top_k_accuracy_5=0.750625	cross-entropy=2.158411
+16/06/2019 06:32:34 PM: INFO: Epoch[13] Batch [100-150]	Speed: 111.10 samples/sec	accuracy=0.434375	top_k_accuracy_5=0.750625	cross-entropy=2.177518
+16/06/2019 06:32:48 PM: INFO: Epoch[13] Batch [150-200]	Speed: 108.90 samples/sec	accuracy=0.456250	top_k_accuracy_5=0.768125	cross-entropy=2.097976
+16/06/2019 06:33:03 PM: INFO: Epoch[13] Batch [200-250]	Speed: 107.15 samples/sec	accuracy=0.450625	top_k_accuracy_5=0.753750	cross-entropy=2.139476
+16/06/2019 06:33:18 PM: INFO: Epoch[13] Batch [250-300]	Speed: 108.08 samples/sec	accuracy=0.454375	top_k_accuracy_5=0.759375	cross-entropy=2.117601
+16/06/2019 06:33:33 PM: INFO: Epoch[13] Batch [300-350]	Speed: 110.22 samples/sec	accuracy=0.450000	top_k_accuracy_5=0.773750	cross-entropy=2.080098
+16/06/2019 06:33:33 PM: INFO: Epoch[13] Train-accuracy=0.445621
+16/06/2019 06:33:33 PM: INFO: Epoch[13] Train-top_k_accuracy_5=0.758298
+16/06/2019 06:33:33 PM: INFO: Epoch[13] Train-cross-entropy=2.136664
+16/06/2019 06:33:33 PM: INFO: Epoch[13] Time cost=102.900
+16/06/2019 06:33:34 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0014.params"
+16/06/2019 06:33:42 PM: INFO: Epoch[13] Validation-accuracy=0.586349
+16/06/2019 06:33:42 PM: INFO: Epoch[13] Validation-top_k_accuracy_5=0.851562
+16/06/2019 06:33:42 PM: INFO: Epoch[13] Validation-cross-entropy=1.574430
+16/06/2019 06:33:56 PM: INFO: Epoch[14] Batch [0-50]	Speed: 112.01 samples/sec	accuracy=0.449142	top_k_accuracy_5=0.775123	cross-entropy=2.104330
+16/06/2019 06:34:11 PM: INFO: Epoch[14] Batch [50-100]	Speed: 108.87 samples/sec	accuracy=0.487500	top_k_accuracy_5=0.793750	cross-entropy=1.962527
+16/06/2019 06:34:25 PM: INFO: Epoch[14] Batch [100-150]	Speed: 110.73 samples/sec	accuracy=0.488750	top_k_accuracy_5=0.792500	cross-entropy=1.959112
+16/06/2019 06:34:40 PM: INFO: Epoch[14] Batch [150-200]	Speed: 110.02 samples/sec	accuracy=0.485000	top_k_accuracy_5=0.808125	cross-entropy=1.932732
+16/06/2019 06:34:54 PM: INFO: Epoch[14] Batch [200-250]	Speed: 109.99 samples/sec	accuracy=0.465625	top_k_accuracy_5=0.770000	cross-entropy=2.000874
+16/06/2019 06:35:09 PM: INFO: Epoch[14] Batch [250-300]	Speed: 109.54 samples/sec	accuracy=0.481875	top_k_accuracy_5=0.792500	cross-entropy=1.930199
+16/06/2019 06:35:23 PM: INFO: Epoch[14] Batch [300-350]	Speed: 110.75 samples/sec	accuracy=0.493125	top_k_accuracy_5=0.800625	cross-entropy=1.893371
+16/06/2019 06:35:24 PM: INFO: Epoch[14] Train-accuracy=0.478814
+16/06/2019 06:35:24 PM: INFO: Epoch[14] Train-top_k_accuracy_5=0.790607
+16/06/2019 06:35:24 PM: INFO: Epoch[14] Train-cross-entropy=1.967540
+16/06/2019 06:35:24 PM: INFO: Epoch[14] Time cost=102.562
+16/06/2019 06:35:25 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0015.params"
+16/06/2019 06:35:32 PM: INFO: Epoch[14] Validation-accuracy=0.641447
+16/06/2019 06:35:32 PM: INFO: Epoch[14] Validation-top_k_accuracy_5=0.881990
+16/06/2019 06:35:32 PM: INFO: Epoch[14] Validation-cross-entropy=1.360669
+16/06/2019 07:09:25 PM: INFO: Epoch[15] Batch [0-50]	Speed: 113.98 samples/sec	accuracy=0.520833	top_k_accuracy_5=0.821691	cross-entropy=1.754790
+16/06/2019 07:09:39 PM: INFO: Epoch[15] Batch [50-100]	Speed: 113.47 samples/sec	accuracy=0.518125	top_k_accuracy_5=0.815625	cross-entropy=1.811546
+16/06/2019 07:09:54 PM: INFO: Epoch[15] Batch [100-150]	Speed: 111.11 samples/sec	accuracy=0.515000	top_k_accuracy_5=0.811875	cross-entropy=1.830670
+16/06/2019 07:10:09 PM: INFO: Epoch[15] Batch [150-200]	Speed: 104.19 samples/sec	accuracy=0.525000	top_k_accuracy_5=0.820625	cross-entropy=1.739427
+16/06/2019 07:10:24 PM: INFO: Epoch[15] Batch [200-250]	Speed: 108.35 samples/sec	accuracy=0.530625	top_k_accuracy_5=0.820625	cross-entropy=1.767695
+16/06/2019 07:10:38 PM: INFO: Epoch[15] Batch [250-300]	Speed: 110.43 samples/sec	accuracy=0.535000	top_k_accuracy_5=0.817500	cross-entropy=1.741602
+16/06/2019 07:10:54 PM: INFO: Epoch[15] Batch [300-350]	Speed: 102.48 samples/sec	accuracy=0.523750	top_k_accuracy_5=0.825625	cross-entropy=1.774397
+16/06/2019 07:10:55 PM: INFO: Epoch[15] Train-accuracy=0.523768
+16/06/2019 07:10:55 PM: INFO: Epoch[15] Train-top_k_accuracy_5=0.818926
+16/06/2019 07:10:55 PM: INFO: Epoch[15] Train-cross-entropy=1.775576
+16/06/2019 07:10:55 PM: INFO: Epoch[15] Time cost=104.283
+16/06/2019 07:10:56 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0016.params"
+16/06/2019 07:11:04 PM: INFO: Epoch[15] Validation-accuracy=0.650493
+16/06/2019 07:11:04 PM: INFO: Epoch[15] Validation-top_k_accuracy_5=0.891859
+16/06/2019 07:11:04 PM: INFO: Epoch[15] Validation-cross-entropy=1.285685
+16/06/2019 07:11:19 PM: INFO: Epoch[16] Batch [0-50]	Speed: 106.98 samples/sec	accuracy=0.540441	top_k_accuracy_5=0.827819	cross-entropy=1.726458
+16/06/2019 07:11:34 PM: INFO: Epoch[16] Batch [50-100]	Speed: 107.39 samples/sec	accuracy=0.546250	top_k_accuracy_5=0.845625	cross-entropy=1.659634
+16/06/2019 07:11:48 PM: INFO: Epoch[16] Batch [100-150]	Speed: 108.96 samples/sec	accuracy=0.545625	top_k_accuracy_5=0.833750	cross-entropy=1.695637
+16/06/2019 07:12:03 PM: INFO: Epoch[16] Batch [150-200]	Speed: 111.55 samples/sec	accuracy=0.568750	top_k_accuracy_5=0.843125	cross-entropy=1.602067
+16/06/2019 07:12:18 PM: INFO: Epoch[16] Batch [200-250]	Speed: 107.68 samples/sec	accuracy=0.555000	top_k_accuracy_5=0.830000	cross-entropy=1.691830
+16/06/2019 07:12:33 PM: INFO: Epoch[16] Batch [250-300]	Speed: 101.97 samples/sec	accuracy=0.586250	top_k_accuracy_5=0.856250	cross-entropy=1.569424
+16/06/2019 07:12:49 PM: INFO: Epoch[16] Batch [300-350]	Speed: 103.92 samples/sec	accuracy=0.544375	top_k_accuracy_5=0.842500	cross-entropy=1.683564
+16/06/2019 07:12:50 PM: INFO: Epoch[16] Train-accuracy=0.555261
+16/06/2019 07:12:50 PM: INFO: Epoch[16] Train-top_k_accuracy_5=0.839513
+16/06/2019 07:12:50 PM: INFO: Epoch[16] Train-cross-entropy=1.661079
+16/06/2019 07:12:50 PM: INFO: Epoch[16] Time cost=105.854
+16/06/2019 07:12:50 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0017.params"
+16/06/2019 07:12:58 PM: INFO: Epoch[16] Validation-accuracy=0.664885
+16/06/2019 07:12:58 PM: INFO: Epoch[16] Validation-top_k_accuracy_5=0.896382
+16/06/2019 07:12:58 PM: INFO: Epoch[16] Validation-cross-entropy=1.206925
+16/06/2019 07:13:14 PM: INFO: Epoch[17] Batch [0-50]	Speed: 105.30 samples/sec	accuracy=0.562500	top_k_accuracy_5=0.849877	cross-entropy=1.585074
+16/06/2019 07:13:29 PM: INFO: Epoch[17] Batch [50-100]	Speed: 105.47 samples/sec	accuracy=0.575000	top_k_accuracy_5=0.843750	cross-entropy=1.614833
+16/06/2019 07:13:44 PM: INFO: Epoch[17] Batch [100-150]	Speed: 105.40 samples/sec	accuracy=0.589375	top_k_accuracy_5=0.843750	cross-entropy=1.531811
+16/06/2019 07:13:59 PM: INFO: Epoch[17] Batch [150-200]	Speed: 105.14 samples/sec	accuracy=0.609375	top_k_accuracy_5=0.871875	cross-entropy=1.463567
+16/06/2019 07:14:14 PM: INFO: Epoch[17] Batch [200-250]	Speed: 105.19 samples/sec	accuracy=0.603750	top_k_accuracy_5=0.872500	cross-entropy=1.451933
+16/06/2019 07:14:30 PM: INFO: Epoch[17] Batch [250-300]	Speed: 104.61 samples/sec	accuracy=0.606250	top_k_accuracy_5=0.866875	cross-entropy=1.482101
+16/06/2019 07:14:45 PM: INFO: Epoch[17] Batch [300-350]	Speed: 104.07 samples/sec	accuracy=0.583125	top_k_accuracy_5=0.876875	cross-entropy=1.507662
+16/06/2019 07:14:46 PM: INFO: Epoch[17] Train-accuracy=0.589248
+16/06/2019 07:14:46 PM: INFO: Epoch[17] Train-top_k_accuracy_5=0.860081
+16/06/2019 07:14:46 PM: INFO: Epoch[17] Train-cross-entropy=1.521729
+16/06/2019 07:14:46 PM: INFO: Epoch[17] Time cost=107.679
+16/06/2019 07:14:47 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0018.params"
+16/06/2019 07:14:55 PM: INFO: Epoch[17] Validation-accuracy=0.680921
+16/06/2019 07:14:55 PM: INFO: Epoch[17] Validation-top_k_accuracy_5=0.902961
+16/06/2019 07:14:55 PM: INFO: Epoch[17] Validation-cross-entropy=1.144589
+16/06/2019 07:15:10 PM: INFO: Epoch[18] Batch [0-50]	Speed: 104.81 samples/sec	accuracy=0.583333	top_k_accuracy_5=0.860907	cross-entropy=1.480044
+16/06/2019 07:15:25 PM: INFO: Epoch[18] Batch [50-100]	Speed: 105.14 samples/sec	accuracy=0.604375	top_k_accuracy_5=0.875000	cross-entropy=1.408272
+16/06/2019 07:15:40 PM: INFO: Epoch[18] Batch [100-150]	Speed: 104.23 samples/sec	accuracy=0.612500	top_k_accuracy_5=0.864375	cross-entropy=1.453243
+16/06/2019 07:15:56 PM: INFO: Epoch[18] Batch [150-200]	Speed: 105.92 samples/sec	accuracy=0.611250	top_k_accuracy_5=0.881250	cross-entropy=1.404064
+16/06/2019 07:16:10 PM: INFO: Epoch[18] Batch [200-250]	Speed: 111.14 samples/sec	accuracy=0.612500	top_k_accuracy_5=0.861250	cross-entropy=1.469027
+16/06/2019 07:16:25 PM: INFO: Epoch[18] Batch [250-300]	Speed: 109.63 samples/sec	accuracy=0.623125	top_k_accuracy_5=0.883750	cross-entropy=1.341301
+16/06/2019 07:16:40 PM: INFO: Epoch[18] Batch [300-350]	Speed: 104.37 samples/sec	accuracy=0.606875	top_k_accuracy_5=0.872500	cross-entropy=1.433421
+16/06/2019 07:16:41 PM: INFO: Epoch[18] Train-accuracy=0.607521
+16/06/2019 07:16:41 PM: INFO: Epoch[18] Train-top_k_accuracy_5=0.871469
+16/06/2019 07:16:41 PM: INFO: Epoch[18] Train-cross-entropy=1.427229
+16/06/2019 07:16:41 PM: INFO: Epoch[18] Time cost=106.289
+16/06/2019 07:16:42 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0019.params"
+16/06/2019 07:16:49 PM: INFO: Epoch[18] Validation-accuracy=0.704359
+16/06/2019 07:16:49 PM: INFO: Epoch[18] Validation-top_k_accuracy_5=0.912829
+16/06/2019 07:16:49 PM: INFO: Epoch[18] Validation-cross-entropy=1.055933
+16/06/2019 07:17:05 PM: INFO: Epoch[19] Batch [0-50]	Speed: 105.73 samples/sec	accuracy=0.631127	top_k_accuracy_5=0.884191	cross-entropy=1.335805
+16/06/2019 07:17:19 PM: INFO: Epoch[19] Batch [50-100]	Speed: 110.41 samples/sec	accuracy=0.631875	top_k_accuracy_5=0.893750	cross-entropy=1.326462
+16/06/2019 07:17:34 PM: INFO: Epoch[19] Batch [100-150]	Speed: 107.44 samples/sec	accuracy=0.657500	top_k_accuracy_5=0.895000	cross-entropy=1.297574
+16/06/2019 07:17:49 PM: INFO: Epoch[19] Batch [150-200]	Speed: 105.67 samples/sec	accuracy=0.665000	top_k_accuracy_5=0.879375	cross-entropy=1.238227
+16/06/2019 07:18:04 PM: INFO: Epoch[19] Batch [200-250]	Speed: 109.42 samples/sec	accuracy=0.636875	top_k_accuracy_5=0.881875	cross-entropy=1.322682
+16/06/2019 07:18:18 PM: INFO: Epoch[19] Batch [250-300]	Speed: 111.82 samples/sec	accuracy=0.645625	top_k_accuracy_5=0.888750	cross-entropy=1.278831
+16/06/2019 07:18:32 PM: INFO: Epoch[19] Batch [300-350]	Speed: 112.07 samples/sec	accuracy=0.655625	top_k_accuracy_5=0.893750	cross-entropy=1.264468
+16/06/2019 07:18:33 PM: INFO: Epoch[19] Train-accuracy=0.646186
+16/06/2019 07:18:33 PM: INFO: Epoch[19] Train-top_k_accuracy_5=0.888153
+16/06/2019 07:18:33 PM: INFO: Epoch[19] Train-cross-entropy=1.294870
+16/06/2019 07:18:33 PM: INFO: Epoch[19] Time cost=103.841
+16/06/2019 07:18:34 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0020.params"
+16/06/2019 07:18:41 PM: INFO: Epoch[19] Validation-accuracy=0.692845
+16/06/2019 07:18:41 PM: INFO: Epoch[19] Validation-top_k_accuracy_5=0.912829
+16/06/2019 07:18:41 PM: INFO: Epoch[19] Validation-cross-entropy=1.073450
+16/06/2019 07:18:56 PM: INFO: Epoch[20] Batch [0-50]	Speed: 112.12 samples/sec	accuracy=0.666054	top_k_accuracy_5=0.905025	cross-entropy=1.222005
+16/06/2019 07:19:10 PM: INFO: Epoch[20] Batch [50-100]	Speed: 112.00 samples/sec	accuracy=0.668125	top_k_accuracy_5=0.908125	cross-entropy=1.170617
+16/06/2019 07:19:24 PM: INFO: Epoch[20] Batch [100-150]	Speed: 112.00 samples/sec	accuracy=0.665000	top_k_accuracy_5=0.895000	cross-entropy=1.248602
+16/06/2019 07:19:39 PM: INFO: Epoch[20] Batch [150-200]	Speed: 112.07 samples/sec	accuracy=0.689375	top_k_accuracy_5=0.907500	cross-entropy=1.137510
+16/06/2019 07:19:53 PM: INFO: Epoch[20] Batch [200-250]	Speed: 112.12 samples/sec	accuracy=0.658750	top_k_accuracy_5=0.902500	cross-entropy=1.221678
+16/06/2019 07:20:07 PM: INFO: Epoch[20] Batch [250-300]	Speed: 111.22 samples/sec	accuracy=0.667500	top_k_accuracy_5=0.911875	cross-entropy=1.212398
+16/06/2019 07:20:22 PM: INFO: Epoch[20] Batch [300-350]	Speed: 112.13 samples/sec	accuracy=0.648125	top_k_accuracy_5=0.895000	cross-entropy=1.255563
+16/06/2019 07:20:22 PM: INFO: Epoch[20] Train-accuracy=0.666137
+16/06/2019 07:20:22 PM: INFO: Epoch[20] Train-top_k_accuracy_5=0.903690
+16/06/2019 07:20:22 PM: INFO: Epoch[20] Train-cross-entropy=1.208907
+16/06/2019 07:20:22 PM: INFO: Epoch[20] Time cost=101.022
+16/06/2019 07:20:23 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0021.params"
+16/06/2019 07:20:31 PM: INFO: Epoch[20] Validation-accuracy=0.710938
+16/06/2019 07:20:31 PM: INFO: Epoch[20] Validation-top_k_accuracy_5=0.912418
+16/06/2019 07:20:31 PM: INFO: Epoch[20] Validation-cross-entropy=1.056154
+16/06/2019 07:20:46 PM: INFO: Epoch[21] Batch [0-50]	Speed: 102.85 samples/sec	accuracy=0.672181	top_k_accuracy_5=0.917892	cross-entropy=1.121490
+16/06/2019 07:21:02 PM: INFO: Epoch[21] Batch [50-100]	Speed: 102.15 samples/sec	accuracy=0.690625	top_k_accuracy_5=0.909375	cross-entropy=1.110620
+16/06/2019 07:21:17 PM: INFO: Epoch[21] Batch [100-150]	Speed: 105.15 samples/sec	accuracy=0.661250	top_k_accuracy_5=0.911875	cross-entropy=1.151320
+16/06/2019 07:21:32 PM: INFO: Epoch[21] Batch [150-200]	Speed: 110.74 samples/sec	accuracy=0.683750	top_k_accuracy_5=0.911875	cross-entropy=1.121865
+16/06/2019 07:21:46 PM: INFO: Epoch[21] Batch [200-250]	Speed: 108.65 samples/sec	accuracy=0.678750	top_k_accuracy_5=0.906875	cross-entropy=1.190020
+16/06/2019 07:22:02 PM: INFO: Epoch[21] Batch [250-300]	Speed: 102.34 samples/sec	accuracy=0.702500	top_k_accuracy_5=0.931250	cross-entropy=1.019559
+16/06/2019 07:22:16 PM: INFO: Epoch[21] Batch [300-350]	Speed: 111.09 samples/sec	accuracy=0.691250	top_k_accuracy_5=0.919375	cross-entropy=1.120791
+16/06/2019 07:22:17 PM: INFO: Epoch[21] Train-accuracy=0.682645
+16/06/2019 07:22:17 PM: INFO: Epoch[21] Train-top_k_accuracy_5=0.915254
+16/06/2019 07:22:17 PM: INFO: Epoch[21] Train-cross-entropy=1.120309
+16/06/2019 07:22:17 PM: INFO: Epoch[21] Time cost=106.627
+16/06/2019 07:22:18 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0022.params"
+16/06/2019 07:22:25 PM: INFO: Epoch[21] Validation-accuracy=0.716250
+16/06/2019 07:22:25 PM: INFO: Epoch[21] Validation-top_k_accuracy_5=0.919583
+16/06/2019 07:22:25 PM: INFO: Epoch[21] Validation-cross-entropy=1.018461
+16/06/2019 07:22:40 PM: INFO: Epoch[22] Batch [0-50]	Speed: 108.95 samples/sec	accuracy=0.710172	top_k_accuracy_5=0.919730	cross-entropy=1.080613
+16/06/2019 07:22:55 PM: INFO: Epoch[22] Batch [50-100]	Speed: 105.66 samples/sec	accuracy=0.694375	top_k_accuracy_5=0.910000	cross-entropy=1.111150
+16/06/2019 07:23:11 PM: INFO: Epoch[22] Batch [100-150]	Speed: 105.46 samples/sec	accuracy=0.712500	top_k_accuracy_5=0.918125	cross-entropy=1.059591
+16/06/2019 07:23:25 PM: INFO: Epoch[22] Batch [150-200]	Speed: 110.88 samples/sec	accuracy=0.717500	top_k_accuracy_5=0.929375	cross-entropy=1.012063
+16/06/2019 07:23:40 PM: INFO: Epoch[22] Batch [200-250]	Speed: 105.45 samples/sec	accuracy=0.698750	top_k_accuracy_5=0.920000	cross-entropy=1.068993
+16/06/2019 07:23:55 PM: INFO: Epoch[22] Batch [250-300]	Speed: 107.05 samples/sec	accuracy=0.700625	top_k_accuracy_5=0.917500	cross-entropy=1.045646
+16/06/2019 07:24:09 PM: INFO: Epoch[22] Batch [300-350]	Speed: 111.36 samples/sec	accuracy=0.699375	top_k_accuracy_5=0.926875	cross-entropy=1.051795
+16/06/2019 07:24:10 PM: INFO: Epoch[22] Train-accuracy=0.704714
+16/06/2019 07:24:10 PM: INFO: Epoch[22] Train-top_k_accuracy_5=0.920374
+16/06/2019 07:24:10 PM: INFO: Epoch[22] Train-cross-entropy=1.061686
+16/06/2019 07:24:10 PM: INFO: Epoch[22] Time cost=104.884
+16/06/2019 07:24:11 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0023.params"
+16/06/2019 07:24:18 PM: INFO: Epoch[22] Validation-accuracy=0.731497
+16/06/2019 07:24:18 PM: INFO: Epoch[22] Validation-top_k_accuracy_5=0.929688
+16/06/2019 07:24:18 PM: INFO: Epoch[22] Validation-cross-entropy=0.966539
+16/06/2019 07:24:33 PM: INFO: Epoch[23] Batch [0-50]	Speed: 111.43 samples/sec	accuracy=0.719363	top_k_accuracy_5=0.930147	cross-entropy=1.021116
+16/06/2019 07:24:48 PM: INFO: Epoch[23] Batch [50-100]	Speed: 106.84 samples/sec	accuracy=0.738125	top_k_accuracy_5=0.943125	cross-entropy=0.945551
+16/06/2019 07:25:03 PM: INFO: Epoch[23] Batch [100-150]	Speed: 108.87 samples/sec	accuracy=0.730000	top_k_accuracy_5=0.933750	cross-entropy=0.943991
+16/06/2019 07:25:17 PM: INFO: Epoch[23] Batch [150-200]	Speed: 111.35 samples/sec	accuracy=0.738125	top_k_accuracy_5=0.928750	cross-entropy=0.937164
+16/06/2019 07:25:31 PM: INFO: Epoch[23] Batch [200-250]	Speed: 110.83 samples/sec	accuracy=0.721875	top_k_accuracy_5=0.922500	cross-entropy=0.999499
+16/06/2019 07:25:46 PM: INFO: Epoch[23] Batch [250-300]	Speed: 109.52 samples/sec	accuracy=0.701250	top_k_accuracy_5=0.926875	cross-entropy=0.988580
+16/06/2019 07:26:01 PM: INFO: Epoch[23] Batch [300-350]	Speed: 108.62 samples/sec	accuracy=0.721250	top_k_accuracy_5=0.934375	cross-entropy=0.983136
+16/06/2019 07:26:02 PM: INFO: Epoch[23] Train-accuracy=0.724576
+16/06/2019 07:26:02 PM: INFO: Epoch[23] Train-top_k_accuracy_5=0.931409
+16/06/2019 07:26:02 PM: INFO: Epoch[23] Train-cross-entropy=0.974211
+16/06/2019 07:26:02 PM: INFO: Epoch[23] Time cost=103.154
+16/06/2019 07:26:02 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0024.params"
+16/06/2019 07:26:10 PM: INFO: Epoch[23] Validation-accuracy=0.749589
+16/06/2019 07:26:10 PM: INFO: Epoch[23] Validation-top_k_accuracy_5=0.925576
+16/06/2019 07:26:10 PM: INFO: Epoch[23] Validation-cross-entropy=0.915171
+16/06/2019 07:26:24 PM: INFO: Epoch[24] Batch [0-50]	Speed: 110.31 samples/sec	accuracy=0.712010	top_k_accuracy_5=0.944240	cross-entropy=0.984913
+16/06/2019 07:26:39 PM: INFO: Epoch[24] Batch [50-100]	Speed: 108.31 samples/sec	accuracy=0.743125	top_k_accuracy_5=0.939375	cross-entropy=0.869982
+16/06/2019 07:26:54 PM: INFO: Epoch[24] Batch [100-150]	Speed: 110.55 samples/sec	accuracy=0.744375	top_k_accuracy_5=0.931875	cross-entropy=0.926775
+16/06/2019 07:27:08 PM: INFO: Epoch[24] Batch [150-200]	Speed: 110.82 samples/sec	accuracy=0.753125	top_k_accuracy_5=0.945625	cross-entropy=0.854609
+16/06/2019 07:27:22 PM: INFO: Epoch[24] Batch [200-250]	Speed: 111.13 samples/sec	accuracy=0.722500	top_k_accuracy_5=0.930000	cross-entropy=0.971914
+16/06/2019 07:27:37 PM: INFO: Epoch[24] Batch [250-300]	Speed: 110.70 samples/sec	accuracy=0.751875	top_k_accuracy_5=0.938750	cross-entropy=0.884828
+16/06/2019 07:27:51 PM: INFO: Epoch[24] Batch [300-350]	Speed: 110.04 samples/sec	accuracy=0.744375	top_k_accuracy_5=0.937500	cross-entropy=0.906189
+16/06/2019 07:27:52 PM: INFO: Epoch[24] Train-accuracy=0.738965
+16/06/2019 07:27:52 PM: INFO: Epoch[24] Train-top_k_accuracy_5=0.938206
+16/06/2019 07:27:52 PM: INFO: Epoch[24] Train-cross-entropy=0.913671
+16/06/2019 07:27:52 PM: INFO: Epoch[24] Time cost=102.542
+16/06/2019 07:27:53 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0025.params"
+16/06/2019 07:28:01 PM: INFO: Epoch[24] Validation-accuracy=0.761924
+16/06/2019 07:28:01 PM: INFO: Epoch[24] Validation-top_k_accuracy_5=0.935855
+16/06/2019 07:28:01 PM: INFO: Epoch[24] Validation-cross-entropy=0.859592
+16/06/2019 07:28:15 PM: INFO: Epoch[25] Batch [0-50]	Speed: 111.69 samples/sec	accuracy=0.738971	top_k_accuracy_5=0.950368	cross-entropy=0.877572
+16/06/2019 07:28:29 PM: INFO: Epoch[25] Batch [50-100]	Speed: 111.71 samples/sec	accuracy=0.775625	top_k_accuracy_5=0.950000	cross-entropy=0.788958
+16/06/2019 07:28:44 PM: INFO: Epoch[25] Batch [100-150]	Speed: 111.51 samples/sec	accuracy=0.744375	top_k_accuracy_5=0.938750	cross-entropy=0.869592
+16/06/2019 07:28:58 PM: INFO: Epoch[25] Batch [150-200]	Speed: 110.27 samples/sec	accuracy=0.761250	top_k_accuracy_5=0.943125	cross-entropy=0.840754
+16/06/2019 07:29:13 PM: INFO: Epoch[25] Batch [200-250]	Speed: 109.46 samples/sec	accuracy=0.741875	top_k_accuracy_5=0.940000	cross-entropy=0.898897
+16/06/2019 07:29:27 PM: INFO: Epoch[25] Batch [250-300]	Speed: 109.01 samples/sec	accuracy=0.746250	top_k_accuracy_5=0.953125	cross-entropy=0.847777
+16/06/2019 07:29:42 PM: INFO: Epoch[25] Batch [300-350]	Speed: 111.32 samples/sec	accuracy=0.769375	top_k_accuracy_5=0.940000	cross-entropy=0.846998
+16/06/2019 07:29:43 PM: INFO: Epoch[25] Train-accuracy=0.753785
+16/06/2019 07:29:43 PM: INFO: Epoch[25] Train-top_k_accuracy_5=0.945335
+16/06/2019 07:29:43 PM: INFO: Epoch[25] Train-cross-entropy=0.852982
+16/06/2019 07:29:43 PM: INFO: Epoch[25] Time cost=102.437
+16/06/2019 07:29:44 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0026.params"
+16/06/2019 07:29:52 PM: INFO: Epoch[25] Validation-accuracy=0.757401
+16/06/2019 07:29:52 PM: INFO: Epoch[25] Validation-top_k_accuracy_5=0.937089
+16/06/2019 07:29:52 PM: INFO: Epoch[25] Validation-cross-entropy=0.857773
+16/06/2019 07:30:06 PM: INFO: Epoch[26] Batch [0-50]	Speed: 109.49 samples/sec	accuracy=0.760417	top_k_accuracy_5=0.942402	cross-entropy=0.846651
+16/06/2019 07:30:21 PM: INFO: Epoch[26] Batch [50-100]	Speed: 111.48 samples/sec	accuracy=0.780625	top_k_accuracy_5=0.952500	cross-entropy=0.785772
+16/06/2019 07:30:35 PM: INFO: Epoch[26] Batch [100-150]	Speed: 111.57 samples/sec	accuracy=0.771875	top_k_accuracy_5=0.946250	cross-entropy=0.787772
+16/06/2019 07:30:49 PM: INFO: Epoch[26] Batch [150-200]	Speed: 110.35 samples/sec	accuracy=0.770625	top_k_accuracy_5=0.950000	cross-entropy=0.776829
+16/06/2019 07:31:04 PM: INFO: Epoch[26] Batch [200-250]	Speed: 110.50 samples/sec	accuracy=0.768125	top_k_accuracy_5=0.946875	cross-entropy=0.821217
+16/06/2019 07:31:18 PM: INFO: Epoch[26] Batch [250-300]	Speed: 112.15 samples/sec	accuracy=0.786875	top_k_accuracy_5=0.951875	cross-entropy=0.746400
+16/06/2019 07:31:32 PM: INFO: Epoch[26] Batch [300-350]	Speed: 112.13 samples/sec	accuracy=0.777500	top_k_accuracy_5=0.946250	cross-entropy=0.800454
+16/06/2019 07:31:33 PM: INFO: Epoch[26] Train-accuracy=0.773393
+16/06/2019 07:31:33 PM: INFO: Epoch[26] Train-top_k_accuracy_5=0.947917
+16/06/2019 07:31:33 PM: INFO: Epoch[26] Train-cross-entropy=0.796080
+16/06/2019 07:31:33 PM: INFO: Epoch[26] Time cost=101.812
+16/06/2019 07:31:34 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0027.params"
+16/06/2019 07:31:42 PM: INFO: Epoch[26] Validation-accuracy=0.762336
+16/06/2019 07:31:42 PM: INFO: Epoch[26] Validation-top_k_accuracy_5=0.937500
+16/06/2019 07:31:42 PM: INFO: Epoch[26] Validation-cross-entropy=0.879677
+16/06/2019 07:31:56 PM: INFO: Epoch[27] Batch [0-50]	Speed: 109.78 samples/sec	accuracy=0.773284	top_k_accuracy_5=0.956495	cross-entropy=0.763375
+16/06/2019 07:32:11 PM: INFO: Epoch[27] Batch [50-100]	Speed: 111.15 samples/sec	accuracy=0.782500	top_k_accuracy_5=0.952500	cross-entropy=0.743054
+16/06/2019 07:32:25 PM: INFO: Epoch[27] Batch [100-150]	Speed: 109.68 samples/sec	accuracy=0.766250	top_k_accuracy_5=0.945000	cross-entropy=0.820980
+16/06/2019 07:32:40 PM: INFO: Epoch[27] Batch [150-200]	Speed: 110.97 samples/sec	accuracy=0.764375	top_k_accuracy_5=0.948750	cross-entropy=0.786253
+16/06/2019 07:32:54 PM: INFO: Epoch[27] Batch [200-250]	Speed: 111.47 samples/sec	accuracy=0.771875	top_k_accuracy_5=0.953125	cross-entropy=0.787692
+16/06/2019 07:33:08 PM: INFO: Epoch[27] Batch [250-300]	Speed: 111.61 samples/sec	accuracy=0.788125	top_k_accuracy_5=0.955625	cross-entropy=0.722942
+16/06/2019 07:33:23 PM: INFO: Epoch[27] Batch [300-350]	Speed: 111.64 samples/sec	accuracy=0.761875	top_k_accuracy_5=0.945000	cross-entropy=0.831835
+16/06/2019 07:33:24 PM: INFO: Epoch[27] Train-accuracy=0.772599
+16/06/2019 07:33:24 PM: INFO: Epoch[27] Train-top_k_accuracy_5=0.951006
+16/06/2019 07:33:24 PM: INFO: Epoch[27] Train-cross-entropy=0.779816
+16/06/2019 07:33:24 PM: INFO: Epoch[27] Time cost=101.975
+16/06/2019 07:33:24 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0028.params"
+16/06/2019 07:33:32 PM: INFO: Epoch[27] Validation-accuracy=0.768750
+16/06/2019 07:33:32 PM: INFO: Epoch[27] Validation-top_k_accuracy_5=0.944167
+16/06/2019 07:33:32 PM: INFO: Epoch[27] Validation-cross-entropy=0.831327
+16/06/2019 07:33:46 PM: INFO: Epoch[28] Batch [0-50]	Speed: 110.36 samples/sec	accuracy=0.788603	top_k_accuracy_5=0.955882	cross-entropy=0.727933
+16/06/2019 07:34:02 PM: INFO: Epoch[28] Batch [50-100]	Speed: 104.87 samples/sec	accuracy=0.783750	top_k_accuracy_5=0.955625	cross-entropy=0.730041
+16/06/2019 07:34:18 PM: INFO: Epoch[28] Batch [100-150]	Speed: 100.00 samples/sec	accuracy=0.791875	top_k_accuracy_5=0.955625	cross-entropy=0.706267
+16/06/2019 07:34:32 PM: INFO: Epoch[28] Batch [150-200]	Speed: 110.12 samples/sec	accuracy=0.791250	top_k_accuracy_5=0.959375	cross-entropy=0.719464
+16/06/2019 07:34:46 PM: INFO: Epoch[28] Batch [200-250]	Speed: 111.44 samples/sec	accuracy=0.779375	top_k_accuracy_5=0.951875	cross-entropy=0.770103
+16/06/2019 07:35:01 PM: INFO: Epoch[28] Batch [250-300]	Speed: 111.32 samples/sec	accuracy=0.790000	top_k_accuracy_5=0.954375	cross-entropy=0.752120
+16/06/2019 07:35:15 PM: INFO: Epoch[28] Batch [300-350]	Speed: 110.74 samples/sec	accuracy=0.796250	top_k_accuracy_5=0.953750	cross-entropy=0.712036
+16/06/2019 07:35:16 PM: INFO: Epoch[28] Train-accuracy=0.787959
+16/06/2019 07:35:16 PM: INFO: Epoch[28] Train-top_k_accuracy_5=0.954714
+16/06/2019 07:35:16 PM: INFO: Epoch[28] Train-cross-entropy=0.733596
+16/06/2019 07:35:16 PM: INFO: Epoch[28] Time cost=104.511
+16/06/2019 07:35:18 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0029.params"
+16/06/2019 07:35:25 PM: INFO: Epoch[28] Validation-accuracy=0.756990
+16/06/2019 07:35:25 PM: INFO: Epoch[28] Validation-top_k_accuracy_5=0.943257
+16/06/2019 07:35:25 PM: INFO: Epoch[28] Validation-cross-entropy=0.863484
+16/06/2019 07:35:40 PM: INFO: Epoch[29] Batch [0-50]	Speed: 109.05 samples/sec	accuracy=0.810049	top_k_accuracy_5=0.957108	cross-entropy=0.668612
+16/06/2019 07:35:55 PM: INFO: Epoch[29] Batch [50-100]	Speed: 107.52 samples/sec	accuracy=0.792500	top_k_accuracy_5=0.961250	cross-entropy=0.679566
+16/06/2019 07:36:10 PM: INFO: Epoch[29] Batch [100-150]	Speed: 105.90 samples/sec	accuracy=0.810000	top_k_accuracy_5=0.960000	cross-entropy=0.667416
+16/06/2019 07:36:25 PM: INFO: Epoch[29] Batch [150-200]	Speed: 105.09 samples/sec	accuracy=0.816250	top_k_accuracy_5=0.963125	cross-entropy=0.647102
+16/06/2019 07:36:41 PM: INFO: Epoch[29] Batch [200-250]	Speed: 104.53 samples/sec	accuracy=0.786875	top_k_accuracy_5=0.958125	cross-entropy=0.743286
+16/06/2019 07:36:56 PM: INFO: Epoch[29] Batch [250-300]	Speed: 104.39 samples/sec	accuracy=0.806875	top_k_accuracy_5=0.956875	cross-entropy=0.661495
+16/06/2019 07:37:11 PM: INFO: Epoch[29] Batch [300-350]	Speed: 104.77 samples/sec	accuracy=0.789375	top_k_accuracy_5=0.966875	cross-entropy=0.694350
+16/06/2019 07:37:12 PM: INFO: Epoch[29] Train-accuracy=0.801730
+16/06/2019 07:37:12 PM: INFO: Epoch[29] Train-top_k_accuracy_5=0.960187
+16/06/2019 07:37:12 PM: INFO: Epoch[29] Train-cross-entropy=0.681250
+16/06/2019 07:37:12 PM: INFO: Epoch[29] Time cost=106.830
+16/06/2019 07:37:14 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0030.params"
+16/06/2019 07:37:21 PM: INFO: Epoch[29] Validation-accuracy=0.774671
+16/06/2019 07:37:21 PM: INFO: Epoch[29] Validation-top_k_accuracy_5=0.943257
+16/06/2019 07:37:21 PM: INFO: Epoch[29] Validation-cross-entropy=0.837238
+16/06/2019 07:37:37 PM: INFO: Epoch[30] Batch [0-50]	Speed: 104.77 samples/sec	accuracy=0.754289	top_k_accuracy_5=0.952819	cross-entropy=0.849494
+16/06/2019 07:37:52 PM: INFO: Epoch[30] Batch [50-100]	Speed: 104.81 samples/sec	accuracy=0.758750	top_k_accuracy_5=0.960000	cross-entropy=0.813445
+16/06/2019 07:38:07 PM: INFO: Epoch[30] Batch [100-150]	Speed: 104.68 samples/sec	accuracy=0.768125	top_k_accuracy_5=0.958750	cross-entropy=0.784432
+16/06/2019 07:38:23 PM: INFO: Epoch[30] Batch [150-200]	Speed: 104.36 samples/sec	accuracy=0.779375	top_k_accuracy_5=0.960000	cross-entropy=0.768723
+16/06/2019 07:38:38 PM: INFO: Epoch[30] Batch [200-250]	Speed: 104.60 samples/sec	accuracy=0.768750	top_k_accuracy_5=0.956250	cross-entropy=0.800865
+16/06/2019 07:38:53 PM: INFO: Epoch[30] Batch [250-300]	Speed: 104.60 samples/sec	accuracy=0.771250	top_k_accuracy_5=0.954375	cross-entropy=0.792154
+16/06/2019 07:39:08 PM: INFO: Epoch[30] Batch [300-350]	Speed: 104.69 samples/sec	accuracy=0.748750	top_k_accuracy_5=0.942500	cross-entropy=0.865146
+16/06/2019 07:39:09 PM: INFO: Epoch[30] Train-accuracy=0.763948
+16/06/2019 07:39:09 PM: INFO: Epoch[30] Train-top_k_accuracy_5=0.954802
+16/06/2019 07:39:09 PM: INFO: Epoch[30] Train-cross-entropy=0.812121
+16/06/2019 07:39:09 PM: INFO: Epoch[30] Time cost=108.063
+16/06/2019 07:39:11 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0031.params"
+16/06/2019 07:39:18 PM: INFO: Epoch[30] Validation-accuracy=0.785362
+16/06/2019 07:39:18 PM: INFO: Epoch[30] Validation-top_k_accuracy_5=0.946546
+16/06/2019 07:39:18 PM: INFO: Epoch[30] Validation-cross-entropy=0.753435
+16/06/2019 07:39:34 PM: INFO: Epoch[31] Batch [0-50]	Speed: 104.65 samples/sec	accuracy=0.776961	top_k_accuracy_5=0.955882	cross-entropy=0.769340
+16/06/2019 07:39:49 PM: INFO: Epoch[31] Batch [50-100]	Speed: 104.50 samples/sec	accuracy=0.786875	top_k_accuracy_5=0.960000	cross-entropy=0.744031
+16/06/2019 07:40:04 PM: INFO: Epoch[31] Batch [100-150]	Speed: 104.55 samples/sec	accuracy=0.765625	top_k_accuracy_5=0.953750	cross-entropy=0.806437
+16/06/2019 07:40:20 PM: INFO: Epoch[31] Batch [150-200]	Speed: 104.78 samples/sec	accuracy=0.775000	top_k_accuracy_5=0.952500	cross-entropy=0.765305
+16/06/2019 07:40:35 PM: INFO: Epoch[31] Batch [200-250]	Speed: 104.68 samples/sec	accuracy=0.765000	top_k_accuracy_5=0.951875	cross-entropy=0.822899
+16/06/2019 07:40:50 PM: INFO: Epoch[31] Batch [250-300]	Speed: 103.90 samples/sec	accuracy=0.780625	top_k_accuracy_5=0.956875	cross-entropy=0.757905
+16/06/2019 07:41:06 PM: INFO: Epoch[31] Batch [300-350]	Speed: 103.55 samples/sec	accuracy=0.779375	top_k_accuracy_5=0.956875	cross-entropy=0.757799
+16/06/2019 07:41:07 PM: INFO: Epoch[31] Train-accuracy=0.775865
+16/06/2019 07:41:07 PM: INFO: Epoch[31] Train-top_k_accuracy_5=0.955332
+16/06/2019 07:41:07 PM: INFO: Epoch[31] Train-cross-entropy=0.774655
+16/06/2019 07:41:07 PM: INFO: Epoch[31] Time cost=108.353
+16/06/2019 07:41:08 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0032.params"
+16/06/2019 07:41:16 PM: INFO: Epoch[31] Validation-accuracy=0.781661
+16/06/2019 07:41:16 PM: INFO: Epoch[31] Validation-top_k_accuracy_5=0.948602
+16/06/2019 07:41:16 PM: INFO: Epoch[31] Validation-cross-entropy=0.777021
+16/06/2019 07:41:32 PM: INFO: Epoch[32] Batch [0-50]	Speed: 103.37 samples/sec	accuracy=0.798407	top_k_accuracy_5=0.960784	cross-entropy=0.698115
+16/06/2019 07:41:47 PM: INFO: Epoch[32] Batch [50-100]	Speed: 104.61 samples/sec	accuracy=0.811875	top_k_accuracy_5=0.966250	cross-entropy=0.656747
+16/06/2019 07:42:02 PM: INFO: Epoch[32] Batch [100-150]	Speed: 105.67 samples/sec	accuracy=0.789375	top_k_accuracy_5=0.958750	cross-entropy=0.749407
+16/06/2019 07:42:17 PM: INFO: Epoch[32] Batch [150-200]	Speed: 105.45 samples/sec	accuracy=0.812500	top_k_accuracy_5=0.962500	cross-entropy=0.675445
+16/06/2019 07:42:33 PM: INFO: Epoch[32] Batch [200-250]	Speed: 103.71 samples/sec	accuracy=0.774375	top_k_accuracy_5=0.959375	cross-entropy=0.769863
+16/06/2019 07:42:48 PM: INFO: Epoch[32] Batch [250-300]	Speed: 105.17 samples/sec	accuracy=0.784375	top_k_accuracy_5=0.956875	cross-entropy=0.717783
+16/06/2019 07:43:03 PM: INFO: Epoch[32] Batch [300-350]	Speed: 105.29 samples/sec	accuracy=0.770625	top_k_accuracy_5=0.957500	cross-entropy=0.750241
+16/06/2019 07:43:04 PM: INFO: Epoch[32] Train-accuracy=0.791490
+16/06/2019 07:43:04 PM: INFO: Epoch[32] Train-top_k_accuracy_5=0.960187
+16/06/2019 07:43:04 PM: INFO: Epoch[32] Train-cross-entropy=0.717491
+16/06/2019 07:43:04 PM: INFO: Epoch[32] Time cost=107.962
+16/06/2019 07:43:56 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0033.params"
+16/06/2019 07:44:04 PM: INFO: Epoch[32] Validation-accuracy=0.766447
+16/06/2019 07:44:04 PM: INFO: Epoch[32] Validation-top_k_accuracy_5=0.943668
+16/06/2019 07:44:04 PM: INFO: Epoch[32] Validation-cross-entropy=0.830755
+16/06/2019 07:44:19 PM: INFO: Epoch[33] Batch [0-50]	Speed: 105.93 samples/sec	accuracy=0.794118	top_k_accuracy_5=0.971201	cross-entropy=0.689294
+16/06/2019 07:44:34 PM: INFO: Epoch[33] Batch [50-100]	Speed: 106.06 samples/sec	accuracy=0.790000	top_k_accuracy_5=0.962500	cross-entropy=0.725928
+16/06/2019 07:44:49 PM: INFO: Epoch[33] Batch [100-150]	Speed: 106.08 samples/sec	accuracy=0.803125	top_k_accuracy_5=0.963125	cross-entropy=0.684196
+16/06/2019 07:45:04 PM: INFO: Epoch[33] Batch [150-200]	Speed: 106.11 samples/sec	accuracy=0.796875	top_k_accuracy_5=0.956875	cross-entropy=0.694344
+16/06/2019 07:45:19 PM: INFO: Epoch[33] Batch [200-250]	Speed: 106.07 samples/sec	accuracy=0.781250	top_k_accuracy_5=0.960000	cross-entropy=0.737612
+16/06/2019 07:45:34 PM: INFO: Epoch[33] Batch [250-300]	Speed: 105.96 samples/sec	accuracy=0.799375	top_k_accuracy_5=0.965000	cross-entropy=0.678437
+16/06/2019 07:45:50 PM: INFO: Epoch[33] Batch [300-350]	Speed: 105.84 samples/sec	accuracy=0.785000	top_k_accuracy_5=0.963125	cross-entropy=0.717817
+16/06/2019 07:45:50 PM: INFO: Epoch[33] Train-accuracy=0.793079
+16/06/2019 07:45:50 PM: INFO: Epoch[33] Train-top_k_accuracy_5=0.963100
+16/06/2019 07:45:50 PM: INFO: Epoch[33] Train-cross-entropy=0.703524
+16/06/2019 07:45:50 PM: INFO: Epoch[33] Time cost=106.685
+16/06/2019 07:45:52 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0034.params"
+16/06/2019 07:46:00 PM: INFO: Epoch[33] Validation-accuracy=0.807566
+16/06/2019 07:46:00 PM: INFO: Epoch[33] Validation-top_k_accuracy_5=0.957648
+16/06/2019 07:46:00 PM: INFO: Epoch[33] Validation-cross-entropy=0.710228
+16/06/2019 07:46:15 PM: INFO: Epoch[34] Batch [0-50]	Speed: 106.03 samples/sec	accuracy=0.802083	top_k_accuracy_5=0.963848	cross-entropy=0.680228
+16/06/2019 07:46:30 PM: INFO: Epoch[34] Batch [50-100]	Speed: 106.03 samples/sec	accuracy=0.815000	top_k_accuracy_5=0.970625	cross-entropy=0.634767
+16/06/2019 07:46:45 PM: INFO: Epoch[34] Batch [100-150]	Speed: 106.03 samples/sec	accuracy=0.809375	top_k_accuracy_5=0.971250	cross-entropy=0.629119
+16/06/2019 07:47:00 PM: INFO: Epoch[34] Batch [150-200]	Speed: 105.87 samples/sec	accuracy=0.815000	top_k_accuracy_5=0.969375	cross-entropy=0.631775
+16/06/2019 07:47:15 PM: INFO: Epoch[34] Batch [200-250]	Speed: 105.69 samples/sec	accuracy=0.813750	top_k_accuracy_5=0.966250	cross-entropy=0.606625
+16/06/2019 07:47:30 PM: INFO: Epoch[34] Batch [250-300]	Speed: 106.04 samples/sec	accuracy=0.806250	top_k_accuracy_5=0.969375	cross-entropy=0.643967
+16/06/2019 07:47:45 PM: INFO: Epoch[34] Batch [300-350]	Speed: 106.18 samples/sec	accuracy=0.803750	top_k_accuracy_5=0.963125	cross-entropy=0.673862
+16/06/2019 07:47:46 PM: INFO: Epoch[34] Train-accuracy=0.809675
+16/06/2019 07:47:46 PM: INFO: Epoch[34] Train-top_k_accuracy_5=0.967779
+16/06/2019 07:47:46 PM: INFO: Epoch[34] Train-cross-entropy=0.641419
+16/06/2019 07:47:46 PM: INFO: Epoch[34] Time cost=106.713
+16/06/2019 07:47:48 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0035.params"
+16/06/2019 07:47:55 PM: INFO: Epoch[34] Validation-accuracy=0.787917
+16/06/2019 07:47:55 PM: INFO: Epoch[34] Validation-top_k_accuracy_5=0.953333
+16/06/2019 07:47:55 PM: INFO: Epoch[34] Validation-cross-entropy=0.733809
+16/06/2019 07:48:10 PM: INFO: Epoch[35] Batch [0-50]	Speed: 106.18 samples/sec	accuracy=0.811275	top_k_accuracy_5=0.965074	cross-entropy=0.632023
+16/06/2019 07:48:26 PM: INFO: Epoch[35] Batch [50-100]	Speed: 106.04 samples/sec	accuracy=0.801875	top_k_accuracy_5=0.968125	cross-entropy=0.658570
+16/06/2019 07:48:41 PM: INFO: Epoch[35] Batch [100-150]	Speed: 106.06 samples/sec	accuracy=0.821875	top_k_accuracy_5=0.971250	cross-entropy=0.628075
+16/06/2019 07:48:56 PM: INFO: Epoch[35] Batch [150-200]	Speed: 106.20 samples/sec	accuracy=0.816875	top_k_accuracy_5=0.973125	cross-entropy=0.608572
+16/06/2019 07:49:11 PM: INFO: Epoch[35] Batch [200-250]	Speed: 106.90 samples/sec	accuracy=0.800625	top_k_accuracy_5=0.961875	cross-entropy=0.653005
+16/06/2019 07:49:26 PM: INFO: Epoch[35] Batch [250-300]	Speed: 105.98 samples/sec	accuracy=0.820000	top_k_accuracy_5=0.968125	cross-entropy=0.621720
+16/06/2019 07:49:41 PM: INFO: Epoch[35] Batch [300-350]	Speed: 107.34 samples/sec	accuracy=0.822500	top_k_accuracy_5=0.970625	cross-entropy=0.599821
+16/06/2019 07:49:42 PM: INFO: Epoch[35] Train-accuracy=0.814001
+16/06/2019 07:49:42 PM: INFO: Epoch[35] Train-top_k_accuracy_5=0.968132
+16/06/2019 07:49:42 PM: INFO: Epoch[35] Train-cross-entropy=0.628130
+16/06/2019 07:49:42 PM: INFO: Epoch[35] Time cost=106.301
+16/06/2019 07:49:43 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0036.params"
+16/06/2019 07:49:50 PM: INFO: Epoch[35] Validation-accuracy=0.802220
+16/06/2019 07:49:50 PM: INFO: Epoch[35] Validation-top_k_accuracy_5=0.951480
+16/06/2019 07:49:50 PM: INFO: Epoch[35] Validation-cross-entropy=0.718894
+16/06/2019 07:50:06 PM: INFO: Epoch[36] Batch [0-50]	Speed: 106.99 samples/sec	accuracy=0.815564	top_k_accuracy_5=0.969975	cross-entropy=0.631294
+16/06/2019 07:50:20 PM: INFO: Epoch[36] Batch [50-100]	Speed: 107.10 samples/sec	accuracy=0.813125	top_k_accuracy_5=0.970000	cross-entropy=0.616496
+16/06/2019 07:50:35 PM: INFO: Epoch[36] Batch [100-150]	Speed: 107.30 samples/sec	accuracy=0.815625	top_k_accuracy_5=0.971875	cross-entropy=0.645692
+16/06/2019 07:50:50 PM: INFO: Epoch[36] Batch [150-200]	Speed: 107.41 samples/sec	accuracy=0.821250	top_k_accuracy_5=0.971250	cross-entropy=0.604472
+16/06/2019 07:51:05 PM: INFO: Epoch[36] Batch [200-250]	Speed: 107.48 samples/sec	accuracy=0.809375	top_k_accuracy_5=0.967500	cross-entropy=0.672771
+16/06/2019 07:51:20 PM: INFO: Epoch[36] Batch [250-300]	Speed: 107.46 samples/sec	accuracy=0.824375	top_k_accuracy_5=0.974375	cross-entropy=0.577144
+16/06/2019 07:51:35 PM: INFO: Epoch[36] Batch [300-350]	Speed: 107.50 samples/sec	accuracy=0.826875	top_k_accuracy_5=0.969375	cross-entropy=0.602562
+16/06/2019 07:51:36 PM: INFO: Epoch[36] Train-accuracy=0.819014
+16/06/2019 07:51:36 PM: INFO: Epoch[36] Train-top_k_accuracy_5=0.970775
+16/06/2019 07:51:36 PM: INFO: Epoch[36] Train-cross-entropy=0.619186
+16/06/2019 07:51:36 PM: INFO: Epoch[36] Time cost=105.678
+16/06/2019 07:51:37 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0037.params"
+16/06/2019 07:51:45 PM: INFO: Epoch[36] Validation-accuracy=0.796875
+16/06/2019 07:51:45 PM: INFO: Epoch[36] Validation-top_k_accuracy_5=0.952303
+16/06/2019 07:51:45 PM: INFO: Epoch[36] Validation-cross-entropy=0.734739
+16/06/2019 07:52:00 PM: INFO: Epoch[37] Batch [0-50]	Speed: 107.28 samples/sec	accuracy=0.828431	top_k_accuracy_5=0.972426	cross-entropy=0.561905
+16/06/2019 07:52:15 PM: INFO: Epoch[37] Batch [50-100]	Speed: 107.41 samples/sec	accuracy=0.840000	top_k_accuracy_5=0.972500	cross-entropy=0.554497
+16/06/2019 07:52:30 PM: INFO: Epoch[37] Batch [100-150]	Speed: 107.33 samples/sec	accuracy=0.829375	top_k_accuracy_5=0.978125	cross-entropy=0.564786
+16/06/2019 07:52:45 PM: INFO: Epoch[37] Batch [150-200]	Speed: 107.31 samples/sec	accuracy=0.827500	top_k_accuracy_5=0.971250	cross-entropy=0.560244
+16/06/2019 07:53:00 PM: INFO: Epoch[37] Batch [200-250]	Speed: 107.00 samples/sec	accuracy=0.829375	top_k_accuracy_5=0.972500	cross-entropy=0.557742
+16/06/2019 07:53:15 PM: INFO: Epoch[37] Batch [250-300]	Speed: 107.02 samples/sec	accuracy=0.831250	top_k_accuracy_5=0.975625	cross-entropy=0.557340
+16/06/2019 07:53:30 PM: INFO: Epoch[37] Batch [300-350]	Speed: 107.03 samples/sec	accuracy=0.819375	top_k_accuracy_5=0.968125	cross-entropy=0.607069
+16/06/2019 07:53:30 PM: INFO: Epoch[37] Train-accuracy=0.829273
+16/06/2019 07:53:30 PM: INFO: Epoch[37] Train-top_k_accuracy_5=0.972634
+16/06/2019 07:53:30 PM: INFO: Epoch[37] Train-cross-entropy=0.566694
+16/06/2019 07:53:30 PM: INFO: Epoch[37] Time cost=105.493
+16/06/2019 07:53:32 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0038.params"
+16/06/2019 07:53:39 PM: INFO: Epoch[37] Validation-accuracy=0.783306
+16/06/2019 07:53:39 PM: INFO: Epoch[37] Validation-top_k_accuracy_5=0.949424
+16/06/2019 07:53:39 PM: INFO: Epoch[37] Validation-cross-entropy=0.788328
+16/06/2019 07:53:54 PM: INFO: Epoch[38] Batch [0-50]	Speed: 107.07 samples/sec	accuracy=0.832721	top_k_accuracy_5=0.971814	cross-entropy=0.563294
+16/06/2019 07:54:09 PM: INFO: Epoch[38] Batch [50-100]	Speed: 107.28 samples/sec	accuracy=0.852500	top_k_accuracy_5=0.984375	cross-entropy=0.506523
+16/06/2019 07:54:24 PM: INFO: Epoch[38] Batch [100-150]	Speed: 107.18 samples/sec	accuracy=0.827500	top_k_accuracy_5=0.973125	cross-entropy=0.580911
+16/06/2019 07:54:39 PM: INFO: Epoch[38] Batch [150-200]	Speed: 107.03 samples/sec	accuracy=0.835000	top_k_accuracy_5=0.977500	cross-entropy=0.544423
+16/06/2019 07:54:54 PM: INFO: Epoch[38] Batch [200-250]	Speed: 105.85 samples/sec	accuracy=0.847500	top_k_accuracy_5=0.973125	cross-entropy=0.534946
+16/06/2019 07:55:09 PM: INFO: Epoch[38] Batch [250-300]	Speed: 106.68 samples/sec	accuracy=0.836875	top_k_accuracy_5=0.976250	cross-entropy=0.565269
+16/06/2019 07:55:24 PM: INFO: Epoch[38] Batch [300-350]	Speed: 107.07 samples/sec	accuracy=0.831250	top_k_accuracy_5=0.968750	cross-entropy=0.601267
+16/06/2019 07:55:25 PM: INFO: Epoch[38] Train-accuracy=0.837394
+16/06/2019 07:55:25 PM: INFO: Epoch[38] Train-top_k_accuracy_5=0.974929
+16/06/2019 07:55:25 PM: INFO: Epoch[38] Train-cross-entropy=0.557542
+16/06/2019 07:55:25 PM: INFO: Epoch[38] Time cost=105.806
+16/06/2019 07:55:26 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0039.params"
+16/06/2019 07:55:34 PM: INFO: Epoch[38] Validation-accuracy=0.805921
+16/06/2019 07:55:34 PM: INFO: Epoch[38] Validation-top_k_accuracy_5=0.958059
+16/06/2019 07:55:34 PM: INFO: Epoch[38] Validation-cross-entropy=0.683855
+16/06/2019 07:55:49 PM: INFO: Epoch[39] Batch [0-50]	Speed: 106.74 samples/sec	accuracy=0.835172	top_k_accuracy_5=0.979167	cross-entropy=0.553163
+16/06/2019 07:56:04 PM: INFO: Epoch[39] Batch [50-100]	Speed: 106.34 samples/sec	accuracy=0.860625	top_k_accuracy_5=0.974375	cross-entropy=0.494336
+16/06/2019 07:56:19 PM: INFO: Epoch[39] Batch [100-150]	Speed: 105.88 samples/sec	accuracy=0.825000	top_k_accuracy_5=0.978125	cross-entropy=0.563474
+16/06/2019 07:56:34 PM: INFO: Epoch[39] Batch [150-200]	Speed: 106.23 samples/sec	accuracy=0.839375	top_k_accuracy_5=0.977500	cross-entropy=0.517760
+16/06/2019 07:56:49 PM: INFO: Epoch[39] Batch [200-250]	Speed: 106.29 samples/sec	accuracy=0.837500	top_k_accuracy_5=0.977500	cross-entropy=0.531850
+16/06/2019 07:57:05 PM: INFO: Epoch[39] Batch [250-300]	Speed: 105.79 samples/sec	accuracy=0.831875	top_k_accuracy_5=0.979375	cross-entropy=0.517191
+16/06/2019 07:57:20 PM: INFO: Epoch[39] Batch [300-350]	Speed: 103.93 samples/sec	accuracy=0.843125	top_k_accuracy_5=0.978125	cross-entropy=0.544308
+16/06/2019 07:57:21 PM: INFO: Epoch[39] Train-accuracy=0.839071
+16/06/2019 07:57:21 PM: INFO: Epoch[39] Train-top_k_accuracy_5=0.977843
+16/06/2019 07:57:21 PM: INFO: Epoch[39] Train-cross-entropy=0.530716
+16/06/2019 07:57:21 PM: INFO: Epoch[39] Time cost=106.817
+16/06/2019 07:57:23 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0040.params"
+16/06/2019 07:57:30 PM: INFO: Epoch[39] Validation-accuracy=0.806332
+16/06/2019 07:57:30 PM: INFO: Epoch[39] Validation-top_k_accuracy_5=0.958470
+16/06/2019 07:57:30 PM: INFO: Epoch[39] Validation-cross-entropy=0.697262
+16/06/2019 07:57:45 PM: INFO: Epoch[40] Batch [0-50]	Speed: 105.73 samples/sec	accuracy=0.847426	top_k_accuracy_5=0.981005	cross-entropy=0.508056
+16/06/2019 07:58:01 PM: INFO: Epoch[40] Batch [50-100]	Speed: 102.73 samples/sec	accuracy=0.862500	top_k_accuracy_5=0.980625	cross-entropy=0.469026
+16/06/2019 07:58:16 PM: INFO: Epoch[40] Batch [100-150]	Speed: 106.63 samples/sec	accuracy=0.842500	top_k_accuracy_5=0.975000	cross-entropy=0.521418
+16/06/2019 07:58:31 PM: INFO: Epoch[40] Batch [150-200]	Speed: 105.42 samples/sec	accuracy=0.853125	top_k_accuracy_5=0.979375	cross-entropy=0.493541
+16/06/2019 07:58:46 PM: INFO: Epoch[40] Batch [200-250]	Speed: 106.31 samples/sec	accuracy=0.845625	top_k_accuracy_5=0.971875	cross-entropy=0.510865
+16/06/2019 07:59:02 PM: INFO: Epoch[40] Batch [250-300]	Speed: 103.43 samples/sec	accuracy=0.853750	top_k_accuracy_5=0.973750	cross-entropy=0.498945
+16/06/2019 07:59:17 PM: INFO: Epoch[40] Batch [300-350]	Speed: 106.65 samples/sec	accuracy=0.836250	top_k_accuracy_5=0.973125	cross-entropy=0.564059
+16/06/2019 07:59:18 PM: INFO: Epoch[40] Train-accuracy=0.848517
+16/06/2019 07:59:18 PM: INFO: Epoch[40] Train-top_k_accuracy_5=0.976607
+16/06/2019 07:59:18 PM: INFO: Epoch[40] Train-cross-entropy=0.509171
+16/06/2019 07:59:18 PM: INFO: Epoch[40] Time cost=107.442
+16/06/2019 07:59:19 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0041.params"
+16/06/2019 07:59:27 PM: INFO: Epoch[40] Validation-accuracy=0.805833
+16/06/2019 07:59:27 PM: INFO: Epoch[40] Validation-top_k_accuracy_5=0.959167
+16/06/2019 07:59:27 PM: INFO: Epoch[40] Validation-cross-entropy=0.693915
+16/06/2019 07:59:42 PM: INFO: Epoch[41] Batch [0-50]	Speed: 106.37 samples/sec	accuracy=0.834559	top_k_accuracy_5=0.975490	cross-entropy=0.565370
+16/06/2019 07:59:57 PM: INFO: Epoch[41] Batch [50-100]	Speed: 105.99 samples/sec	accuracy=0.859375	top_k_accuracy_5=0.980000	cross-entropy=0.473211
+16/06/2019 08:00:12 PM: INFO: Epoch[41] Batch [100-150]	Speed: 105.65 samples/sec	accuracy=0.861250	top_k_accuracy_5=0.978125	cross-entropy=0.462344
+16/06/2019 08:00:27 PM: INFO: Epoch[41] Batch [150-200]	Speed: 106.46 samples/sec	accuracy=0.850000	top_k_accuracy_5=0.978125	cross-entropy=0.487272
+16/06/2019 08:00:42 PM: INFO: Epoch[41] Batch [200-250]	Speed: 105.33 samples/sec	accuracy=0.860000	top_k_accuracy_5=0.978125	cross-entropy=0.458592
+16/06/2019 08:00:57 PM: INFO: Epoch[41] Batch [250-300]	Speed: 106.41 samples/sec	accuracy=0.860000	top_k_accuracy_5=0.980000	cross-entropy=0.473482
+16/06/2019 08:01:13 PM: INFO: Epoch[41] Batch [300-350]	Speed: 105.64 samples/sec	accuracy=0.858750	top_k_accuracy_5=0.978750	cross-entropy=0.464669
+16/06/2019 08:01:13 PM: INFO: Epoch[41] Train-accuracy=0.854785
+16/06/2019 08:01:13 PM: INFO: Epoch[41] Train-top_k_accuracy_5=0.978460
+16/06/2019 08:01:13 PM: INFO: Epoch[41] Train-cross-entropy=0.483833
+16/06/2019 08:01:13 PM: INFO: Epoch[41] Time cost=106.712
+16/06/2019 08:01:15 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0042.params"
+16/06/2019 08:01:23 PM: INFO: Epoch[41] Validation-accuracy=0.810444
+16/06/2019 08:01:23 PM: INFO: Epoch[41] Validation-top_k_accuracy_5=0.963816
+16/06/2019 08:01:23 PM: INFO: Epoch[41] Validation-cross-entropy=0.687553
+16/06/2019 08:01:38 PM: INFO: Epoch[42] Batch [0-50]	Speed: 106.12 samples/sec	accuracy=0.849265	top_k_accuracy_5=0.977941	cross-entropy=0.520873
+16/06/2019 08:01:53 PM: INFO: Epoch[42] Batch [50-100]	Speed: 106.06 samples/sec	accuracy=0.866250	top_k_accuracy_5=0.978125	cross-entropy=0.457076
+16/06/2019 08:02:08 PM: INFO: Epoch[42] Batch [100-150]	Speed: 104.73 samples/sec	accuracy=0.862500	top_k_accuracy_5=0.980625	cross-entropy=0.450221
+16/06/2019 08:02:23 PM: INFO: Epoch[42] Batch [150-200]	Speed: 105.17 samples/sec	accuracy=0.869375	top_k_accuracy_5=0.980625	cross-entropy=0.441620
+16/06/2019 08:02:39 PM: INFO: Epoch[42] Batch [200-250]	Speed: 105.57 samples/sec	accuracy=0.863750	top_k_accuracy_5=0.985625	cross-entropy=0.436620
+16/06/2019 08:02:54 PM: INFO: Epoch[42] Batch [250-300]	Speed: 104.64 samples/sec	accuracy=0.848750	top_k_accuracy_5=0.980625	cross-entropy=0.502241
+16/06/2019 08:03:09 PM: INFO: Epoch[42] Batch [300-350]	Speed: 105.30 samples/sec	accuracy=0.866250	top_k_accuracy_5=0.985625	cross-entropy=0.425202
+16/06/2019 08:03:10 PM: INFO: Epoch[42] Train-accuracy=0.860611
+16/06/2019 08:03:10 PM: INFO: Epoch[42] Train-top_k_accuracy_5=0.981109
+16/06/2019 08:03:10 PM: INFO: Epoch[42] Train-cross-entropy=0.463708
+16/06/2019 08:03:10 PM: INFO: Epoch[42] Time cost=107.310
+16/06/2019 08:03:12 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0043.params"
+16/06/2019 08:03:19 PM: INFO: Epoch[42] Validation-accuracy=0.816201
+16/06/2019 08:03:19 PM: INFO: Epoch[42] Validation-top_k_accuracy_5=0.964638
+16/06/2019 08:03:19 PM: INFO: Epoch[42] Validation-cross-entropy=0.674991
+16/06/2019 08:03:35 PM: INFO: Epoch[43] Batch [0-50]	Speed: 104.07 samples/sec	accuracy=0.860907	top_k_accuracy_5=0.982230	cross-entropy=0.481962
+16/06/2019 08:03:50 PM: INFO: Epoch[43] Batch [50-100]	Speed: 106.70 samples/sec	accuracy=0.862500	top_k_accuracy_5=0.978125	cross-entropy=0.478013
+16/06/2019 08:04:05 PM: INFO: Epoch[43] Batch [100-150]	Speed: 106.77 samples/sec	accuracy=0.855000	top_k_accuracy_5=0.985625	cross-entropy=0.444179
+16/06/2019 08:04:20 PM: INFO: Epoch[43] Batch [150-200]	Speed: 106.76 samples/sec	accuracy=0.875000	top_k_accuracy_5=0.985625	cross-entropy=0.422276
+16/06/2019 08:04:35 PM: INFO: Epoch[43] Batch [200-250]	Speed: 104.70 samples/sec	accuracy=0.873125	top_k_accuracy_5=0.984375	cross-entropy=0.412540
+16/06/2019 08:04:50 PM: INFO: Epoch[43] Batch [250-300]	Speed: 106.29 samples/sec	accuracy=0.881875	top_k_accuracy_5=0.982500	cross-entropy=0.409573
+16/06/2019 08:05:05 PM: INFO: Epoch[43] Batch [300-350]	Speed: 107.05 samples/sec	accuracy=0.865625	top_k_accuracy_5=0.985000	cross-entropy=0.430499
+16/06/2019 08:05:06 PM: INFO: Epoch[43] Train-accuracy=0.867320
+16/06/2019 08:05:06 PM: INFO: Epoch[43] Train-top_k_accuracy_5=0.983404
+16/06/2019 08:05:06 PM: INFO: Epoch[43] Train-cross-entropy=0.441094
+16/06/2019 08:05:06 PM: INFO: Epoch[43] Time cost=106.641
+16/06/2019 08:05:07 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0044.params"
+16/06/2019 08:05:15 PM: INFO: Epoch[43] Validation-accuracy=0.813322
+16/06/2019 08:05:15 PM: INFO: Epoch[43] Validation-top_k_accuracy_5=0.960938
+16/06/2019 08:05:15 PM: INFO: Epoch[43] Validation-cross-entropy=0.690793
+16/06/2019 08:05:30 PM: INFO: Epoch[44] Batch [0-50]	Speed: 107.07 samples/sec	accuracy=0.871936	top_k_accuracy_5=0.987745	cross-entropy=0.405074
+16/06/2019 08:05:45 PM: INFO: Epoch[44] Batch [50-100]	Speed: 107.38 samples/sec	accuracy=0.863125	top_k_accuracy_5=0.981250	cross-entropy=0.455709
+16/06/2019 08:06:00 PM: INFO: Epoch[44] Batch [100-150]	Speed: 107.43 samples/sec	accuracy=0.882500	top_k_accuracy_5=0.983750	cross-entropy=0.432120
+16/06/2019 08:06:15 PM: INFO: Epoch[44] Batch [150-200]	Speed: 107.30 samples/sec	accuracy=0.887500	top_k_accuracy_5=0.984375	cross-entropy=0.396435
+16/06/2019 08:06:30 PM: INFO: Epoch[44] Batch [200-250]	Speed: 107.56 samples/sec	accuracy=0.866250	top_k_accuracy_5=0.985000	cross-entropy=0.450741
+16/06/2019 08:06:45 PM: INFO: Epoch[44] Batch [250-300]	Speed: 107.17 samples/sec	accuracy=0.875000	top_k_accuracy_5=0.984375	cross-entropy=0.404961
+16/06/2019 08:07:00 PM: INFO: Epoch[44] Batch [300-350]	Speed: 107.29 samples/sec	accuracy=0.878750	top_k_accuracy_5=0.987500	cross-entropy=0.391168
+16/06/2019 08:07:01 PM: INFO: Epoch[44] Train-accuracy=0.875177
+16/06/2019 08:07:01 PM: INFO: Epoch[44] Train-top_k_accuracy_5=0.984993
+16/06/2019 08:07:01 PM: INFO: Epoch[44] Train-cross-entropy=0.418946
+16/06/2019 08:07:01 PM: INFO: Epoch[44] Time cost=105.387
+16/06/2019 08:07:02 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0045.params"
+16/06/2019 08:07:10 PM: INFO: Epoch[44] Validation-accuracy=0.817023
+16/06/2019 08:07:10 PM: INFO: Epoch[44] Validation-top_k_accuracy_5=0.954770
+16/06/2019 08:07:10 PM: INFO: Epoch[44] Validation-cross-entropy=0.675169
+16/06/2019 08:07:25 PM: INFO: Epoch[45] Batch [0-50]	Speed: 107.24 samples/sec	accuracy=0.870711	top_k_accuracy_5=0.982843	cross-entropy=0.427151
+16/06/2019 08:07:40 PM: INFO: Epoch[45] Batch [50-100]	Speed: 107.22 samples/sec	accuracy=0.875625	top_k_accuracy_5=0.980000	cross-entropy=0.434912
+16/06/2019 08:07:55 PM: INFO: Epoch[45] Batch [100-150]	Speed: 105.90 samples/sec	accuracy=0.873750	top_k_accuracy_5=0.987500	cross-entropy=0.409260
+16/06/2019 08:08:11 PM: INFO: Epoch[45] Batch [150-200]	Speed: 102.11 samples/sec	accuracy=0.891250	top_k_accuracy_5=0.985625	cross-entropy=0.372717
+16/06/2019 08:08:26 PM: INFO: Epoch[45] Batch [200-250]	Speed: 105.95 samples/sec	accuracy=0.869375	top_k_accuracy_5=0.985000	cross-entropy=0.422756
+16/06/2019 08:08:41 PM: INFO: Epoch[45] Batch [250-300]	Speed: 106.01 samples/sec	accuracy=0.876250	top_k_accuracy_5=0.983750	cross-entropy=0.425657
+16/06/2019 08:08:56 PM: INFO: Epoch[45] Batch [300-350]	Speed: 106.01 samples/sec	accuracy=0.873750	top_k_accuracy_5=0.985000	cross-entropy=0.416895
+16/06/2019 08:08:57 PM: INFO: Epoch[45] Train-accuracy=0.875883
+16/06/2019 08:08:57 PM: INFO: Epoch[45] Train-top_k_accuracy_5=0.984110
+16/06/2019 08:08:57 PM: INFO: Epoch[45] Train-cross-entropy=0.415465
+16/06/2019 08:08:57 PM: INFO: Epoch[45] Time cost=106.928
+16/06/2019 08:08:59 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0046.params"
+16/06/2019 08:09:06 PM: INFO: Epoch[45] Validation-accuracy=0.816612
+16/06/2019 08:09:06 PM: INFO: Epoch[45] Validation-top_k_accuracy_5=0.957648
+16/06/2019 08:09:06 PM: INFO: Epoch[45] Validation-cross-entropy=0.700478
+16/06/2019 08:09:21 PM: INFO: Epoch[46] Batch [0-50]	Speed: 105.47 samples/sec	accuracy=0.876838	top_k_accuracy_5=0.985907	cross-entropy=0.384212
+16/06/2019 08:09:37 PM: INFO: Epoch[46] Batch [50-100]	Speed: 106.09 samples/sec	accuracy=0.880000	top_k_accuracy_5=0.985625	cross-entropy=0.403905
+16/06/2019 08:09:52 PM: INFO: Epoch[46] Batch [100-150]	Speed: 106.06 samples/sec	accuracy=0.886875	top_k_accuracy_5=0.986875	cross-entropy=0.384656
+16/06/2019 08:10:07 PM: INFO: Epoch[46] Batch [150-200]	Speed: 106.18 samples/sec	accuracy=0.878125	top_k_accuracy_5=0.980000	cross-entropy=0.409868
+16/06/2019 08:10:22 PM: INFO: Epoch[46] Batch [200-250]	Speed: 106.37 samples/sec	accuracy=0.880000	top_k_accuracy_5=0.985000	cross-entropy=0.393557
+16/06/2019 08:10:37 PM: INFO: Epoch[46] Batch [250-300]	Speed: 106.34 samples/sec	accuracy=0.876875	top_k_accuracy_5=0.983750	cross-entropy=0.413298
+16/06/2019 08:10:52 PM: INFO: Epoch[46] Batch [300-350]	Speed: 106.07 samples/sec	accuracy=0.882500	top_k_accuracy_5=0.981875	cross-entropy=0.413854
+16/06/2019 08:10:53 PM: INFO: Epoch[46] Train-accuracy=0.880473
+16/06/2019 08:10:53 PM: INFO: Epoch[46] Train-top_k_accuracy_5=0.984198
+16/06/2019 08:10:53 PM: INFO: Epoch[46] Train-cross-entropy=0.400185
+16/06/2019 08:10:53 PM: INFO: Epoch[46] Time cost=106.610
+16/06/2019 08:10:54 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0047.params"
+16/06/2019 08:11:02 PM: INFO: Epoch[46] Validation-accuracy=0.830833
+16/06/2019 08:11:02 PM: INFO: Epoch[46] Validation-top_k_accuracy_5=0.966250
+16/06/2019 08:11:02 PM: INFO: Epoch[46] Validation-cross-entropy=0.610213
+16/06/2019 08:11:17 PM: INFO: Epoch[47] Batch [0-50]	Speed: 106.32 samples/sec	accuracy=0.881740	top_k_accuracy_5=0.982230	cross-entropy=0.393791
+16/06/2019 08:11:33 PM: INFO: Epoch[47] Batch [50-100]	Speed: 104.52 samples/sec	accuracy=0.876875	top_k_accuracy_5=0.985625	cross-entropy=0.405655
+16/06/2019 08:11:48 PM: INFO: Epoch[47] Batch [100-150]	Speed: 106.42 samples/sec	accuracy=0.873750	top_k_accuracy_5=0.984375	cross-entropy=0.418969
+16/06/2019 08:12:03 PM: INFO: Epoch[47] Batch [150-200]	Speed: 105.54 samples/sec	accuracy=0.890000	top_k_accuracy_5=0.983125	cross-entropy=0.384256
+16/06/2019 08:12:18 PM: INFO: Epoch[47] Batch [200-250]	Speed: 104.08 samples/sec	accuracy=0.888750	top_k_accuracy_5=0.988125	cross-entropy=0.381783
+16/06/2019 08:12:33 PM: INFO: Epoch[47] Batch [250-300]	Speed: 105.16 samples/sec	accuracy=0.883125	top_k_accuracy_5=0.988125	cross-entropy=0.374081
+16/06/2019 08:12:49 PM: INFO: Epoch[47] Batch [300-350]	Speed: 105.09 samples/sec	accuracy=0.891875	top_k_accuracy_5=0.984375	cross-entropy=0.377505
+16/06/2019 08:12:50 PM: INFO: Epoch[47] Train-accuracy=0.883363
+16/06/2019 08:12:50 PM: INFO: Epoch[47] Train-top_k_accuracy_5=0.984947
+16/06/2019 08:12:50 PM: INFO: Epoch[47] Train-cross-entropy=0.392276
+16/06/2019 08:12:50 PM: INFO: Epoch[47] Time cost=107.783
+16/06/2019 08:12:51 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0048.params"
+16/06/2019 08:12:59 PM: INFO: Epoch[47] Validation-accuracy=0.817434
+16/06/2019 08:12:59 PM: INFO: Epoch[47] Validation-top_k_accuracy_5=0.965872
+16/06/2019 08:12:59 PM: INFO: Epoch[47] Validation-cross-entropy=0.662064
+16/06/2019 08:13:14 PM: INFO: Epoch[48] Batch [0-50]	Speed: 104.37 samples/sec	accuracy=0.878064	top_k_accuracy_5=0.988971	cross-entropy=0.404103
+16/06/2019 08:13:30 PM: INFO: Epoch[48] Batch [50-100]	Speed: 105.82 samples/sec	accuracy=0.893750	top_k_accuracy_5=0.986875	cross-entropy=0.357529
+16/06/2019 08:13:45 PM: INFO: Epoch[48] Batch [100-150]	Speed: 104.52 samples/sec	accuracy=0.887500	top_k_accuracy_5=0.986875	cross-entropy=0.357132
+16/06/2019 08:14:00 PM: INFO: Epoch[48] Batch [150-200]	Speed: 103.51 samples/sec	accuracy=0.890625	top_k_accuracy_5=0.989375	cross-entropy=0.343925
+16/06/2019 08:14:16 PM: INFO: Epoch[48] Batch [200-250]	Speed: 105.76 samples/sec	accuracy=0.885625	top_k_accuracy_5=0.988125	cross-entropy=0.385721
+16/06/2019 08:14:31 PM: INFO: Epoch[48] Batch [250-300]	Speed: 105.66 samples/sec	accuracy=0.906875	top_k_accuracy_5=0.989375	cross-entropy=0.312262
+16/06/2019 08:14:46 PM: INFO: Epoch[48] Batch [300-350]	Speed: 104.86 samples/sec	accuracy=0.887500	top_k_accuracy_5=0.986250	cross-entropy=0.362547
+16/06/2019 08:14:47 PM: INFO: Epoch[48] Train-accuracy=0.890095
+16/06/2019 08:14:47 PM: INFO: Epoch[48] Train-top_k_accuracy_5=0.987994
+16/06/2019 08:14:47 PM: INFO: Epoch[48] Train-cross-entropy=0.360282
+16/06/2019 08:14:47 PM: INFO: Epoch[48] Time cost=107.836
+16/06/2019 08:14:48 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0049.params"
+16/06/2019 08:14:56 PM: INFO: Epoch[48] Validation-accuracy=0.831003
+16/06/2019 08:14:56 PM: INFO: Epoch[48] Validation-top_k_accuracy_5=0.961760
+16/06/2019 08:14:56 PM: INFO: Epoch[48] Validation-cross-entropy=0.669046
+16/06/2019 08:15:12 PM: INFO: Epoch[49] Batch [0-50]	Speed: 104.68 samples/sec	accuracy=0.884804	top_k_accuracy_5=0.981618	cross-entropy=0.377349
+16/06/2019 08:15:27 PM: INFO: Epoch[49] Batch [50-100]	Speed: 106.21 samples/sec	accuracy=0.887500	top_k_accuracy_5=0.987500	cross-entropy=0.368077
+16/06/2019 08:15:42 PM: INFO: Epoch[49] Batch [100-150]	Speed: 106.01 samples/sec	accuracy=0.880000	top_k_accuracy_5=0.989375	cross-entropy=0.384559
+16/06/2019 08:15:57 PM: INFO: Epoch[49] Batch [150-200]	Speed: 105.08 samples/sec	accuracy=0.901250	top_k_accuracy_5=0.986875	cross-entropy=0.347881
+16/06/2019 08:16:12 PM: INFO: Epoch[49] Batch [200-250]	Speed: 104.74 samples/sec	accuracy=0.906875	top_k_accuracy_5=0.992500	cross-entropy=0.331616
+16/06/2019 08:16:28 PM: INFO: Epoch[49] Batch [250-300]	Speed: 105.23 samples/sec	accuracy=0.890625	top_k_accuracy_5=0.990000	cross-entropy=0.357838
+16/06/2019 08:16:43 PM: INFO: Epoch[49] Batch [300-350]	Speed: 106.56 samples/sec	accuracy=0.896250	top_k_accuracy_5=0.984375	cross-entropy=0.353754
+16/06/2019 08:16:44 PM: INFO: Epoch[49] Train-accuracy=0.892302
+16/06/2019 08:16:44 PM: INFO: Epoch[49] Train-top_k_accuracy_5=0.987288
+16/06/2019 08:16:44 PM: INFO: Epoch[49] Train-cross-entropy=0.362124
+16/06/2019 08:16:44 PM: INFO: Epoch[49] Time cost=107.190
+16/06/2019 08:16:45 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0050.params"
+16/06/2019 08:16:53 PM: INFO: Epoch[49] Validation-accuracy=0.828947
+16/06/2019 08:16:53 PM: INFO: Epoch[49] Validation-top_k_accuracy_5=0.962993
+16/06/2019 08:16:53 PM: INFO: Epoch[49] Validation-cross-entropy=0.642012
+16/06/2019 09:38:54 PM: INFO: Epoch[50] Batch [0-50]	Speed: 105.12 samples/sec	accuracy=0.924020	top_k_accuracy_5=0.988358	cross-entropy=0.275307
+16/06/2019 09:39:09 PM: INFO: Epoch[50] Batch [50-100]	Speed: 107.03 samples/sec	accuracy=0.929375	top_k_accuracy_5=0.995000	cross-entropy=0.237351
+16/06/2019 09:39:24 PM: INFO: Epoch[50] Batch [100-150]	Speed: 105.63 samples/sec	accuracy=0.925625	top_k_accuracy_5=0.991875	cross-entropy=0.260671
+16/06/2019 09:39:40 PM: INFO: Epoch[50] Batch [150-200]	Speed: 104.07 samples/sec	accuracy=0.928125	top_k_accuracy_5=0.993125	cross-entropy=0.244065
+16/06/2019 09:39:55 PM: INFO: Epoch[50] Batch [200-250]	Speed: 105.38 samples/sec	accuracy=0.934375	top_k_accuracy_5=0.993750	cross-entropy=0.221878
+16/06/2019 09:40:10 PM: INFO: Epoch[50] Batch [250-300]	Speed: 104.82 samples/sec	accuracy=0.935625	top_k_accuracy_5=0.995625	cross-entropy=0.211879
+16/06/2019 09:40:25 PM: INFO: Epoch[50] Batch [300-350]	Speed: 105.23 samples/sec	accuracy=0.928125	top_k_accuracy_5=0.994375	cross-entropy=0.228810
+16/06/2019 09:40:26 PM: INFO: Epoch[50] Train-accuracy=0.929137
+16/06/2019 09:40:26 PM: INFO: Epoch[50] Train-top_k_accuracy_5=0.993046
+16/06/2019 09:40:26 PM: INFO: Epoch[50] Train-cross-entropy=0.239923
+16/06/2019 09:40:26 PM: INFO: Epoch[50] Time cost=107.985
+16/06/2019 09:40:28 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0051.params"
+16/06/2019 09:40:36 PM: INFO: Epoch[50] Validation-accuracy=0.844572
+16/06/2019 09:40:36 PM: INFO: Epoch[50] Validation-top_k_accuracy_5=0.965461
+16/06/2019 09:40:36 PM: INFO: Epoch[50] Validation-cross-entropy=0.590243
+16/06/2019 09:40:51 PM: INFO: Epoch[51] Batch [0-50]	Speed: 105.07 samples/sec	accuracy=0.937500	top_k_accuracy_5=0.994485	cross-entropy=0.205069
+16/06/2019 09:41:06 PM: INFO: Epoch[51] Batch [50-100]	Speed: 104.20 samples/sec	accuracy=0.933750	top_k_accuracy_5=0.992500	cross-entropy=0.216757
+16/06/2019 09:41:22 PM: INFO: Epoch[51] Batch [100-150]	Speed: 103.89 samples/sec	accuracy=0.929375	top_k_accuracy_5=0.992500	cross-entropy=0.255148
+16/06/2019 09:41:37 PM: INFO: Epoch[51] Batch [150-200]	Speed: 104.21 samples/sec	accuracy=0.939375	top_k_accuracy_5=0.991875	cross-entropy=0.219403
+16/06/2019 09:41:52 PM: INFO: Epoch[51] Batch [200-250]	Speed: 105.55 samples/sec	accuracy=0.929375	top_k_accuracy_5=0.995625	cross-entropy=0.225542
+16/06/2019 09:42:08 PM: INFO: Epoch[51] Batch [250-300]	Speed: 105.34 samples/sec	accuracy=0.945625	top_k_accuracy_5=0.995625	cross-entropy=0.185627
+16/06/2019 09:42:23 PM: INFO: Epoch[51] Batch [300-350]	Speed: 104.74 samples/sec	accuracy=0.941250	top_k_accuracy_5=0.996875	cross-entropy=0.180714
+16/06/2019 09:42:24 PM: INFO: Epoch[51] Train-accuracy=0.936441
+16/06/2019 09:42:24 PM: INFO: Epoch[51] Train-top_k_accuracy_5=0.994174
+16/06/2019 09:42:24 PM: INFO: Epoch[51] Train-cross-entropy=0.212876
+16/06/2019 09:42:24 PM: INFO: Epoch[51] Time cost=107.990
+16/06/2019 09:42:25 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0052.params"
+16/06/2019 09:42:33 PM: INFO: Epoch[51] Validation-accuracy=0.844984
+16/06/2019 09:42:33 PM: INFO: Epoch[51] Validation-top_k_accuracy_5=0.969161
+16/06/2019 09:42:33 PM: INFO: Epoch[51] Validation-cross-entropy=0.596336
+16/06/2019 09:42:48 PM: INFO: Epoch[52] Batch [0-50]	Speed: 106.29 samples/sec	accuracy=0.936887	top_k_accuracy_5=0.994485	cross-entropy=0.218099
+16/06/2019 09:43:03 PM: INFO: Epoch[52] Batch [50-100]	Speed: 106.09 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.993750	cross-entropy=0.192617
+16/06/2019 09:43:18 PM: INFO: Epoch[52] Batch [100-150]	Speed: 105.21 samples/sec	accuracy=0.937500	top_k_accuracy_5=0.995625	cross-entropy=0.218544
+16/06/2019 09:43:33 PM: INFO: Epoch[52] Batch [150-200]	Speed: 105.45 samples/sec	accuracy=0.940625	top_k_accuracy_5=0.993750	cross-entropy=0.189450
+16/06/2019 09:43:49 PM: INFO: Epoch[52] Batch [200-250]	Speed: 104.63 samples/sec	accuracy=0.943125	top_k_accuracy_5=0.994375	cross-entropy=0.189942
+16/06/2019 09:44:04 PM: INFO: Epoch[52] Batch [250-300]	Speed: 102.49 samples/sec	accuracy=0.940000	top_k_accuracy_5=0.995000	cross-entropy=0.179824
+16/06/2019 09:44:20 PM: INFO: Epoch[52] Batch [300-350]	Speed: 99.39 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.995625	cross-entropy=0.164966
+16/06/2019 09:44:21 PM: INFO: Epoch[52] Train-accuracy=0.942002
+16/06/2019 09:44:21 PM: INFO: Epoch[52] Train-top_k_accuracy_5=0.994527
+16/06/2019 09:44:21 PM: INFO: Epoch[52] Train-cross-entropy=0.193791
+16/06/2019 09:44:21 PM: INFO: Epoch[52] Time cost=108.603
+16/06/2019 09:44:23 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0053.params"
+16/06/2019 09:44:31 PM: INFO: Epoch[52] Validation-accuracy=0.842928
+16/06/2019 09:44:31 PM: INFO: Epoch[52] Validation-top_k_accuracy_5=0.967105
+16/06/2019 09:44:31 PM: INFO: Epoch[52] Validation-cross-entropy=0.616620
+16/06/2019 09:44:46 PM: INFO: Epoch[53] Batch [0-50]	Speed: 104.32 samples/sec	accuracy=0.941176	top_k_accuracy_5=0.994485	cross-entropy=0.193799
+16/06/2019 09:45:01 PM: INFO: Epoch[53] Batch [50-100]	Speed: 104.61 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.995625	cross-entropy=0.182135
+16/06/2019 09:45:17 PM: INFO: Epoch[53] Batch [100-150]	Speed: 103.96 samples/sec	accuracy=0.938125	top_k_accuracy_5=0.994375	cross-entropy=0.207317
+16/06/2019 09:45:32 PM: INFO: Epoch[53] Batch [150-200]	Speed: 103.80 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.996250	cross-entropy=0.192118
+16/06/2019 09:45:48 PM: INFO: Epoch[53] Batch [200-250]	Speed: 103.43 samples/sec	accuracy=0.950000	top_k_accuracy_5=0.996250	cross-entropy=0.168364
+16/06/2019 09:46:03 PM: INFO: Epoch[53] Batch [250-300]	Speed: 103.26 samples/sec	accuracy=0.943125	top_k_accuracy_5=0.993750	cross-entropy=0.182522
+16/06/2019 09:46:19 PM: INFO: Epoch[53] Batch [300-350]	Speed: 103.99 samples/sec	accuracy=0.944375	top_k_accuracy_5=0.993750	cross-entropy=0.198377
+16/06/2019 09:46:19 PM: INFO: Epoch[53] Train-accuracy=0.944032
+16/06/2019 09:46:19 PM: INFO: Epoch[53] Train-top_k_accuracy_5=0.994880
+16/06/2019 09:46:19 PM: INFO: Epoch[53] Train-cross-entropy=0.190064
+16/06/2019 09:46:19 PM: INFO: Epoch[53] Time cost=108.831
+16/06/2019 09:46:21 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0054.params"
+16/06/2019 09:46:29 PM: INFO: Epoch[53] Validation-accuracy=0.850740
+16/06/2019 09:46:29 PM: INFO: Epoch[53] Validation-top_k_accuracy_5=0.967928
+16/06/2019 09:46:29 PM: INFO: Epoch[53] Validation-cross-entropy=0.592072
+16/06/2019 09:46:44 PM: INFO: Epoch[54] Batch [0-50]	Speed: 105.09 samples/sec	accuracy=0.950368	top_k_accuracy_5=0.993260	cross-entropy=0.172289
+16/06/2019 09:46:59 PM: INFO: Epoch[54] Batch [50-100]	Speed: 104.26 samples/sec	accuracy=0.941875	top_k_accuracy_5=0.993750	cross-entropy=0.195038
+16/06/2019 09:47:15 PM: INFO: Epoch[54] Batch [100-150]	Speed: 104.28 samples/sec	accuracy=0.935625	top_k_accuracy_5=0.993750	cross-entropy=0.196780
+16/06/2019 09:47:30 PM: INFO: Epoch[54] Batch [150-200]	Speed: 102.77 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.996250	cross-entropy=0.167168
+16/06/2019 09:47:46 PM: INFO: Epoch[54] Batch [200-250]	Speed: 104.58 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.996250	cross-entropy=0.173863
+16/06/2019 09:48:01 PM: INFO: Epoch[54] Batch [250-300]	Speed: 104.05 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.996250	cross-entropy=0.179798
+16/06/2019 09:48:16 PM: INFO: Epoch[54] Batch [300-350]	Speed: 104.11 samples/sec	accuracy=0.937500	top_k_accuracy_5=0.994375	cross-entropy=0.191164
+16/06/2019 09:48:17 PM: INFO: Epoch[54] Train-accuracy=0.944915
+16/06/2019 09:48:17 PM: INFO: Epoch[54] Train-top_k_accuracy_5=0.994792
+16/06/2019 09:48:17 PM: INFO: Epoch[54] Train-cross-entropy=0.181747
+16/06/2019 09:48:17 PM: INFO: Epoch[54] Time cost=108.561
+16/06/2019 09:48:19 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0055.params"
+16/06/2019 09:48:27 PM: INFO: Epoch[54] Validation-accuracy=0.847862
+16/06/2019 09:48:27 PM: INFO: Epoch[54] Validation-top_k_accuracy_5=0.969572
+16/06/2019 09:48:27 PM: INFO: Epoch[54] Validation-cross-entropy=0.602616
+16/06/2019 09:48:42 PM: INFO: Epoch[55] Batch [0-50]	Speed: 104.11 samples/sec	accuracy=0.950368	top_k_accuracy_5=0.993260	cross-entropy=0.182911
+16/06/2019 09:48:57 PM: INFO: Epoch[55] Batch [50-100]	Speed: 104.04 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.991250	cross-entropy=0.182840
+16/06/2019 09:49:13 PM: INFO: Epoch[55] Batch [100-150]	Speed: 104.11 samples/sec	accuracy=0.941250	top_k_accuracy_5=0.993750	cross-entropy=0.182469
+16/06/2019 09:49:28 PM: INFO: Epoch[55] Batch [150-200]	Speed: 104.28 samples/sec	accuracy=0.946250	top_k_accuracy_5=0.996875	cross-entropy=0.173398
+16/06/2019 09:49:43 PM: INFO: Epoch[55] Batch [200-250]	Speed: 105.27 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.996250	cross-entropy=0.155174
+16/06/2019 09:49:59 PM: INFO: Epoch[55] Batch [250-300]	Speed: 103.99 samples/sec	accuracy=0.941875	top_k_accuracy_5=0.997500	cross-entropy=0.182712
+16/06/2019 09:50:14 PM: INFO: Epoch[55] Batch [300-350]	Speed: 104.45 samples/sec	accuracy=0.940625	top_k_accuracy_5=0.995625	cross-entropy=0.201458
+16/06/2019 09:50:15 PM: INFO: Epoch[55] Train-accuracy=0.945798
+16/06/2019 09:50:15 PM: INFO: Epoch[55] Train-top_k_accuracy_5=0.994792
+16/06/2019 09:50:15 PM: INFO: Epoch[55] Train-cross-entropy=0.180511
+16/06/2019 09:50:15 PM: INFO: Epoch[55] Time cost=108.390
+16/06/2019 09:50:16 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0056.params"
+16/06/2019 09:50:24 PM: INFO: Epoch[55] Validation-accuracy=0.842516
+16/06/2019 09:50:24 PM: INFO: Epoch[55] Validation-top_k_accuracy_5=0.966694
+16/06/2019 09:50:24 PM: INFO: Epoch[55] Validation-cross-entropy=0.619994
+16/06/2019 09:50:40 PM: INFO: Epoch[56] Batch [0-50]	Speed: 103.93 samples/sec	accuracy=0.947917	top_k_accuracy_5=0.997549	cross-entropy=0.174235
+16/06/2019 09:50:55 PM: INFO: Epoch[56] Batch [50-100]	Speed: 103.84 samples/sec	accuracy=0.943750	top_k_accuracy_5=0.991250	cross-entropy=0.208290
+16/06/2019 09:51:10 PM: INFO: Epoch[56] Batch [100-150]	Speed: 104.03 samples/sec	accuracy=0.938750	top_k_accuracy_5=0.995000	cross-entropy=0.185523
+16/06/2019 09:51:26 PM: INFO: Epoch[56] Batch [150-200]	Speed: 103.38 samples/sec	accuracy=0.950000	top_k_accuracy_5=0.993750	cross-entropy=0.180358
+16/06/2019 09:51:41 PM: INFO: Epoch[56] Batch [200-250]	Speed: 103.26 samples/sec	accuracy=0.941250	top_k_accuracy_5=0.994375	cross-entropy=0.194371
+16/06/2019 09:51:57 PM: INFO: Epoch[56] Batch [250-300]	Speed: 103.66 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.995000	cross-entropy=0.158255
+16/06/2019 09:52:12 PM: INFO: Epoch[56] Batch [300-350]	Speed: 103.80 samples/sec	accuracy=0.948125	top_k_accuracy_5=0.995000	cross-entropy=0.167911
+16/06/2019 09:52:13 PM: INFO: Epoch[56] Train-accuracy=0.945975
+16/06/2019 09:52:13 PM: INFO: Epoch[56] Train-top_k_accuracy_5=0.994527
+16/06/2019 09:52:13 PM: INFO: Epoch[56] Train-cross-entropy=0.181057
+16/06/2019 09:52:13 PM: INFO: Epoch[56] Time cost=109.042
+16/06/2019 09:52:15 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0057.params"
+16/06/2019 09:52:23 PM: INFO: Epoch[56] Validation-accuracy=0.851667
+16/06/2019 09:52:23 PM: INFO: Epoch[56] Validation-top_k_accuracy_5=0.971250
+16/06/2019 09:52:23 PM: INFO: Epoch[56] Validation-cross-entropy=0.593219
+16/06/2019 09:52:38 PM: INFO: Epoch[57] Batch [0-50]	Speed: 103.48 samples/sec	accuracy=0.944853	top_k_accuracy_5=0.999387	cross-entropy=0.172014
+16/06/2019 09:52:54 PM: INFO: Epoch[57] Batch [50-100]	Speed: 102.91 samples/sec	accuracy=0.941875	top_k_accuracy_5=0.993750	cross-entropy=0.172484
+16/06/2019 09:53:09 PM: INFO: Epoch[57] Batch [100-150]	Speed: 102.55 samples/sec	accuracy=0.943750	top_k_accuracy_5=0.996250	cross-entropy=0.180187
+16/06/2019 09:53:25 PM: INFO: Epoch[57] Batch [150-200]	Speed: 101.41 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.996250	cross-entropy=0.157978
+16/06/2019 09:53:41 PM: INFO: Epoch[57] Batch [200-250]	Speed: 103.28 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.998125	cross-entropy=0.161078
+16/06/2019 09:53:56 PM: INFO: Epoch[57] Batch [250-300]	Speed: 104.93 samples/sec	accuracy=0.941250	top_k_accuracy_5=0.993125	cross-entropy=0.196526
+16/06/2019 09:54:11 PM: INFO: Epoch[57] Batch [300-350]	Speed: 103.18 samples/sec	accuracy=0.945625	top_k_accuracy_5=0.994375	cross-entropy=0.168270
+16/06/2019 09:54:12 PM: INFO: Epoch[57] Train-accuracy=0.945975
+16/06/2019 09:54:12 PM: INFO: Epoch[57] Train-top_k_accuracy_5=0.995939
+16/06/2019 09:54:12 PM: INFO: Epoch[57] Train-cross-entropy=0.172254
+16/06/2019 09:54:12 PM: INFO: Epoch[57] Time cost=109.744
+16/06/2019 09:54:14 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0058.params"
+16/06/2019 09:54:22 PM: INFO: Epoch[57] Validation-accuracy=0.845395
+16/06/2019 09:54:22 PM: INFO: Epoch[57] Validation-top_k_accuracy_5=0.972039
+16/06/2019 09:54:22 PM: INFO: Epoch[57] Validation-cross-entropy=0.606271
+16/06/2019 09:54:37 PM: INFO: Epoch[58] Batch [0-50]	Speed: 103.33 samples/sec	accuracy=0.947304	top_k_accuracy_5=0.994485	cross-entropy=0.155167
+16/06/2019 09:54:53 PM: INFO: Epoch[58] Batch [50-100]	Speed: 101.64 samples/sec	accuracy=0.945000	top_k_accuracy_5=0.996250	cross-entropy=0.174080
+16/06/2019 09:55:09 PM: INFO: Epoch[58] Batch [100-150]	Speed: 102.36 samples/sec	accuracy=0.946250	top_k_accuracy_5=0.995000	cross-entropy=0.164990
+16/06/2019 09:55:24 PM: INFO: Epoch[58] Batch [150-200]	Speed: 103.00 samples/sec	accuracy=0.950000	top_k_accuracy_5=0.996875	cross-entropy=0.158913
+16/06/2019 09:55:40 PM: INFO: Epoch[58] Batch [200-250]	Speed: 103.31 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.996875	cross-entropy=0.154808
+16/06/2019 09:55:55 PM: INFO: Epoch[58] Batch [250-300]	Speed: 103.34 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.997500	cross-entropy=0.153321
+16/06/2019 09:56:11 PM: INFO: Epoch[58] Batch [300-350]	Speed: 99.49 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.995000	cross-entropy=0.166640
+16/06/2019 09:56:12 PM: INFO: Epoch[58] Train-accuracy=0.949153
+16/06/2019 09:56:12 PM: INFO: Epoch[58] Train-top_k_accuracy_5=0.996028
+16/06/2019 09:56:12 PM: INFO: Epoch[58] Train-cross-entropy=0.160825
+16/06/2019 09:56:12 PM: INFO: Epoch[58] Time cost=110.502
+16/06/2019 09:56:14 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0059.params"
+16/06/2019 09:56:22 PM: INFO: Epoch[58] Validation-accuracy=0.841694
+16/06/2019 09:56:22 PM: INFO: Epoch[58] Validation-top_k_accuracy_5=0.967105
+16/06/2019 09:56:22 PM: INFO: Epoch[58] Validation-cross-entropy=0.618241
+16/06/2019 09:56:38 PM: INFO: Epoch[59] Batch [0-50]	Speed: 101.05 samples/sec	accuracy=0.960172	top_k_accuracy_5=1.000000	cross-entropy=0.135576
+16/06/2019 09:56:53 PM: INFO: Epoch[59] Batch [50-100]	Speed: 101.23 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.996875	cross-entropy=0.137136
+16/06/2019 09:57:09 PM: INFO: Epoch[59] Batch [100-150]	Speed: 103.16 samples/sec	accuracy=0.946875	top_k_accuracy_5=0.992500	cross-entropy=0.169063
+16/06/2019 09:57:25 PM: INFO: Epoch[59] Batch [150-200]	Speed: 102.02 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996250	cross-entropy=0.139162
+16/06/2019 09:57:40 PM: INFO: Epoch[59] Batch [200-250]	Speed: 102.09 samples/sec	accuracy=0.952500	top_k_accuracy_5=0.996250	cross-entropy=0.158456
+16/06/2019 09:57:56 PM: INFO: Epoch[59] Batch [250-300]	Speed: 100.89 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.995000	cross-entropy=0.160488
+16/06/2019 09:58:12 PM: INFO: Epoch[59] Batch [300-350]	Speed: 103.97 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.998125	cross-entropy=0.144419
+16/06/2019 09:58:13 PM: INFO: Epoch[59] Train-accuracy=0.954714
+16/06/2019 09:58:13 PM: INFO: Epoch[59] Train-top_k_accuracy_5=0.996469
+16/06/2019 09:58:13 PM: INFO: Epoch[59] Train-cross-entropy=0.149210
+16/06/2019 09:58:13 PM: INFO: Epoch[59] Time cost=110.819
+16/06/2019 09:58:14 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0060.params"
+16/06/2019 09:58:22 PM: INFO: Epoch[59] Validation-accuracy=0.846628
+16/06/2019 09:58:22 PM: INFO: Epoch[59] Validation-top_k_accuracy_5=0.967516
+16/06/2019 09:58:22 PM: INFO: Epoch[59] Validation-cross-entropy=0.627265
+16/06/2019 09:58:37 PM: INFO: Epoch[60] Batch [0-50]	Speed: 103.50 samples/sec	accuracy=0.949755	top_k_accuracy_5=0.996936	cross-entropy=0.154692
+16/06/2019 09:58:53 PM: INFO: Epoch[60] Batch [50-100]	Speed: 103.14 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.995625	cross-entropy=0.153989
+16/06/2019 09:59:08 PM: INFO: Epoch[60] Batch [100-150]	Speed: 103.04 samples/sec	accuracy=0.948750	top_k_accuracy_5=0.996875	cross-entropy=0.170529
+16/06/2019 09:59:24 PM: INFO: Epoch[60] Batch [150-200]	Speed: 103.08 samples/sec	accuracy=0.958125	top_k_accuracy_5=0.995625	cross-entropy=0.139386
+16/06/2019 09:59:39 PM: INFO: Epoch[60] Batch [200-250]	Speed: 103.20 samples/sec	accuracy=0.946250	top_k_accuracy_5=0.993750	cross-entropy=0.172661
+16/06/2019 09:59:55 PM: INFO: Epoch[60] Batch [250-300]	Speed: 103.46 samples/sec	accuracy=0.946875	top_k_accuracy_5=0.992500	cross-entropy=0.171254
+16/06/2019 10:00:10 PM: INFO: Epoch[60] Batch [300-350]	Speed: 103.02 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.995625	cross-entropy=0.144420
+16/06/2019 10:00:12 PM: INFO: Epoch[60] Train-accuracy=0.951056
+16/06/2019 10:00:12 PM: INFO: Epoch[60] Train-top_k_accuracy_5=0.995246
+16/06/2019 10:00:12 PM: INFO: Epoch[60] Train-cross-entropy=0.157936
+16/06/2019 10:00:12 PM: INFO: Epoch[60] Time cost=109.917
+16/06/2019 10:00:13 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0061.params"
+16/06/2019 10:00:21 PM: INFO: Epoch[60] Validation-accuracy=0.842928
+16/06/2019 10:00:21 PM: INFO: Epoch[60] Validation-top_k_accuracy_5=0.967928
+16/06/2019 10:00:21 PM: INFO: Epoch[60] Validation-cross-entropy=0.621019
+16/06/2019 10:00:37 PM: INFO: Epoch[61] Batch [0-50]	Speed: 103.52 samples/sec	accuracy=0.960784	top_k_accuracy_5=0.994485	cross-entropy=0.137911
+16/06/2019 10:00:52 PM: INFO: Epoch[61] Batch [50-100]	Speed: 103.62 samples/sec	accuracy=0.963750	top_k_accuracy_5=0.995000	cross-entropy=0.125197
+16/06/2019 10:01:08 PM: INFO: Epoch[61] Batch [100-150]	Speed: 103.15 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.996875	cross-entropy=0.156390
+16/06/2019 10:01:23 PM: INFO: Epoch[61] Batch [150-200]	Speed: 102.53 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.994375	cross-entropy=0.144457
+16/06/2019 10:01:39 PM: INFO: Epoch[61] Batch [200-250]	Speed: 102.10 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.997500	cross-entropy=0.142474
+16/06/2019 10:01:54 PM: INFO: Epoch[61] Batch [250-300]	Speed: 102.40 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996250	cross-entropy=0.148037
+16/06/2019 10:02:10 PM: INFO: Epoch[61] Batch [300-350]	Speed: 102.40 samples/sec	accuracy=0.964375	top_k_accuracy_5=0.995000	cross-entropy=0.139936
+16/06/2019 10:02:11 PM: INFO: Epoch[61] Train-accuracy=0.958422
+16/06/2019 10:02:11 PM: INFO: Epoch[61] Train-top_k_accuracy_5=0.995586
+16/06/2019 10:02:11 PM: INFO: Epoch[61] Train-cross-entropy=0.143431
+16/06/2019 10:02:11 PM: INFO: Epoch[61] Time cost=109.973
+16/06/2019 10:02:12 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0062.params"
+16/06/2019 10:02:20 PM: INFO: Epoch[61] Validation-accuracy=0.844161
+16/06/2019 10:02:20 PM: INFO: Epoch[61] Validation-top_k_accuracy_5=0.968750
+16/06/2019 10:02:20 PM: INFO: Epoch[61] Validation-cross-entropy=0.607914
+16/06/2019 10:02:36 PM: INFO: Epoch[62] Batch [0-50]	Speed: 102.93 samples/sec	accuracy=0.944853	top_k_accuracy_5=0.996936	cross-entropy=0.166499
+16/06/2019 10:02:51 PM: INFO: Epoch[62] Batch [50-100]	Speed: 104.11 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996875	cross-entropy=0.140426
+16/06/2019 10:03:07 PM: INFO: Epoch[62] Batch [100-150]	Speed: 103.89 samples/sec	accuracy=0.944375	top_k_accuracy_5=0.993750	cross-entropy=0.190763
+16/06/2019 10:03:22 PM: INFO: Epoch[62] Batch [150-200]	Speed: 103.81 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996250	cross-entropy=0.149108
+16/06/2019 10:03:38 PM: INFO: Epoch[62] Batch [200-250]	Speed: 103.88 samples/sec	accuracy=0.961250	top_k_accuracy_5=0.996875	cross-entropy=0.139974
+16/06/2019 10:03:53 PM: INFO: Epoch[62] Batch [250-300]	Speed: 103.99 samples/sec	accuracy=0.946875	top_k_accuracy_5=0.995000	cross-entropy=0.164265
+16/06/2019 10:04:09 PM: INFO: Epoch[62] Batch [300-350]	Speed: 102.00 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.996250	cross-entropy=0.146008
+16/06/2019 10:04:10 PM: INFO: Epoch[62] Train-accuracy=0.951624
+16/06/2019 10:04:10 PM: INFO: Epoch[62] Train-top_k_accuracy_5=0.995939
+16/06/2019 10:04:10 PM: INFO: Epoch[62] Train-cross-entropy=0.157092
+16/06/2019 10:04:10 PM: INFO: Epoch[62] Time cost=109.238
+16/06/2019 10:04:11 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0063.params"
+16/06/2019 10:04:19 PM: INFO: Epoch[62] Validation-accuracy=0.845833
+16/06/2019 10:04:19 PM: INFO: Epoch[62] Validation-top_k_accuracy_5=0.968333
+16/06/2019 10:04:19 PM: INFO: Epoch[62] Validation-cross-entropy=0.606746
+16/06/2019 10:04:34 PM: INFO: Epoch[63] Batch [0-50]	Speed: 103.97 samples/sec	accuracy=0.962010	top_k_accuracy_5=0.996324	cross-entropy=0.139140
+16/06/2019 10:04:50 PM: INFO: Epoch[63] Batch [50-100]	Speed: 103.93 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.997500	cross-entropy=0.137387
+16/06/2019 10:05:05 PM: INFO: Epoch[63] Batch [100-150]	Speed: 104.30 samples/sec	accuracy=0.961875	top_k_accuracy_5=0.998750	cross-entropy=0.124904
+16/06/2019 10:05:20 PM: INFO: Epoch[63] Batch [150-200]	Speed: 103.57 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.996875	cross-entropy=0.133980
+16/06/2019 10:05:36 PM: INFO: Epoch[63] Batch [200-250]	Speed: 100.85 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.993125	cross-entropy=0.159340
+16/06/2019 10:05:52 PM: INFO: Epoch[63] Batch [250-300]	Speed: 102.44 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.993750	cross-entropy=0.142821
+16/06/2019 10:06:08 PM: INFO: Epoch[63] Batch [300-350]	Speed: 102.31 samples/sec	accuracy=0.961875	top_k_accuracy_5=0.996250	cross-entropy=0.138776
+16/06/2019 10:06:08 PM: INFO: Epoch[63] Train-accuracy=0.958245
+16/06/2019 10:06:08 PM: INFO: Epoch[63] Train-top_k_accuracy_5=0.996116
+16/06/2019 10:06:08 PM: INFO: Epoch[63] Train-cross-entropy=0.139499
+16/06/2019 10:06:08 PM: INFO: Epoch[63] Time cost=109.712
+16/06/2019 10:06:10 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0064.params"
+16/06/2019 10:06:18 PM: INFO: Epoch[63] Validation-accuracy=0.848273
+16/06/2019 10:06:18 PM: INFO: Epoch[63] Validation-top_k_accuracy_5=0.967928
+16/06/2019 10:06:18 PM: INFO: Epoch[63] Validation-cross-entropy=0.606420
+16/06/2019 10:06:33 PM: INFO: Epoch[64] Batch [0-50]	Speed: 103.70 samples/sec	accuracy=0.954044	top_k_accuracy_5=0.995098	cross-entropy=0.142558
+16/06/2019 10:06:49 PM: INFO: Epoch[64] Batch [50-100]	Speed: 103.60 samples/sec	accuracy=0.960625	top_k_accuracy_5=0.995000	cross-entropy=0.129218
+16/06/2019 10:07:04 PM: INFO: Epoch[64] Batch [100-150]	Speed: 101.01 samples/sec	accuracy=0.958125	top_k_accuracy_5=0.995000	cross-entropy=0.132381
+16/06/2019 10:07:20 PM: INFO: Epoch[64] Batch [150-200]	Speed: 103.51 samples/sec	accuracy=0.962500	top_k_accuracy_5=0.995000	cross-entropy=0.130989
+16/06/2019 10:07:35 PM: INFO: Epoch[64] Batch [200-250]	Speed: 103.86 samples/sec	accuracy=0.963125	top_k_accuracy_5=0.996875	cross-entropy=0.125812
+16/06/2019 10:07:51 PM: INFO: Epoch[64] Batch [250-300]	Speed: 102.51 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.997500	cross-entropy=0.131002
+16/06/2019 10:08:06 PM: INFO: Epoch[64] Batch [300-350]	Speed: 105.36 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.998125	cross-entropy=0.127779
+16/06/2019 10:08:07 PM: INFO: Epoch[64] Train-accuracy=0.958598
+16/06/2019 10:08:07 PM: INFO: Epoch[64] Train-top_k_accuracy_5=0.996028
+16/06/2019 10:08:07 PM: INFO: Epoch[64] Train-cross-entropy=0.131869
+16/06/2019 10:08:07 PM: INFO: Epoch[64] Time cost=109.392
+16/06/2019 10:08:09 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0065.params"
+16/06/2019 10:08:17 PM: INFO: Epoch[64] Validation-accuracy=0.848273
+16/06/2019 10:08:17 PM: INFO: Epoch[64] Validation-top_k_accuracy_5=0.968750
+16/06/2019 10:08:17 PM: INFO: Epoch[64] Validation-cross-entropy=0.604234
+16/06/2019 10:08:32 PM: INFO: Epoch[65] Batch [0-50]	Speed: 104.30 samples/sec	accuracy=0.952206	top_k_accuracy_5=0.997549	cross-entropy=0.155473
+16/06/2019 10:08:47 PM: INFO: Epoch[65] Batch [50-100]	Speed: 104.77 samples/sec	accuracy=0.940000	top_k_accuracy_5=0.993750	cross-entropy=0.178881
+16/06/2019 10:09:03 PM: INFO: Epoch[65] Batch [100-150]	Speed: 104.67 samples/sec	accuracy=0.948125	top_k_accuracy_5=0.995625	cross-entropy=0.155732
+16/06/2019 10:09:18 PM: INFO: Epoch[65] Batch [150-200]	Speed: 104.11 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996250	cross-entropy=0.163516
+16/06/2019 10:09:33 PM: INFO: Epoch[65] Batch [200-250]	Speed: 103.73 samples/sec	accuracy=0.946250	top_k_accuracy_5=0.995000	cross-entropy=0.169554
+16/06/2019 10:09:49 PM: INFO: Epoch[65] Batch [250-300]	Speed: 101.52 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.998125	cross-entropy=0.146706
+16/06/2019 10:10:05 PM: INFO: Epoch[65] Batch [300-350]	Speed: 103.30 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.996875	cross-entropy=0.165359
+16/06/2019 10:10:06 PM: INFO: Epoch[65] Train-accuracy=0.949064
+16/06/2019 10:10:06 PM: INFO: Epoch[65] Train-top_k_accuracy_5=0.996028
+16/06/2019 10:10:06 PM: INFO: Epoch[65] Train-cross-entropy=0.163647
+16/06/2019 10:10:06 PM: INFO: Epoch[65] Time cost=108.964
+16/06/2019 10:10:07 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0066.params"
+16/06/2019 10:10:15 PM: INFO: Epoch[65] Validation-accuracy=0.846217
+16/06/2019 10:10:15 PM: INFO: Epoch[65] Validation-top_k_accuracy_5=0.966694
+16/06/2019 10:10:15 PM: INFO: Epoch[65] Validation-cross-entropy=0.601568
+16/06/2019 10:10:30 PM: INFO: Epoch[66] Batch [0-50]	Speed: 106.15 samples/sec	accuracy=0.946078	top_k_accuracy_5=0.996324	cross-entropy=0.169686
+16/06/2019 10:10:45 PM: INFO: Epoch[66] Batch [50-100]	Speed: 106.14 samples/sec	accuracy=0.950000	top_k_accuracy_5=0.995625	cross-entropy=0.155125
+16/06/2019 10:11:00 PM: INFO: Epoch[66] Batch [100-150]	Speed: 105.91 samples/sec	accuracy=0.952500	top_k_accuracy_5=0.996875	cross-entropy=0.153863
+16/06/2019 10:11:16 PM: INFO: Epoch[66] Batch [150-200]	Speed: 102.13 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.997500	cross-entropy=0.148797
+16/06/2019 10:11:32 PM: INFO: Epoch[66] Batch [200-250]	Speed: 101.82 samples/sec	accuracy=0.943750	top_k_accuracy_5=0.996250	cross-entropy=0.187832
+16/06/2019 10:11:47 PM: INFO: Epoch[66] Batch [250-300]	Speed: 101.84 samples/sec	accuracy=0.945000	top_k_accuracy_5=0.997500	cross-entropy=0.159785
+16/06/2019 10:12:03 PM: INFO: Epoch[66] Batch [300-350]	Speed: 102.12 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.997500	cross-entropy=0.153428
+16/06/2019 10:12:04 PM: INFO: Epoch[66] Train-accuracy=0.949594
+16/06/2019 10:12:04 PM: INFO: Epoch[66] Train-top_k_accuracy_5=0.996822
+16/06/2019 10:12:04 PM: INFO: Epoch[66] Train-cross-entropy=0.160962
+16/06/2019 10:12:04 PM: INFO: Epoch[66] Time cost=109.075
+16/06/2019 10:12:05 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0067.params"
+16/06/2019 10:12:13 PM: INFO: Epoch[66] Validation-accuracy=0.847039
+16/06/2019 10:12:13 PM: INFO: Epoch[66] Validation-top_k_accuracy_5=0.969572
+16/06/2019 10:12:13 PM: INFO: Epoch[66] Validation-cross-entropy=0.613430
+16/06/2019 10:12:29 PM: INFO: Epoch[67] Batch [0-50]	Speed: 102.03 samples/sec	accuracy=0.957108	top_k_accuracy_5=0.995098	cross-entropy=0.135086
+16/06/2019 10:12:45 PM: INFO: Epoch[67] Batch [50-100]	Speed: 102.13 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.995000	cross-entropy=0.161371
+16/06/2019 10:13:01 PM: INFO: Epoch[67] Batch [100-150]	Speed: 102.09 samples/sec	accuracy=0.943125	top_k_accuracy_5=0.991875	cross-entropy=0.185532
+16/06/2019 10:13:17 PM: INFO: Epoch[67] Batch [150-200]	Speed: 100.69 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.996875	cross-entropy=0.149497
+16/06/2019 10:13:32 PM: INFO: Epoch[67] Batch [200-250]	Speed: 101.56 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.995625	cross-entropy=0.164967
+16/06/2019 10:13:48 PM: INFO: Epoch[67] Batch [250-300]	Speed: 99.40 samples/sec	accuracy=0.952500	top_k_accuracy_5=0.998125	cross-entropy=0.157557
+16/06/2019 10:14:04 PM: INFO: Epoch[67] Batch [300-350]	Speed: 104.29 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.994375	cross-entropy=0.163402
+16/06/2019 10:14:05 PM: INFO: Epoch[67] Train-accuracy=0.951359
+16/06/2019 10:14:05 PM: INFO: Epoch[67] Train-top_k_accuracy_5=0.995321
+16/06/2019 10:14:05 PM: INFO: Epoch[67] Train-cross-entropy=0.159377
+16/06/2019 10:14:05 PM: INFO: Epoch[67] Time cost=111.148
+16/06/2019 10:14:06 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0068.params"
+16/06/2019 10:14:14 PM: INFO: Epoch[67] Validation-accuracy=0.848684
+16/06/2019 10:14:14 PM: INFO: Epoch[67] Validation-top_k_accuracy_5=0.967105
+16/06/2019 10:14:14 PM: INFO: Epoch[67] Validation-cross-entropy=0.617663
+16/06/2019 10:14:29 PM: INFO: Epoch[68] Batch [0-50]	Speed: 106.14 samples/sec	accuracy=0.952206	top_k_accuracy_5=0.993260	cross-entropy=0.166564
+16/06/2019 10:14:44 PM: INFO: Epoch[68] Batch [50-100]	Speed: 106.14 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.997500	cross-entropy=0.148115
+16/06/2019 10:14:59 PM: INFO: Epoch[68] Batch [100-150]	Speed: 106.03 samples/sec	accuracy=0.943750	top_k_accuracy_5=0.998125	cross-entropy=0.187474
+16/06/2019 10:15:14 PM: INFO: Epoch[68] Batch [150-200]	Speed: 106.06 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.995000	cross-entropy=0.148157
+16/06/2019 10:15:29 PM: INFO: Epoch[68] Batch [200-250]	Speed: 106.12 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.994375	cross-entropy=0.149205
+16/06/2019 10:15:45 PM: INFO: Epoch[68] Batch [250-300]	Speed: 106.06 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.993125	cross-entropy=0.181284
+16/06/2019 10:16:00 PM: INFO: Epoch[68] Batch [300-350]	Speed: 106.04 samples/sec	accuracy=0.944375	top_k_accuracy_5=0.992500	cross-entropy=0.179784
+16/06/2019 10:16:01 PM: INFO: Epoch[68] Train-accuracy=0.950830
+16/06/2019 10:16:01 PM: INFO: Epoch[68] Train-top_k_accuracy_5=0.994880
+16/06/2019 10:16:01 PM: INFO: Epoch[68] Train-cross-entropy=0.165725
+16/06/2019 10:16:01 PM: INFO: Epoch[68] Time cost=106.598
+16/06/2019 10:16:02 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0069.params"
+16/06/2019 10:16:10 PM: INFO: Epoch[68] Validation-accuracy=0.849095
+16/06/2019 10:16:10 PM: INFO: Epoch[68] Validation-top_k_accuracy_5=0.969572
+16/06/2019 10:16:10 PM: INFO: Epoch[68] Validation-cross-entropy=0.603688
+16/06/2019 10:16:25 PM: INFO: Epoch[69] Batch [0-50]	Speed: 106.13 samples/sec	accuracy=0.949755	top_k_accuracy_5=0.995711	cross-entropy=0.152467
+16/06/2019 10:16:40 PM: INFO: Epoch[69] Batch [50-100]	Speed: 106.19 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.993125	cross-entropy=0.165296
+16/06/2019 10:16:55 PM: INFO: Epoch[69] Batch [100-150]	Speed: 106.14 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.996875	cross-entropy=0.160270
+16/06/2019 10:17:10 PM: INFO: Epoch[69] Batch [150-200]	Speed: 106.10 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.998750	cross-entropy=0.137537
+16/06/2019 10:17:25 PM: INFO: Epoch[69] Batch [200-250]	Speed: 106.03 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.995625	cross-entropy=0.145901
+16/06/2019 10:17:40 PM: INFO: Epoch[69] Batch [250-300]	Speed: 106.07 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.996875	cross-entropy=0.135725
+16/06/2019 10:17:56 PM: INFO: Epoch[69] Batch [300-350]	Speed: 106.19 samples/sec	accuracy=0.950000	top_k_accuracy_5=0.995625	cross-entropy=0.167822
+16/06/2019 10:17:56 PM: INFO: Epoch[69] Train-accuracy=0.953213
+16/06/2019 10:17:56 PM: INFO: Epoch[69] Train-top_k_accuracy_5=0.996028
+16/06/2019 10:17:56 PM: INFO: Epoch[69] Train-cross-entropy=0.152474
+16/06/2019 10:17:56 PM: INFO: Epoch[69] Time cost=106.564
+16/06/2019 10:17:58 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0070.params"
+16/06/2019 10:18:06 PM: INFO: Epoch[69] Validation-accuracy=0.852500
+16/06/2019 10:18:06 PM: INFO: Epoch[69] Validation-top_k_accuracy_5=0.971250
+16/06/2019 10:18:06 PM: INFO: Epoch[69] Validation-cross-entropy=0.602948
+16/06/2019 10:18:21 PM: INFO: Epoch[70] Batch [0-50]	Speed: 106.16 samples/sec	accuracy=0.950980	top_k_accuracy_5=0.996936	cross-entropy=0.162987
+16/06/2019 10:18:36 PM: INFO: Epoch[70] Batch [50-100]	Speed: 105.95 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.995000	cross-entropy=0.139141
+16/06/2019 10:18:51 PM: INFO: Epoch[70] Batch [100-150]	Speed: 106.11 samples/sec	accuracy=0.944375	top_k_accuracy_5=0.997500	cross-entropy=0.168549
+16/06/2019 10:19:06 PM: INFO: Epoch[70] Batch [150-200]	Speed: 104.89 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.999375	cross-entropy=0.145575
+16/06/2019 10:19:21 PM: INFO: Epoch[70] Batch [200-250]	Speed: 111.45 samples/sec	accuracy=0.943125	top_k_accuracy_5=0.995000	cross-entropy=0.175246
+16/06/2019 10:19:36 PM: INFO: Epoch[70] Batch [250-300]	Speed: 107.20 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.996875	cross-entropy=0.167619
+16/06/2019 10:19:51 PM: INFO: Epoch[70] Batch [300-350]	Speed: 106.06 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.998125	cross-entropy=0.155457
+16/06/2019 10:19:52 PM: INFO: Epoch[70] Train-accuracy=0.949770
+16/06/2019 10:19:52 PM: INFO: Epoch[70] Train-top_k_accuracy_5=0.996910
+16/06/2019 10:19:52 PM: INFO: Epoch[70] Train-cross-entropy=0.159674
+16/06/2019 10:19:52 PM: INFO: Epoch[70] Time cost=105.892
+16/06/2019 10:19:53 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0071.params"
+16/06/2019 10:20:01 PM: INFO: Epoch[70] Validation-accuracy=0.851151
+16/06/2019 10:20:01 PM: INFO: Epoch[70] Validation-top_k_accuracy_5=0.968339
+16/06/2019 10:20:01 PM: INFO: Epoch[70] Validation-cross-entropy=0.610992
+16/06/2019 10:20:16 PM: INFO: Epoch[71] Batch [0-50]	Speed: 106.11 samples/sec	accuracy=0.954044	top_k_accuracy_5=0.995711	cross-entropy=0.163546
+16/06/2019 10:20:31 PM: INFO: Epoch[71] Batch [50-100]	Speed: 106.13 samples/sec	accuracy=0.946875	top_k_accuracy_5=0.996250	cross-entropy=0.164719
+16/06/2019 10:20:46 PM: INFO: Epoch[71] Batch [100-150]	Speed: 106.06 samples/sec	accuracy=0.943750	top_k_accuracy_5=0.995625	cross-entropy=0.164068
+16/06/2019 10:21:01 PM: INFO: Epoch[71] Batch [150-200]	Speed: 106.03 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.997500	cross-entropy=0.137649
+16/06/2019 10:21:16 PM: INFO: Epoch[71] Batch [200-250]	Speed: 106.13 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.996875	cross-entropy=0.165345
+16/06/2019 10:21:32 PM: INFO: Epoch[71] Batch [250-300]	Speed: 106.10 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.995000	cross-entropy=0.164224
+16/06/2019 10:21:47 PM: INFO: Epoch[71] Batch [300-350]	Speed: 106.13 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.994375	cross-entropy=0.156834
+16/06/2019 10:21:48 PM: INFO: Epoch[71] Train-accuracy=0.949824
+16/06/2019 10:21:48 PM: INFO: Epoch[71] Train-top_k_accuracy_5=0.995863
+16/06/2019 10:21:48 PM: INFO: Epoch[71] Train-cross-entropy=0.159160
+16/06/2019 10:21:48 PM: INFO: Epoch[71] Time cost=106.888
+16/06/2019 10:21:49 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0072.params"
+16/06/2019 10:21:57 PM: INFO: Epoch[71] Validation-accuracy=0.849507
+16/06/2019 10:21:57 PM: INFO: Epoch[71] Validation-top_k_accuracy_5=0.969984
+16/06/2019 10:21:57 PM: INFO: Epoch[71] Validation-cross-entropy=0.612190
+16/06/2019 10:22:12 PM: INFO: Epoch[72] Batch [0-50]	Speed: 106.05 samples/sec	accuracy=0.958946	top_k_accuracy_5=0.995098	cross-entropy=0.142983
+16/06/2019 10:22:27 PM: INFO: Epoch[72] Batch [50-100]	Speed: 106.09 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.995625	cross-entropy=0.158215
+16/06/2019 10:22:42 PM: INFO: Epoch[72] Batch [100-150]	Speed: 106.11 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.993750	cross-entropy=0.161519
+16/06/2019 10:22:58 PM: INFO: Epoch[72] Batch [150-200]	Speed: 106.16 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.993750	cross-entropy=0.152788
+16/06/2019 10:23:13 PM: INFO: Epoch[72] Batch [200-250]	Speed: 106.04 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.997500	cross-entropy=0.147653
+16/06/2019 10:23:28 PM: INFO: Epoch[72] Batch [250-300]	Speed: 105.94 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.996250	cross-entropy=0.157114
+16/06/2019 10:23:43 PM: INFO: Epoch[72] Batch [300-350]	Speed: 105.99 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.995000	cross-entropy=0.166184
+16/06/2019 10:23:44 PM: INFO: Epoch[72] Train-accuracy=0.954273
+16/06/2019 10:23:44 PM: INFO: Epoch[72] Train-top_k_accuracy_5=0.995233
+16/06/2019 10:23:44 PM: INFO: Epoch[72] Train-cross-entropy=0.155279
+16/06/2019 10:23:44 PM: INFO: Epoch[72] Time cost=106.628
+16/06/2019 10:23:45 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0073.params"
+16/06/2019 10:23:53 PM: INFO: Epoch[72] Validation-accuracy=0.851974
+16/06/2019 10:23:53 PM: INFO: Epoch[72] Validation-top_k_accuracy_5=0.969984
+16/06/2019 10:23:53 PM: INFO: Epoch[72] Validation-cross-entropy=0.612314
+16/06/2019 10:24:08 PM: INFO: Epoch[73] Batch [0-50]	Speed: 106.23 samples/sec	accuracy=0.963848	top_k_accuracy_5=0.996936	cross-entropy=0.123076
+16/06/2019 10:24:23 PM: INFO: Epoch[73] Batch [50-100]	Speed: 106.03 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.995625	cross-entropy=0.148265
+16/06/2019 10:24:38 PM: INFO: Epoch[73] Batch [100-150]	Speed: 105.11 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.996875	cross-entropy=0.137393
+16/06/2019 10:24:53 PM: INFO: Epoch[73] Batch [150-200]	Speed: 106.97 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.993750	cross-entropy=0.186027
+16/06/2019 10:25:09 PM: INFO: Epoch[73] Batch [200-250]	Speed: 106.04 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.995625	cross-entropy=0.157755
+16/06/2019 10:25:24 PM: INFO: Epoch[73] Batch [250-300]	Speed: 106.06 samples/sec	accuracy=0.948750	top_k_accuracy_5=0.998125	cross-entropy=0.147940
+16/06/2019 10:25:39 PM: INFO: Epoch[73] Batch [300-350]	Speed: 106.09 samples/sec	accuracy=0.947500	top_k_accuracy_5=0.993125	cross-entropy=0.182269
+16/06/2019 10:25:40 PM: INFO: Epoch[73] Train-accuracy=0.954096
+16/06/2019 10:25:40 PM: INFO: Epoch[73] Train-top_k_accuracy_5=0.995763
+16/06/2019 10:25:40 PM: INFO: Epoch[73] Train-cross-entropy=0.154414
+16/06/2019 10:25:40 PM: INFO: Epoch[73] Time cost=106.601
+16/06/2019 10:25:41 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0074.params"
+16/06/2019 10:25:49 PM: INFO: Epoch[73] Validation-accuracy=0.851562
+16/06/2019 10:25:49 PM: INFO: Epoch[73] Validation-top_k_accuracy_5=0.972451
+16/06/2019 10:25:49 PM: INFO: Epoch[73] Validation-cross-entropy=0.612465
+16/06/2019 10:26:04 PM: INFO: Epoch[74] Batch [0-50]	Speed: 106.09 samples/sec	accuracy=0.959559	top_k_accuracy_5=0.998775	cross-entropy=0.149081
+16/06/2019 10:26:19 PM: INFO: Epoch[74] Batch [50-100]	Speed: 106.11 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.996250	cross-entropy=0.152405
+16/06/2019 10:26:34 PM: INFO: Epoch[74] Batch [100-150]	Speed: 106.14 samples/sec	accuracy=0.941875	top_k_accuracy_5=0.995000	cross-entropy=0.156470
+16/06/2019 10:26:49 PM: INFO: Epoch[74] Batch [150-200]	Speed: 106.06 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.993750	cross-entropy=0.147525
+16/06/2019 10:27:04 PM: INFO: Epoch[74] Batch [200-250]	Speed: 106.19 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.995625	cross-entropy=0.151121
+16/06/2019 10:27:19 PM: INFO: Epoch[74] Batch [250-300]	Speed: 106.13 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.995000	cross-entropy=0.153955
+16/06/2019 10:27:35 PM: INFO: Epoch[74] Batch [300-350]	Speed: 106.07 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.995625	cross-entropy=0.142845
+16/06/2019 10:27:35 PM: INFO: Epoch[74] Train-accuracy=0.953566
+16/06/2019 10:27:35 PM: INFO: Epoch[74] Train-top_k_accuracy_5=0.995763
+16/06/2019 10:27:35 PM: INFO: Epoch[74] Train-cross-entropy=0.150433
+16/06/2019 10:27:35 PM: INFO: Epoch[74] Time cost=106.565
+16/06/2019 10:27:37 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0075.params"
+16/06/2019 10:27:45 PM: INFO: Epoch[74] Validation-accuracy=0.848684
+16/06/2019 10:27:45 PM: INFO: Epoch[74] Validation-top_k_accuracy_5=0.966694
+16/06/2019 10:27:45 PM: INFO: Epoch[74] Validation-cross-entropy=0.623978
+16/06/2019 10:28:00 PM: INFO: Epoch[75] Batch [0-50]	Speed: 106.11 samples/sec	accuracy=0.949755	top_k_accuracy_5=0.995098	cross-entropy=0.155978
+16/06/2019 10:28:15 PM: INFO: Epoch[75] Batch [50-100]	Speed: 106.18 samples/sec	accuracy=0.962500	top_k_accuracy_5=0.996875	cross-entropy=0.133966
+16/06/2019 10:28:30 PM: INFO: Epoch[75] Batch [100-150]	Speed: 106.01 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.993750	cross-entropy=0.156157
+16/06/2019 10:28:45 PM: INFO: Epoch[75] Batch [150-200]	Speed: 106.09 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.995625	cross-entropy=0.141911
+16/06/2019 10:29:00 PM: INFO: Epoch[75] Batch [200-250]	Speed: 106.12 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.996250	cross-entropy=0.143994
+16/06/2019 10:29:15 PM: INFO: Epoch[75] Batch [250-300]	Speed: 106.09 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.995625	cross-entropy=0.161642
+16/06/2019 10:29:30 PM: INFO: Epoch[75] Batch [300-350]	Speed: 106.07 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.998125	cross-entropy=0.152523
+16/06/2019 10:29:31 PM: INFO: Epoch[75] Train-accuracy=0.956303
+16/06/2019 10:29:31 PM: INFO: Epoch[75] Train-top_k_accuracy_5=0.995851
+16/06/2019 10:29:31 PM: INFO: Epoch[75] Train-cross-entropy=0.149059
+16/06/2019 10:29:31 PM: INFO: Epoch[75] Time cost=106.590
+16/06/2019 10:29:33 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0076.params"
+16/06/2019 10:29:40 PM: INFO: Epoch[75] Validation-accuracy=0.850417
+16/06/2019 10:29:40 PM: INFO: Epoch[75] Validation-top_k_accuracy_5=0.969583
+16/06/2019 10:29:40 PM: INFO: Epoch[75] Validation-cross-entropy=0.606420
+16/06/2019 10:29:56 PM: INFO: Epoch[76] Batch [0-50]	Speed: 104.56 samples/sec	accuracy=0.952206	top_k_accuracy_5=0.995711	cross-entropy=0.154258
+16/06/2019 10:30:10 PM: INFO: Epoch[76] Batch [50-100]	Speed: 110.00 samples/sec	accuracy=0.953125	top_k_accuracy_5=0.997500	cross-entropy=0.154190
+16/06/2019 10:30:25 PM: INFO: Epoch[76] Batch [100-150]	Speed: 110.11 samples/sec	accuracy=0.961250	top_k_accuracy_5=0.996250	cross-entropy=0.147372
+16/06/2019 10:30:39 PM: INFO: Epoch[76] Batch [150-200]	Speed: 111.28 samples/sec	accuracy=0.962500	top_k_accuracy_5=0.999375	cross-entropy=0.134185
+16/06/2019 10:30:54 PM: INFO: Epoch[76] Batch [200-250]	Speed: 111.91 samples/sec	accuracy=0.949375	top_k_accuracy_5=0.997500	cross-entropy=0.143548
+16/06/2019 10:31:08 PM: INFO: Epoch[76] Batch [250-300]	Speed: 111.83 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.994375	cross-entropy=0.149600
+16/06/2019 10:31:22 PM: INFO: Epoch[76] Batch [300-350]	Speed: 111.83 samples/sec	accuracy=0.948125	top_k_accuracy_5=0.996250	cross-entropy=0.159507
+16/06/2019 10:31:23 PM: INFO: Epoch[76] Train-accuracy=0.954537
+16/06/2019 10:31:23 PM: INFO: Epoch[76] Train-top_k_accuracy_5=0.996734
+16/06/2019 10:31:23 PM: INFO: Epoch[76] Train-cross-entropy=0.149373
+16/06/2019 10:31:23 PM: INFO: Epoch[76] Time cost=102.643
+16/06/2019 10:31:25 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0077.params"
+16/06/2019 10:31:32 PM: INFO: Epoch[76] Validation-accuracy=0.851562
+16/06/2019 10:31:32 PM: INFO: Epoch[76] Validation-top_k_accuracy_5=0.970395
+16/06/2019 10:31:32 PM: INFO: Epoch[76] Validation-cross-entropy=0.592782
+16/06/2019 10:31:46 PM: INFO: Epoch[77] Batch [0-50]	Speed: 111.27 samples/sec	accuracy=0.958333	top_k_accuracy_5=0.996936	cross-entropy=0.133687
+16/06/2019 10:32:02 PM: INFO: Epoch[77] Batch [50-100]	Speed: 106.40 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.998125	cross-entropy=0.157972
+16/06/2019 10:32:17 PM: INFO: Epoch[77] Batch [100-150]	Speed: 104.11 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.993750	cross-entropy=0.151906
+16/06/2019 10:32:32 PM: INFO: Epoch[77] Batch [150-200]	Speed: 105.67 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.998125	cross-entropy=0.121767
+16/06/2019 10:32:48 PM: INFO: Epoch[77] Batch [200-250]	Speed: 103.20 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.996875	cross-entropy=0.150596
+16/06/2019 10:33:03 PM: INFO: Epoch[77] Batch [250-300]	Speed: 104.04 samples/sec	accuracy=0.959375	top_k_accuracy_5=0.998125	cross-entropy=0.130208
+16/06/2019 10:33:19 PM: INFO: Epoch[77] Batch [300-350]	Speed: 100.12 samples/sec	accuracy=0.963125	top_k_accuracy_5=0.996250	cross-entropy=0.142645
+16/06/2019 10:33:20 PM: INFO: Epoch[77] Train-accuracy=0.958598
+16/06/2019 10:33:20 PM: INFO: Epoch[77] Train-top_k_accuracy_5=0.996910
+16/06/2019 10:33:20 PM: INFO: Epoch[77] Train-cross-entropy=0.140868
+16/06/2019 10:33:20 PM: INFO: Epoch[77] Time cost=107.835
+16/06/2019 10:33:22 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0078.params"
+16/06/2019 10:33:29 PM: INFO: Epoch[77] Validation-accuracy=0.847039
+16/06/2019 10:33:29 PM: INFO: Epoch[77] Validation-top_k_accuracy_5=0.967928
+16/06/2019 10:33:29 PM: INFO: Epoch[77] Validation-cross-entropy=0.629402
+16/06/2019 10:33:45 PM: INFO: Epoch[78] Batch [0-50]	Speed: 104.36 samples/sec	accuracy=0.951593	top_k_accuracy_5=0.997549	cross-entropy=0.150758
+16/06/2019 10:34:00 PM: INFO: Epoch[78] Batch [50-100]	Speed: 104.18 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.996250	cross-entropy=0.147123
+16/06/2019 10:34:15 PM: INFO: Epoch[78] Batch [100-150]	Speed: 105.37 samples/sec	accuracy=0.950625	top_k_accuracy_5=0.996875	cross-entropy=0.143296
+16/06/2019 10:34:30 PM: INFO: Epoch[78] Batch [150-200]	Speed: 105.98 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.996875	cross-entropy=0.138709
+16/06/2019 10:34:46 PM: INFO: Epoch[78] Batch [200-250]	Speed: 106.13 samples/sec	accuracy=0.957500	top_k_accuracy_5=0.998750	cross-entropy=0.138683
+16/06/2019 10:35:01 PM: INFO: Epoch[78] Batch [250-300]	Speed: 105.24 samples/sec	accuracy=0.963750	top_k_accuracy_5=0.995000	cross-entropy=0.133191
+16/06/2019 10:35:16 PM: INFO: Epoch[78] Batch [300-350]	Speed: 103.10 samples/sec	accuracy=0.945000	top_k_accuracy_5=0.995625	cross-entropy=0.165291
+16/06/2019 10:35:17 PM: INFO: Epoch[78] Train-accuracy=0.954184
+16/06/2019 10:35:17 PM: INFO: Epoch[78] Train-top_k_accuracy_5=0.996734
+16/06/2019 10:35:17 PM: INFO: Epoch[78] Train-cross-entropy=0.145334
+16/06/2019 10:35:17 PM: INFO: Epoch[78] Time cost=107.796
+16/06/2019 10:35:19 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0079.params"
+16/06/2019 10:35:27 PM: INFO: Epoch[78] Validation-accuracy=0.852385
+16/06/2019 10:35:27 PM: INFO: Epoch[78] Validation-top_k_accuracy_5=0.969161
+16/06/2019 10:35:27 PM: INFO: Epoch[78] Validation-cross-entropy=0.612854
+16/06/2019 10:35:42 PM: INFO: Epoch[79] Batch [0-50]	Speed: 106.24 samples/sec	accuracy=0.958333	top_k_accuracy_5=0.996324	cross-entropy=0.141071
+16/06/2019 10:35:57 PM: INFO: Epoch[79] Batch [50-100]	Speed: 106.12 samples/sec	accuracy=0.958125	top_k_accuracy_5=0.996250	cross-entropy=0.136677
+16/06/2019 10:36:12 PM: INFO: Epoch[79] Batch [100-150]	Speed: 105.95 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.998125	cross-entropy=0.131853
+16/06/2019 10:36:27 PM: INFO: Epoch[79] Batch [150-200]	Speed: 106.06 samples/sec	accuracy=0.964375	top_k_accuracy_5=0.997500	cross-entropy=0.118186
+16/06/2019 10:36:42 PM: INFO: Epoch[79] Batch [200-250]	Speed: 106.05 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.997500	cross-entropy=0.141491
+16/06/2019 10:36:57 PM: INFO: Epoch[79] Batch [250-300]	Speed: 106.04 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.995625	cross-entropy=0.134141
+16/06/2019 10:37:12 PM: INFO: Epoch[79] Batch [300-350]	Speed: 105.99 samples/sec	accuracy=0.958750	top_k_accuracy_5=0.996875	cross-entropy=0.140649
+16/06/2019 10:37:13 PM: INFO: Epoch[79] Train-accuracy=0.958157
+16/06/2019 10:37:13 PM: INFO: Epoch[79] Train-top_k_accuracy_5=0.996910
+16/06/2019 10:37:13 PM: INFO: Epoch[79] Train-cross-entropy=0.134687
+16/06/2019 10:37:13 PM: INFO: Epoch[79] Time cost=106.619
+16/06/2019 10:37:15 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0080.params"
+16/06/2019 10:37:22 PM: INFO: Epoch[79] Validation-accuracy=0.857319
+16/06/2019 10:37:22 PM: INFO: Epoch[79] Validation-top_k_accuracy_5=0.968750
+16/06/2019 10:37:22 PM: INFO: Epoch[79] Validation-cross-entropy=0.597836
+16/06/2019 10:37:38 PM: INFO: Epoch[80] Batch [0-50]	Speed: 106.10 samples/sec	accuracy=0.955270	top_k_accuracy_5=0.993873	cross-entropy=0.148162
+16/06/2019 10:37:53 PM: INFO: Epoch[80] Batch [50-100]	Speed: 106.02 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996250	cross-entropy=0.155157
+16/06/2019 10:38:08 PM: INFO: Epoch[80] Batch [100-150]	Speed: 104.43 samples/sec	accuracy=0.951875	top_k_accuracy_5=0.996250	cross-entropy=0.147578
+16/06/2019 10:38:23 PM: INFO: Epoch[80] Batch [150-200]	Speed: 105.38 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.996875	cross-entropy=0.141818
+16/06/2019 10:38:38 PM: INFO: Epoch[80] Batch [200-250]	Speed: 105.83 samples/sec	accuracy=0.958125	top_k_accuracy_5=0.995625	cross-entropy=0.139974
+16/06/2019 10:38:54 PM: INFO: Epoch[80] Batch [250-300]	Speed: 104.14 samples/sec	accuracy=0.958750	top_k_accuracy_5=0.995625	cross-entropy=0.140978
+16/06/2019 10:39:09 PM: INFO: Epoch[80] Batch [300-350]	Speed: 106.07 samples/sec	accuracy=0.958125	top_k_accuracy_5=0.996875	cross-entropy=0.133771
+16/06/2019 10:39:10 PM: INFO: Epoch[80] Train-accuracy=0.956126
+16/06/2019 10:39:10 PM: INFO: Epoch[80] Train-top_k_accuracy_5=0.995851
+16/06/2019 10:39:10 PM: INFO: Epoch[80] Train-cross-entropy=0.143933
+16/06/2019 10:39:10 PM: INFO: Epoch[80] Time cost=107.259
+16/06/2019 10:39:11 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0081.params"
+16/06/2019 10:39:19 PM: INFO: Epoch[80] Validation-accuracy=0.858141
+16/06/2019 10:39:19 PM: INFO: Epoch[80] Validation-top_k_accuracy_5=0.969161
+16/06/2019 10:39:19 PM: INFO: Epoch[80] Validation-cross-entropy=0.588223
+16/06/2019 10:39:34 PM: INFO: Epoch[81] Batch [0-50]	Speed: 106.10 samples/sec	accuracy=0.957108	top_k_accuracy_5=0.996936	cross-entropy=0.136848
+16/06/2019 10:39:49 PM: INFO: Epoch[81] Batch [50-100]	Speed: 106.10 samples/sec	accuracy=0.955000	top_k_accuracy_5=0.997500	cross-entropy=0.135904
+16/06/2019 10:40:04 PM: INFO: Epoch[81] Batch [100-150]	Speed: 106.10 samples/sec	accuracy=0.953750	top_k_accuracy_5=0.995625	cross-entropy=0.154772
+16/06/2019 10:40:19 PM: INFO: Epoch[81] Batch [150-200]	Speed: 106.04 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.999375	cross-entropy=0.129401
+16/06/2019 10:40:35 PM: INFO: Epoch[81] Batch [200-250]	Speed: 104.97 samples/sec	accuracy=0.959375	top_k_accuracy_5=0.996250	cross-entropy=0.145207
+16/06/2019 10:40:50 PM: INFO: Epoch[81] Batch [250-300]	Speed: 104.55 samples/sec	accuracy=0.958750	top_k_accuracy_5=0.998125	cross-entropy=0.129510
+16/06/2019 10:41:05 PM: INFO: Epoch[81] Batch [300-350]	Speed: 105.70 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.995625	cross-entropy=0.142705
+16/06/2019 10:41:06 PM: INFO: Epoch[81] Train-accuracy=0.956656
+16/06/2019 10:41:06 PM: INFO: Epoch[81] Train-top_k_accuracy_5=0.996910
+16/06/2019 10:41:06 PM: INFO: Epoch[81] Train-cross-entropy=0.139074
+16/06/2019 10:41:06 PM: INFO: Epoch[81] Time cost=107.038
+16/06/2019 10:41:08 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0082.params"
+16/06/2019 10:41:15 PM: INFO: Epoch[81] Validation-accuracy=0.854583
+16/06/2019 10:41:15 PM: INFO: Epoch[81] Validation-top_k_accuracy_5=0.970000
+16/06/2019 10:41:15 PM: INFO: Epoch[81] Validation-cross-entropy=0.607663
+16/06/2019 10:41:31 PM: INFO: Epoch[82] Batch [0-50]	Speed: 106.11 samples/sec	accuracy=0.962623	top_k_accuracy_5=0.999387	cross-entropy=0.111238
+16/06/2019 10:41:46 PM: INFO: Epoch[82] Batch [50-100]	Speed: 106.11 samples/sec	accuracy=0.960625	top_k_accuracy_5=0.995625	cross-entropy=0.140123
+16/06/2019 10:42:01 PM: INFO: Epoch[82] Batch [100-150]	Speed: 105.91 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.996875	cross-entropy=0.135112
+16/06/2019 10:42:16 PM: INFO: Epoch[82] Batch [150-200]	Speed: 105.86 samples/sec	accuracy=0.961250	top_k_accuracy_5=0.996250	cross-entropy=0.133938
+16/06/2019 10:42:31 PM: INFO: Epoch[82] Batch [200-250]	Speed: 105.97 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.994375	cross-entropy=0.149318
+16/06/2019 10:42:46 PM: INFO: Epoch[82] Batch [250-300]	Speed: 106.06 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.995625	cross-entropy=0.145229
+16/06/2019 10:43:01 PM: INFO: Epoch[82] Batch [300-350]	Speed: 106.00 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.994375	cross-entropy=0.142584
+16/06/2019 10:43:02 PM: INFO: Epoch[82] Train-accuracy=0.958891
+16/06/2019 10:43:02 PM: INFO: Epoch[82] Train-top_k_accuracy_5=0.996127
+16/06/2019 10:43:02 PM: INFO: Epoch[82] Train-cross-entropy=0.136105
+16/06/2019 10:43:02 PM: INFO: Epoch[82] Time cost=107.111
+16/06/2019 10:43:04 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0083.params"
+16/06/2019 10:43:12 PM: INFO: Epoch[82] Validation-accuracy=0.854030
+16/06/2019 10:43:12 PM: INFO: Epoch[82] Validation-top_k_accuracy_5=0.971217
+16/06/2019 10:43:12 PM: INFO: Epoch[82] Validation-cross-entropy=0.612920
+16/06/2019 10:43:27 PM: INFO: Epoch[83] Batch [0-50]	Speed: 106.01 samples/sec	accuracy=0.946078	top_k_accuracy_5=0.996936	cross-entropy=0.161532
+16/06/2019 10:43:42 PM: INFO: Epoch[83] Batch [50-100]	Speed: 106.10 samples/sec	accuracy=0.951250	top_k_accuracy_5=0.996875	cross-entropy=0.150357
+16/06/2019 10:43:58 PM: INFO: Epoch[83] Batch [100-150]	Speed: 104.71 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.996250	cross-entropy=0.145197
+16/06/2019 10:44:13 PM: INFO: Epoch[83] Batch [150-200]	Speed: 104.03 samples/sec	accuracy=0.958750	top_k_accuracy_5=0.998125	cross-entropy=0.129995
+16/06/2019 10:44:28 PM: INFO: Epoch[83] Batch [200-250]	Speed: 105.06 samples/sec	accuracy=0.959375	top_k_accuracy_5=0.995000	cross-entropy=0.140533
+16/06/2019 10:44:43 PM: INFO: Epoch[83] Batch [250-300]	Speed: 104.70 samples/sec	accuracy=0.956875	top_k_accuracy_5=0.995000	cross-entropy=0.136549
+16/06/2019 10:45:01 PM: INFO: Epoch[83] Batch [300-350]	Speed: 93.08 samples/sec	accuracy=0.961250	top_k_accuracy_5=0.996875	cross-entropy=0.125529
+16/06/2019 10:45:02 PM: INFO: Epoch[83] Train-accuracy=0.955420
+16/06/2019 10:45:02 PM: INFO: Epoch[83] Train-top_k_accuracy_5=0.996381
+16/06/2019 10:45:02 PM: INFO: Epoch[83] Train-cross-entropy=0.141637
+16/06/2019 10:45:02 PM: INFO: Epoch[83] Time cost=109.554
+16/06/2019 10:45:03 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0084.params"
+16/06/2019 10:45:11 PM: INFO: Epoch[83] Validation-accuracy=0.850329
+16/06/2019 10:45:11 PM: INFO: Epoch[83] Validation-top_k_accuracy_5=0.969572
+16/06/2019 10:45:11 PM: INFO: Epoch[83] Validation-cross-entropy=0.621700
+16/06/2019 10:45:26 PM: INFO: Epoch[84] Batch [0-50]	Speed: 105.40 samples/sec	accuracy=0.955270	top_k_accuracy_5=0.996324	cross-entropy=0.134873
+16/06/2019 10:45:42 PM: INFO: Epoch[84] Batch [50-100]	Speed: 105.54 samples/sec	accuracy=0.954375	top_k_accuracy_5=0.997500	cross-entropy=0.137631
+16/06/2019 10:45:57 PM: INFO: Epoch[84] Batch [100-150]	Speed: 103.92 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.995000	cross-entropy=0.122750
+16/06/2019 10:46:12 PM: INFO: Epoch[84] Batch [150-200]	Speed: 103.85 samples/sec	accuracy=0.962500	top_k_accuracy_5=0.998750	cross-entropy=0.112238
+16/06/2019 10:46:28 PM: INFO: Epoch[84] Batch [200-250]	Speed: 104.52 samples/sec	accuracy=0.956250	top_k_accuracy_5=0.998750	cross-entropy=0.123738
+16/06/2019 10:46:43 PM: INFO: Epoch[84] Batch [250-300]	Speed: 105.22 samples/sec	accuracy=0.960000	top_k_accuracy_5=0.997500	cross-entropy=0.129192
+16/06/2019 10:46:58 PM: INFO: Epoch[84] Batch [300-350]	Speed: 102.63 samples/sec	accuracy=0.955625	top_k_accuracy_5=0.996875	cross-entropy=0.149616
+16/06/2019 10:46:59 PM: INFO: Epoch[84] Train-accuracy=0.957451
+16/06/2019 10:46:59 PM: INFO: Epoch[84] Train-top_k_accuracy_5=0.997175
+16/06/2019 10:46:59 PM: INFO: Epoch[84] Train-cross-entropy=0.131122
+16/06/2019 10:46:59 PM: INFO: Epoch[84] Time cost=108.297
+16/06/2019 10:47:01 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0085.params"
+16/06/2019 10:47:09 PM: INFO: Epoch[84] Validation-accuracy=0.853207
+16/06/2019 10:47:09 PM: INFO: Epoch[84] Validation-top_k_accuracy_5=0.969984
+16/06/2019 10:47:09 PM: INFO: Epoch[84] Validation-cross-entropy=0.609834
+16/06/2019 10:47:24 PM: INFO: Epoch[85] Batch [0-50]	Speed: 103.16 samples/sec	accuracy=0.933824	top_k_accuracy_5=0.997549	cross-entropy=0.184848
+16/06/2019 10:47:40 PM: INFO: Epoch[85] Batch [50-100]	Speed: 102.83 samples/sec	accuracy=0.940625	top_k_accuracy_5=0.994375	cross-entropy=0.196376
+16/06/2019 10:47:55 PM: INFO: Epoch[85] Batch [100-150]	Speed: 104.73 samples/sec	accuracy=0.936250	top_k_accuracy_5=0.994375	cross-entropy=0.203334
+16/06/2019 10:48:11 PM: INFO: Epoch[85] Batch [150-200]	Speed: 104.46 samples/sec	accuracy=0.935625	top_k_accuracy_5=0.994375	cross-entropy=0.214791
+16/06/2019 10:48:26 PM: INFO: Epoch[85] Batch [200-250]	Speed: 106.19 samples/sec	accuracy=0.941250	top_k_accuracy_5=0.996875	cross-entropy=0.184940
+16/06/2019 10:48:41 PM: INFO: Epoch[85] Batch [250-300]	Speed: 105.55 samples/sec	accuracy=0.940000	top_k_accuracy_5=0.995625	cross-entropy=0.194397
+16/06/2019 10:48:56 PM: INFO: Epoch[85] Batch [300-350]	Speed: 105.11 samples/sec	accuracy=0.943125	top_k_accuracy_5=0.995000	cross-entropy=0.185693
+16/06/2019 10:48:57 PM: INFO: Epoch[85] Train-accuracy=0.938471
+16/06/2019 10:48:57 PM: INFO: Epoch[85] Train-top_k_accuracy_5=0.995410
+16/06/2019 10:48:57 PM: INFO: Epoch[85] Train-cross-entropy=0.195676
+16/06/2019 10:48:57 PM: INFO: Epoch[85] Time cost=108.152
+16/06/2019 10:48:59 PM: INFO: Saved checkpoint to "./checkpoints/vggnet-0086.params"
+16/06/2019 10:49:06 PM: INFO: Epoch[85] Validation-accuracy=0.848273
+16/06/2019 10:49:06 PM: INFO: Epoch[85] Validation-top_k_accuracy_5=0.970806
+16/06/2019 10:49:06 PM: INFO: Epoch[85] Validation-cross-entropy=0.608286

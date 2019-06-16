@@ -1,0 +1,5 @@
+0	0	./dataset/test_model/grab_cars/grab_car1_0_AM-General_Hummer.jpg
+1	2	./dataset/test_model/grab_cars/grab_car2_2_Acura_TL.jpg
+2	3	./dataset/test_model/grab_cars/grab_car3_3_TSX_Sedan.jpg
+3	35	./dataset/test_model/grab_cars/grab_car4_35_Bugatti_Veyron-16.4.jpg
+4	114	./dataset/test_model/grab_cars/grab_car5_114_Jaguar_XK.jpg

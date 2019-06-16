@@ -1,0 +1,33 @@
+17/06/2019 01:27:30 AM: DEBUG: Create car table
+17/06/2019 01:27:30 AM: DEBUG: Load data from csv file to car table
+17/06/2019 01:27:30 AM: DEBUG: Create car maker and car model table
+17/06/2019 01:27:30 AM: DEBUG: Insert data into make_model table based on fact data from cars table
+17/06/2019 01:27:30 AM: DEBUG: Update back the id or label_id to the cars table
+17/06/2019 01:34:24 AM: DEBUG: Create car table
+17/06/2019 01:34:24 AM: DEBUG: Load data from csv file to car table
+17/06/2019 01:34:24 AM: DEBUG: Create car maker and car model table
+17/06/2019 01:34:24 AM: DEBUG: Insert data into make_model table based on fact data from cars table
+17/06/2019 01:34:24 AM: DEBUG: Update back the id or label_id to the cars table
+17/06/2019 01:34:24 AM: DEBUG: Prepare data to generate list and rec files
+17/06/2019 01:34:24 AM: DEBUG: Generating list and rec file ...
+17/06/2019 01:40:04 AM: DEBUG: Create car table
+17/06/2019 01:40:04 AM: DEBUG: Load data from csv file to car table
+17/06/2019 01:40:04 AM: DEBUG: Create car maker and car model table
+17/06/2019 01:40:04 AM: DEBUG: Insert data into make_model table based on fact data from cars table
+17/06/2019 01:40:04 AM: DEBUG: Update back the id or label_id to the cars table
+17/06/2019 01:40:04 AM: DEBUG: Prepare data to generate list and rec files
+17/06/2019 01:40:04 AM: DEBUG: Generating list and rec files ...
+17/06/2019 01:42:40 AM: DEBUG: Create car table
+17/06/2019 01:42:40 AM: DEBUG: Load data from csv file to car table
+17/06/2019 01:42:40 AM: DEBUG: Create car maker and car model table
+17/06/2019 01:42:40 AM: DEBUG: Insert data into make_model table based on fact data from cars table
+17/06/2019 01:42:40 AM: DEBUG: Update back the id or label_id to the cars table
+17/06/2019 01:42:40 AM: DEBUG: Prepare data to generate list and rec files
+17/06/2019 01:42:40 AM: DEBUG: Generating list and rec files ...
+17/06/2019 01:45:27 AM: DEBUG: Create car table
+17/06/2019 01:45:27 AM: DEBUG: Load data from csv file to car table
+17/06/2019 01:45:27 AM: DEBUG: Create car maker and car model table
+17/06/2019 01:45:27 AM: DEBUG: Insert data into make_model table based on fact data from cars table
+17/06/2019 01:45:27 AM: DEBUG: Update back the id or label_id to the cars table
+17/06/2019 01:45:27 AM: DEBUG: Prepare data to generate list and rec files
+17/06/2019 01:45:27 AM: DEBUG: Generating list and rec files ...
