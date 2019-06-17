@@ -1,6 +1,8 @@
 # Car Regcognition
 
 ## Introduction
+This project aims at recognizing the car make and model based on a Stanford car dataset with 16185 images. The dataset include information about car make, model, and year (eg.2012 Tesla Model S) with 196 different classes. However, in this project we target to identify the car make and model only; this results in 164 different classes in total.
+
 
 ## Approach
 
@@ -15,7 +17,7 @@ $ source ai4c/bin/activate
 ```
 If you are using other python version (>3.6), please be noted to update the IM2REC_PY_PATH. 
 ```
-im2rec_path = "ai4c/lib/python3.6/site-packages/mxnet/tools/im2rec.py"
+IM2REC_PY_PATH = "ai4c/lib/python3.6/site-packages/mxnet/tools/im2rec.py"
 ```
 
 ### Install required packages
@@ -78,13 +80,15 @@ Note:
 └── vgg16
 ```
 
-### How to start the test with images not in original dataset
+### How to start the test with images not in original dataset (car_ims.tgz)
 * Put all desired photos to be tested in `./dataset/test_model/grabcars`
-* Prepare the `.lst` file in `./dataset/test_model/misc_files` as a input for mxnet producing `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
+* Prepare the `grab_cars_test.lst` file in `./dataset/test_model/misc_files` as a input for mxnet to produce `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
 > > integer_image_index \t label_index \t path_to_image
 For the label_index, please use the label column for reference from  `make_model_labels.csv` in same directory. 
 <p align="center">
   <img src="./media/grab_test_make_model_id_reference.png" width="35%">
 </p>
 
-* test
+* It is necessary to specify the hardware of your system for the test evaluation in the config file. It is recommended to use GPU for faster processing time. For example, with 'MODEL_PROCESS_CONTEXT = [mx.gpu(0)]' we are going to use one GPU. It is possible to run a list of multiple devices.
+
+* Once the setup is done, execute 'python test.py -m grab_test'. There will be 2 files 'grab_cars_test.rec' and 'grab_cars_test.idx' are generated in same folder with `lst` file. Then the model is loaded (vggnet-0085.params) to identify and evaluate the rank1 & rank5 accuracy. 
