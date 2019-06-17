@@ -84,6 +84,8 @@ Note:
 * Put all desired photos to be tested in `./dataset/test_model/grabcars`
 * Prepare the `grab_cars_test.lst` file in `./dataset/test_model/misc_files` as a input for mxnet to produce `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
 > > integer_image_index \t label_index \t path_to_image
+
+
 For the label_index, please use the label column for reference from  `make_model_labels.csv` in same directory. 
 <p align="center">
   <img src="./media/grab_test_make_model_id_reference.png" width="35%">
