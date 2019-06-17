@@ -2,16 +2,27 @@
 
 ## Introduction
 
-This project aims at recognizing the car make and model based on a Stanford car dataset with 16185 images. The dataset include information about car make, model, and year (eg.2012 Tesla Model S) with 196 different classes. However, in this project we target to identify the car make and model only; this results in 164 different classes in total.
+This project aims at recognizing the car make and model based on a Stanford Cars Dataset with 16,185 images. This dataset includes information about car make, model, and year (Eg. 2012 Tesla Model S) with 196 different classes. However, in this project we target to identify the car make and model only; this results in 164 different classes in total.
+
+<p align="center">
+  <img src="./media/dataset.png" width="80%">
+</p>
 
 ## Approach
 
-The transfer learning technique is used to produce the model for this dataset because of fairly small data size. Further than that, we are able to achieve a good accuracy with less training time. And the VGGNet is used as the network for this technique as its comparitive performance over other networks (Ref [HERE](https://towardsdatascience.com/transfer-learning-with-convolutional-neural-networks-in-pytorch-dd09190245ce)).
+The transfer learning technique is used to produce the model for this dataset because of fairly small data size. Further than that, we are able to achieve a good accuracy with less training time. And the VGGNet is used as the network for this technique as its comparitive performance over other networks (Ref [HERE](https://neurohive.io/en/popular-networks/vgg16/)).
+
+The VGG CNN was first introduced by Simonyan and Zisserman in their 2014 paper, [Very Deep Convolutional Networks for Large Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
+The network achitechture is comprised of 13 convolution and 3 FC layers as below.
+
+<p align="center">
+  <img src="./media/vgg16-layers.png" width="75%">
+</p>
 
 ## Result
 
 The main effort paying for transfer learning technique is to do fine-tuning the network to get better result (higher accuracy with lower loss).
-With number if experiments, the final model is selected at epoch 85 with the learning rate of 5e-5 for epoch 1->50 & 1e-5 from 50->85. This selection is to lower the chance of overfitting when accuracy reached ~85% rank1 accuracy.
+With number of experiments, the final model is selected at epoch 85 with the learning rate of 5e-5 for epoch 1->50 & 1e-5 from 51->85. This selection is to lower the chance of overfitting when accuracy reached ~85% rank1 accuracy.
 
 <p align="center">
   <img src="./media/acc_loss_plot.png" width="85%">
@@ -27,7 +38,7 @@ The result obtained for the test set is 85.74% for rank1 and 96.54% for rank5.
 
 ### Setup environment
 
-This project is using python 3.6.8 & virtualenv to create virtual environment name (ai4c).
+This project uses python 3.6.8 & virtualenv to create virtual environment name (ai4c).
 
 ```bash
 $ sudo apt-get install python3-pip
@@ -44,8 +55,7 @@ IM2REC_PY_PATH = "ai4c/lib/python3.6/site-packages/mxnet/tools/im2rec.py"
 
 ### Install required packages
 
-Once (ai4c) environment is activated, installed required packages as listed in requirement.txt
-It is important to use same version of packages to prevent unexpected incompatible during running script.
+Once (ai4c) environment is activated, installed required packages as listed in `requirement.txt`. It is important to setup version of packages to prevent unexpected incompatible errors.
 
 ```bash
 pip install -r requirements.txt
@@ -53,7 +63,7 @@ pip install -r requirements.txt
 
 ### Prepare dataset
 
-The directory looks as below, however we need to download 3 more additional file to get the project fully operation for pre-process, train & test.
+The directory looks as below, however we need to download 3 more additional files to get the project fully operation for pre-process, train & test.
 
 - Full statandford car dataset: http://imagenet.stanford.edu/internal/car196/car_ims.tgz
 - Pretrain VGGNet model: https://1drv.ms/u/s!ApCwaWTCCxjag6lgxPQL1K-H--mUYg?e=Yxo9zI
@@ -61,9 +71,9 @@ The directory looks as below, however we need to download 3 more additional file
 
 Note:
 
-- All images from car dataset are put into `dataset/train_model/car_ims`
-- The pre-trained files (vgg16-0000.params & vgg16-symbol.json) will be put in `vgg16` folder
-- The model used for testing final result is supposed to be in `checkpoints` folder
+- All images from car dataset are to put into `dataset/train_model/car_ims`
+- The pre-trained files (vgg16-0000.params & vgg16-symbol.json) will be put in `./vgg16` folder
+- The model used for testing is supposed to be located in `./checkpoints` folder
 
 ```bash
 .
@@ -96,8 +106,6 @@ Note:
 │   ├── testing_85.log
 │   └── training_50.log
 ├── media
-│
-├── plot.py
 ├── preprocess.py
 ├── README.md
 ├── requirements.txt
@@ -110,7 +118,7 @@ Note:
 ### How to start the test with images not in original dataset (car_ims.tgz)
 
 - Put all desired photos to be tested in `./dataset/test_model/grabcars`
-- Prepare the `grab_cars_test.lst` file in `./dataset/test_model/misc_files` as a input for mxnet to produce `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
+- Prepare the `grab_cars_test.lst` file in `./dataset/test_model/misc_files` as a input for mxnet library to produce `.rec` files for testing process. There are available sample of `.lst` files for reference. The structure of list file is as below (refer [HERE](https://mxnet.incubator.apache.org/versions/master/faq/recordio.html)):
   > integer_image_index \t label_index \t path_to_image
 
 <p align="center">
@@ -123,6 +131,6 @@ For the label_index, please use the label column for reference from `make_model_
   <img src="./media/grab_test_make_model_id_reference.png" width="35%">
 </p>
 
-- It is necessary to specify the hardware of your system for the test evaluation in the config file. It is recommended to use GPU for faster processing time. For example, with 'MODEL_PROCESS_CONTEXT = [mx.gpu(0)]' we are going to use one GPU. It is possible to run a list of multiple devices.
+- It is necessary to specify the hardware of your system for the test evaluation in the config file. It is recommended to use GPU for faster processing time. For example, with 'MODEL_PROCESS_CONTEXT = [mx.gpu(0)]' which means that we are going to use one GPU. It is possible to run a list of multiple devices.
 
-- Once the setup is done, execute 'python test.py -m grab_test'. There will be 2 files 'grab_cars_test.rec' and 'grab_cars_test.idx' are generated in same folder with `lst` file. Then the model is loaded (vggnet-0085.params) to identify and evaluate the rank1 & rank5 accuracy.
+- Once the setup is done, execute 'python test.py -m grab_test'. There will be 2 files 'grab_cars_test.rec' and 'grab_cars_test.idx' generated in same folder with `lst` file. Then the model is loaded (vggnet-0085.params) to identify and evaluate the rank1 & rank5 accuracy.
