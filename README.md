@@ -135,7 +135,10 @@ For the label_index, please use the label column for reference from `make_model_
 
 - Once the setup is done, execute `python test.py -m grab_test`. There will be 2 files 'grab_cars_test.rec' and 'grab_cars_test.idx' generated in same folder with `lst` file. Then the model is loaded (vggnet-0085.params) to identify and evaluate the rank1 & rank5 accuracy.
 
-- If you want to examine the output image, please run `python test.py -m grab_test -s 1`. To iterate the image, simply prese ESC key.
+- If you want to examine the output image, please run `python test.py -m grab_test -s 1`. To iterate the image, simply prese ESC key, top 5 confident score will also be printed accordingly.
+<p align="center">
+  <img src="./media/test_show_img.png" width="75%">
+</p>
 
 - The classification confidence score can be obtained as specified in `test.py` as below. The predictions hold confidence score of each class while targets hold the true labels.
 

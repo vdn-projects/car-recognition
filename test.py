@@ -7,7 +7,7 @@ import preprocess
 
 
 @utils.timeit
-def run_test(logger, epoch):
+def run_test():
     """
     There are two testing modes as described below:
     1. grab_test:
@@ -39,7 +39,7 @@ def run_test(logger, epoch):
         mean_b=config.B_MEAN)
 
     logger.debug(
-        f"Load the model argument and auxiliary parameters from checkpoint")
+        f"Load the model argument and auxiliary parameters from checkpoint#{epoch}")
 
     (symbol, arg_params, aux_params) = mx.model.load_checkpoint(
         config.CHECKPOINT_PATH, epoch)
@@ -88,12 +88,12 @@ if __name__ == "__main__":
 
     # Parsing the epoch number
     epoch = args["epoch"]
-    print(epoch)
+
     # Init logger
     logger = utils.get_logger(f"./logs/testing_{epoch}.log")
 
     try:
-        run_test(logger, epoch)
+        run_test()
     except Exception as ex:
         error_message = utils.exception_to_string(ex)
         logger.error(error_message)

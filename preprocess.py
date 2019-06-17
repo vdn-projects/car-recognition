@@ -7,13 +7,19 @@ from sklearn.model_selection import train_test_split
 
 
 def export_rec_file(list_file_path):
+    """
+    Description: Input images from provided list_file_path will be pre-processed by simply call im2rec toolkit going
+    along with mxnet library.
+
+    Args:
+    num-thread = 4  : Number of threads dedicated for the process 
+    resize = 256    : The input image is resized to 256px for shorted dimension to reduce the computation. This is also considered
+                    as an augmentation step during training
+    encoding = jpg  : This format is better than png in term of space occupation while still keeping the recognized feature
+    quality = 100   : which is the maximum quality
+    """
     os.system(
         f"python {config.IM2REC_PY_PATH} {list_file_path} '' --num-thread 4 --resize 256 --encoding .jpg --quality 100")
-
-
-def row_count(file):
-    with open(file, 'r') as f:
-        return sum(1 for _ in f)
 
 
 def create_car_table():
@@ -41,7 +47,7 @@ def create_car_table():
 
 
 def load_car_data():
-    df_car_ims = pd.read_csv("./db_design/full_dataset.csv")
+    df_car_ims = pd.read_csv(config.FULL_DATASET_FILE)
     query = """
     INSERT INTO cars(image_name, make, model, type, year)
     VALUES (?, ?, ?, ?, ?)
