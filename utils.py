@@ -61,7 +61,7 @@ def get_img_path(lst_idx, lst_data):
 
 def get_label_name(label_idx):
     query = f"""
-    SELECT make || ' : ' || model AS make_model
+    SELECT make || ' ' || model AS make_model
     FROM make_model
     WHERE make_model_id = {label_idx}
     """
@@ -86,28 +86,29 @@ def img_show_rankN(preds, labels, list_file_path, N=5):
         pred_label = get_label_name(pred_label_idx)
         act_label = get_label_name(act_label_idx)
 
+        result = "[Rank1 = True]" if pred_label_idx == act_label_idx else "[Rank1 = False]: "
         print(
-            f"*** Predicted: {pred_label:>30} (conf.={pred_score}%) | Actual: {act_label}")
+            f"{result} (Predicted) {pred_label} vs. (Actual) {act_label}")
 
         # Prepare for display the image
         image = cv2.imread(img_path)
         orig = image.copy()
         orig = imutils.resize(orig, width=min(400, orig.shape[1]))
 
-        img_label = pred_label.replace(": ", " ")
-        img_label = f"{img_label} : {pred_score} %"
+        img_label = f"{pred_label} : {pred_score} %"
         cv2.putText(orig, img_label, (10, 30),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
         # Print out the result of top N images' label
-        for i in range(N-1):
-            iter_label_idx = pred_sorted_idx[i+1]
+        for i in range(N):
+            iter_label_idx = pred_sorted_idx[i]
             iter_pred_score = round(pred[iter_label_idx]*100, 2)
             iter_pred_label = get_label_name(iter_label_idx)
             print(
-                f"\tPredicted: {iter_pred_label:>30} | confident score ={iter_pred_score:>15}%")
+                f"Top {i+1} prediction: {iter_pred_label:>35} | conf. score ={iter_pred_score:>10}%")
 
         lst_idx += 1
+        print("\n")
         # show the image
         cv2.imshow("Image", orig)
         cv2.waitKey(0)
