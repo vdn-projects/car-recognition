@@ -134,3 +134,17 @@ For the label_index, please use the label column for reference from `make_model_
 - It is necessary to specify the hardware of your system for the test evaluation in the config file. It is recommended to use GPU for faster processing time. For example, with 'MODEL_PROCESS_CONTEXT = [mx.gpu(0)]' which means that we are going to use one GPU. It is possible to run a list of multiple devices.
 
 - Once the setup is done, execute 'python test.py -m grab_test'. There will be 2 files 'grab_cars_test.rec' and 'grab_cars_test.idx' generated in same folder with `lst` file. Then the model is loaded (vggnet-0085.params) to identify and evaluate the rank1 & rank5 accuracy.
+
+- The classification confidence score can be obtained as specified in `test.py` as below. The predictions hold confidence score of each class while targets hold the true labels.
+
+```bash
+  predictions = []
+  targets = []
+  for (preds, _, batch) in model.iter_predict(test_iter):
+      preds = preds[0].asnumpy()
+      labels = batch.label[0].asnumpy().astype("int")
+
+      predictions.extend(preds)
+      targets.extend(labels)
+  targets = targets[:len(predictions)]
+```
