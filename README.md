@@ -6,6 +6,23 @@ This project aims at recognizing the car make and model based on a Stanford car 
 
 ## Approach
 
+The transfer learning technique is used to produce the model for this dataset because of fairly small data size. Further than that, we are able to achieve a good accuracy with less training time. And the VGGNet is used as the network for this technique as its comparitive performance over other networks (Ref [HERE](https://towardsdatascience.com/transfer-learning-with-convolutional-neural-networks-in-pytorch-dd09190245ce)).
+
+## Result
+
+The main effort paying for transfer learning technique is to do fine-tuning the network to get better result (higher accuracy with lower loss).
+With number if experiments, the final model is selected at epoch 85 with the learning rate of 5e-5 for epoch 1->50 & 1e-5 from 50->85. This selection is to lower the chance of overfitting when accuracy reached ~85% rank1 accuracy.
+
+<p align="center">
+  <img src="./media/acc_loss_plot.png" width="85%">
+</p>
+
+The result obtained for the test set is 85.74% for rank1 and 96.54% for rank5.
+
+<p align="center">
+  <img src="./media/test_result.png" width="100%">
+</p>
+
 ## Usage
 
 ### Setup environment
