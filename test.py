@@ -7,23 +7,25 @@ import preprocess
 
 
 @utils.timeit
-def run_test(logger):
+def run_test():
     """
     There are two testing modes as described below:
     1. grab_test:
       - The script grab the images and lst file from GRAB_LIST_FILE to build the rec file
       - After that the rec file is feed into the model testing function to evaluate the result(rank1 & rank5 accuracy percentage)
-    2. not grab_test:
+    2. without grab_test:
     - This is simply the self test for validating the model
     """
     img_rec_path = config.TEST_REC_FILE
+    test_list_path = config.TEST_LIST_FILE
     batch_size = config.BATCH_SIZE
     if args["mode"] == "grab_test":
         logger.debug("Preprocess test images from GRAB")
-        preprocess.export_rec_file(config.GRAB_LIST_FILE)
+        test_list_path = config.GRAB_LIST_FILE
         img_rec_path = config.GRAB_REC_FILE
+        preprocess.export_rec_file(test_list_path)
         batch_size = min(
-            batch_size, preprocess.row_count(config.GRAB_LIST_FILE))
+            batch_size, utils.row_count(test_list_path))
 
     # Initialize an mxnet ImageRecordIter instance for the test record
     # The RGB mean apply as a normalization method with exact setting of orginal VGG16 dataset
@@ -38,6 +40,7 @@ def run_test(logger):
 
     logger.debug(
         f"Load the model argument and auxiliary parameters from checkpoint#{epoch}")
+
     (symbol, arg_params, aux_params) = mx.model.load_checkpoint(
         config.CHECKPOINT_PATH, epoch)
 
@@ -56,13 +59,17 @@ def run_test(logger):
 
         predictions.extend(preds)
         targets.extend(labels)
+    targets = targets[:len(predictions)]
 
     # Ouput the result with rank1 and rank5
     (rank1, rank5) = utils.rank5_accuracy(
-        predictions, targets[:len(predictions)])
+        predictions, targets)
     print(f"Total #test images: {len(predictions)}")
     print(f"rank-1 accuracy: {rank1}%")
     print(f"rank-5 accuracy: {rank5}%")
+
+    if args["show_image"] != 0:
+        utils.img_show_rankN(predictions, targets, test_list_path)
 
 
 if __name__ == "__main__":
@@ -74,6 +81,9 @@ if __name__ == "__main__":
     ap.add_argument("-m", "--mode", default="self_test",
                     help="working mode that is to use the standford dataset(default) or the dataset provided by Grab AI for S.E.A")
 
+    ap.add_argument("-s", "--show_image", type=int, default=0,
+                    help="Show image after completing export the result")
+
     args = vars(ap.parse_args())
 
     # Parsing the epoch number
@@ -83,7 +93,7 @@ if __name__ == "__main__":
     logger = utils.get_logger(f"./logs/testing_{epoch}.log")
 
     try:
-        run_test(logger)
+        run_test()
     except Exception as ex:
         error_message = utils.exception_to_string(ex)
         logger.error(error_message)
